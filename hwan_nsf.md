@@ -90,7 +90,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -98,7 +106,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -106,7 +114,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -114,7 +122,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601ns0M500}\
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -122,7 +130,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -130,7 +138,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -138,7 +146,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -146,7 +154,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}\
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -154,7 +162,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -162,7 +170,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -170,7 +178,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -178,7 +186,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}\
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -186,7 +194,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -194,7 +202,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -202,15 +210,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M500"}](/assets/figures/poisson_2d/ns0/n2601/data500/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M500}
+map.](Figures/poisson_2d/ns0/n2601/data500/aware/jspt5/posterior_covariance_128.png "fig:")
 
 **Results: 0% Noise, $M= 1000$**
 
@@ -222,7 +222,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -230,7 +238,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -238,7 +246,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -246,7 +254,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601ns0M1000}\
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -254,7 +262,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -262,7 +270,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -270,7 +278,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -278,7 +286,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}\
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -286,7 +294,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -294,7 +302,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -302,7 +310,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -310,7 +318,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}\
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -318,7 +326,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -326,7 +334,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -334,15 +342,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M1000"}](/assets/figures/poisson_2d/ns0/n2601/data1000/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M1000}
+map.](Figures/poisson_2d/ns0/n2601/data1000/aware/jspt5/posterior_covariance_128.png "fig:")
 
 **Results: 0% Noise, $M= 5000$**
 
@@ -354,7 +354,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -362,7 +370,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -370,7 +378,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -378,7 +386,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601ns0M5000}\
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -386,7 +394,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -394,7 +402,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -402,7 +410,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -410,7 +418,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}\
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -418,7 +426,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -426,7 +434,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -434,7 +442,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -442,7 +450,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}\
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -450,7 +458,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -458,7 +466,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -466,15 +474,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601ns0M5000"}](/assets/figures/poisson_2d/ns0/n2601/data5000/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601ns0M5000}
+map.](Figures/poisson_2d/ns0/n2601/data5000/aware/jspt5/posterior_covariance_128.png "fig:")
 
 **Results: 1% Noise, $M= 500$**
 
@@ -486,7 +486,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -494,7 +502,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -502,7 +510,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -510,7 +518,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601nspt01M500}\
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -518,7 +526,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -526,7 +534,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -534,7 +542,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -542,7 +550,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}\
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -550,7 +558,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -558,7 +566,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -566,7 +574,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -574,7 +582,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}\
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -582,7 +590,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -590,7 +598,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -598,15 +606,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M500"}](/assets/figures/poisson_2d/nspt01/n2601/data500/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M500}
+map.](Figures/poisson_2d/nspt01/n2601/data500/aware/jspt5/posterior_covariance_128.png "fig:")
 
 **Results: 1% Noise, $M= 1000$**
 
@@ -618,7 +618,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -626,7 +634,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -634,7 +642,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -642,7 +650,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601nspt01M1000}\
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -650,7 +658,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -658,7 +666,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -666,7 +674,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -674,7 +682,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}\
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -682,7 +690,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -690,7 +698,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -698,7 +706,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -706,7 +714,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}\
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -714,7 +722,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -722,7 +730,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -730,15 +738,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M1000"}](/assets/figures/poisson_2d/nspt01/n2601/data1000/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M1000}
+map.](Figures/poisson_2d/nspt01/n2601/data1000/aware/jspt5/posterior_covariance_128.png "fig:")
 
 **Results: 1% Noise, $M= 5000$**
 
@@ -750,7 +750,15 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/general/mesh_n2601.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/general/mesh_n2601.png "fig:") ![Top row left
+to right: mesh with sensors denoted with a red cross, true PoI,
+cross-sectional uncertainty estimate and pointwise posterior variance
+from Laplace approximation. Second to fourth rows: $\lambda=
+        0.00001,0.1,0.5$. First and third columns: cross-sectional
+uncertainty estimates. Second and fourth columns: approximate pointwise
+posterior variance. First and second columns: modelled PtO map. Third
+and fourth columns: learned PtO
+map.](Figures/poisson_2d/general/parameter_test_n2601_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -758,7 +766,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/general/parameter_test_n2601_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -766,7 +774,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/parameter_cross_section.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -774,7 +782,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/traditional/posterior_covariance.png "fig:"){#FigPoisson2Dn2601nspt01M5000}\
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -782,7 +790,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt00001/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -790,7 +798,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt00001/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -798,7 +806,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt00001/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt00001/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -806,7 +814,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt00001/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}\
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -814,7 +822,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt1/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -822,7 +830,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt1/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -830,7 +838,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt1/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt1/posterior_covariance_128.png "fig:")\
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -838,7 +846,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt1/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}\
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -846,7 +854,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aug/jspt5/posterior_covariance_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -854,7 +862,7 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aug/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt5/parameter_cross_section_128.png "fig:")
 ![Top row left to right: mesh with sensors denoted with a red cross,
 true PoI, cross-sectional uncertainty estimate and pointwise posterior
 variance from Laplace approximation. Second to fourth rows: $\lambda=
@@ -862,12 +870,4 @@ variance from Laplace approximation. Second to fourth rows: $\lambda=
 uncertainty estimates. Second and fourth columns: approximate pointwise
 posterior variance. First and second columns: modelled PtO map. Third
 and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt5/parameter_cross_section_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
-![Top row left to right: mesh with sensors denoted with a red cross,
-true PoI, cross-sectional uncertainty estimate and pointwise posterior
-variance from Laplace approximation. Second to fourth rows: $\lambda=
-        0.00001,0.1,0.5$. First and third columns: cross-sectional
-uncertainty estimates. Second and fourth columns: approximate pointwise
-posterior variance. First and second columns: modelled PtO map. Third
-and fourth columns: learned PtO
-map.[]{label="FigPoisson2Dn2601nspt01M5000"}](/assets/figures/poisson_2d/nspt01/n2601/data5000/aware/jspt5/posterior_covariance_128.png "fig:"){#FigPoisson2Dn2601nspt01M5000}
+map.](Figures/poisson_2d/nspt01/n2601/data5000/aware/jspt5/posterior_covariance_128.png "fig:")
