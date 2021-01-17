@@ -80,9 +80,9 @@ reflects the availability or lack of information. We have showed that
 our approach is 2750 times faster than the traditional approach while
 giving comparable, in some cases better, results.
 
-![](Figures/hwan/ns0_m500.png "fig:")
-![](Figures/hwan/ns0_m1000.png "fig:")
-![](Figures/hwan/ns0_m5000.png "fig:")
-![](Figures/hwan/ns1_m500.png "fig:")
-![](Figures/hwan/ns1_m1000.png "fig:")
-![](Figures/hwan/ns1_m5000.png "fig:")
+![](/assets/figures/hwan/ns0_m500.png "fig:")
+![](/assets/figures/hwan/ns0_m1000.png "fig:")
+![](/assets/figures/hwan/ns0_m5000.png "fig:")
+![](/assets/figures/hwan/ns1_m500.png "fig:")
+![](/assets/figures/hwan/ns1_m1000.png "fig:")
+![](/assets/figures/hwan/ns1_m5000.png "fig:")
