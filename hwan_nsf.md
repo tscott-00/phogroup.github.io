@@ -83,3 +83,8 @@ giving comparable, in some cases better, results.
 **Results: 0% Noise, $M= 500$**
 
 ![](Figures/hwan/ns0_m500.png "fig:")
+![](Figures/hwan/ns0_m1000.png "fig:")
+![](Figures/hwan/ns0_m5000.png "fig:")
+![](Figures/hwan/ns1_m500.png "fig:")
+![](Figures/hwan/ns1_m1000.png "fig:")
+![](Figures/hwan/ns1_m5000.png "fig:")
