@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/macos,jekyll,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,jekyll,git
 
@@ -53,3 +52,6 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,jekyll,git
+
+
+*~
