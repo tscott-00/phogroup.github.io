@@ -1,11 +1,6 @@
 ---
 layout: home
-title: PHO Group
+title: Table of Contents
 ---
 
-# Table of Contents
-1. [Hwan Goh](/hwannsf)
-2. [Sheroze Sheriffdeen](/sherozensf)
-3. [Jonathan Wittmer](/jonnsf)
-   1. [Data Informed Regularization](/jonnsf/#di-heading)
-   2. [Autoencoder Compression](/jonnsf/#compression-heading)
+1. [NSF CAREER Page](/nsfcareer)
