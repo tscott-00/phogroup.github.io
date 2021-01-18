@@ -51,9 +51,15 @@ inference. In reference to the second point, knowledge of the physical
 properties of the PoI can be encoded in the prior model which,
 therefore, allows for a more informative latent distribution than the
 isotropic Gaussian.\
-To derive the UQ-VAE framework, instead of the Kullback-Liebler
-Divergence (KLD) we elect to use a family of Jensen-Shannon divergences
-(JSD). Thus, with only an adjustment of a single scalar value $\lambda$,
+To derive the UQ-VAE framework, instead of the Kullback-Liebler Divergence (KLD)
+we elect to use the following family of Jensen-Shannon divergences (JSD):
+![](/assets/figures/hwan/js_family.png "fig:")
+In doing so, we obtain the following loss functional:
+![](/assets/figures/hwan/loss_functional.png "fig:")
+which, when employing Monte-Carlo approximations of the expectations, yields
+the following optimization problem:
+![](/assets/figures/hwan/opt_problem.png "fig:")
+Thus, with only an adjustment of a single scalar value,
 our framework allows the selection of the notion of distance used by the
 optimization routine to direct the model posterior towards the target
 posterior. Following the adoption of some statistical approximation for
