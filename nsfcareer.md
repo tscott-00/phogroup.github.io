@@ -8,13 +8,14 @@ permalink: /nsfcareer/
 # Table of Contents
 1. [Aims](/nsfcareer/#aims)
 2. [Year 1](/nsfcareer/#year1)
-3. [Publications](/nsfcareer/#publications)
-4. [Software](/nsfcareer/#software)
-5. [Hwan Goh](/hwannsf)
-6. [Sheroze Sheriffdeen](/sherozensf)
-7. [Jonathan Wittmer](/jonnsf)
-   1. [Data Informed Regularization](/jonnsf/#di-heading)
-   2. [Autoencoder Compression](/jonnsf/#compression-heading)
+3. [Year 2](/nsfcareer/#year2)
+    - [Hwan Goh](/hwannsf)
+    - [Sheroze Sheriffdeen](/sherozensf)
+    - [Jonathan Wittmer](/jonnsf)
+       - [Data Informed Regularization](/jonnsf/#di-heading)
+       - [Autoencoder Compression](/jonnsf/#compression-heading)
+4. [Publications](/nsfcareer/#publications)
+5. [Software](/nsfcareer/#software)
 
 ### Aims<a name="aims"></a>
 
@@ -79,8 +80,18 @@ independent runs.
 ![ET Error](/assets/figures/y1/ETError.png)
 The result indicates that, even without mutation, the SET method can produce a reasonable uncertainty-quantification while the adaptive SMC methodology collapses (red dots). The SMC method consistently under-estimate the uncertainty. In all settings considered, the estimations of the marginal variances is more than two orders of magnitude worse than the ones produced by the SET methodology.
 
+### Year 2 Progress<a name="year2"></a>
+
+- [Hwan Goh](/hwannsf)
+- [Sheroze Sheriffdeen](/sherozensf)
+- [Jonathan Wittmer](/jonnsf)
+   1. [Data Informed Regularization](/jonnsf/#di-heading)
+   2. [Autoencoder Compression](/jonnsf/#compression-heading)
+
 ### Publications<a name="publications"></a>
 
 [1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf) , Journal of Computational Physics, Submitted , 2019.
 
 ### Software<a name="software"></a>
+
+- [Deep Learning Enhanced Reduced Order Models](https://github.com/sheroze1123/BayesianInferenceDL)
