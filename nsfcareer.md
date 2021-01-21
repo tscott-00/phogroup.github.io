@@ -3,7 +3,10 @@ layout: page
 title: CAREER - Scalable Approaches for Large-Scale Data-driven Bayesian Inverse Problems in High Dimensional Parameter Spaces
 permalink: /nsfcareer/
 ---
-![Title](/assets/figures/y1/title.png)
+
+![](/assets/figures/y1/title.png)  |  ![](/assets/figures/sheroze/reconstruction.png)
+![](/assets/figures/jon/mangll_animation_frame.png) | ![](/assets/figures/hwan/ns1_m1000.png)
+
 
 # Table of Contents
 1. [Aims](/nsfcareer/#aims)
@@ -56,3 +59,4 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 ### Software<a name="software"></a>
 
 - [Deep Learning Enhanced Reduced Order Models](https://github.com/sheroze1123/BayesianInferenceDL)
+- [UQ-VAE](https://github.com/phogroup/uq-vae)
