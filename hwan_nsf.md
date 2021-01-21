@@ -4,7 +4,7 @@ title: Hwan NSF Report
 permalink: /hwannsf/
 ---
 
-###Major Activities:
+### Major Activities:
 From divergence-based variational inference, we have constructed an
 effective solution for Bayesian inverse problems using the variational
 autoencoder(VAE) approach such that most of the information usually
@@ -17,7 +17,7 @@ posterior model. Further, this framework possesses an inherent adaptive
 optimization property that emerges through the learning of the posterior
 uncertainty.
 
-###Specific Objectives:
+### Specific Objectives:
 Develop a new variational autoencoder approach for fast solution to
 Bayesian inverse problems. In particular, we leverage and adapt the VAE
 for a different purpose: uncertainty quantification in scientific
@@ -29,7 +29,7 @@ modelling nature, once our UQ-VAE network is trained, it can be used to
 generate as many samples of the posterior as we wish with negligible
 cost.
 
-##Significant Results:
+### Significant Results:
 
 1.  For generative modelling, the focus of training VAEs is to learn the
     generating function. In contrast, for scientific inverse problems,
