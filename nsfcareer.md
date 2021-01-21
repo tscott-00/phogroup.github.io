@@ -4,7 +4,7 @@ title: CAREER - Scalable Approaches for Large-Scale Data-driven Bayesian Inverse
 permalink: /nsfcareer/
 ---
 
-![](/assets/figures/y1/title.png)  |  ![](/assets/figures/sheroze/reconstruction.png)
+![](/assets/figures/y1/title.png)  |  ![](/assets/figures/sheroze/comp.png)
 ![](/assets/figures/jon/mangll_animation_frame.png) | ![](/assets/figures/hwan/ns1_m1000.png)
 
 

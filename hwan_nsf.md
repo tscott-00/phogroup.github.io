@@ -1,5 +1,6 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: Hwan Goh NSF Report
 permalink: /hwannsf/
 ---
