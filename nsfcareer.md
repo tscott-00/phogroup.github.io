@@ -9,11 +9,13 @@ permalink: /nsfcareer/
 1. [Aims](/nsfcareer/#aims)
 2. [Year 1](/nsfcareer/#year1)
 3. [Year 2](/nsfcareer/#year2)
+<!--
   <>  - [Hwan Goh](/hwannsf)
   <>  - [Sheroze Sheriffdeen](/sherozensf)
   <>  - [Jonathan Wittmer](/jonnsf)
   <>     - [Data Informed Regularization](/jonnsf/#di-heading)
   <>     - [Autoencoder Compression](/jonnsf/#compression-heading)
+-->
 4. [Publications](/nsfcareer/#publications)
 5. [Software](/nsfcareer/#software)
 
