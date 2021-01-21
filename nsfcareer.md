@@ -59,3 +59,4 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 ### Software<a name="software"></a>
 
 - [Deep Learning Enhanced Reduced Order Models](https://github.com/sheroze1123/BayesianInferenceDL)
+- [UQ-VAE](https://github.com/phogroup/uq-vae)
