@@ -36,13 +36,17 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Deep Learning Enhanced Reduced Order Models](/sherozensf)
 - [Data Informed Regularization](/jonnsf/#di-heading)
 - [Autoencoder Compression](/jonnsf/#compression-heading)
+<!---
 <> - [Jonathan Wittmer](/jonnsf)
 <>    1. [Data Informed Regularization](/jonnsf/#di-heading)
 <>   2. [Autoencoder Compression](/jonnsf/#compression-heading)
-
+-->
 ### Publications<a name="publications"></a>
 
 [1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf), Journal of Computational Physics, Volume 427, 15 February 2021, 110055.
+[2] Aaron Myers, “Particle Methods for Bayesian Inverse Problems Governed by Partial Differential Equations”. PhD Thesis, The University of Texas at Austin, 2020
+[3] Jonathan Wittmer and Tan Bui-Thanh, "Data-Informed Regularization For Inverse and Imaging Problems", Oden Institute REPORT 20-24, April 2020, https://www.oden.utexas.edu/media/reports/2020/2024.pdf
+[4] Hwan Goh, Sheroze Sheriffdeen, Jonathan Wittmer, Tan Bui-Thanh, "Solving Bayesian Inverse Problems via Variational Autoencoders", Submitted, 2021, https://arxiv.org/abs/1912.04212
 
 ### Software<a name="software"></a>
 
