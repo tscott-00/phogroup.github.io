@@ -41,8 +41,8 @@ results comparing the DI method with the Truncated SVD method and
 Tikhonov regularization for image deblurring, 
 image denoising, and x-ray tomography problems. 
 
-#### Autoencoder Compression for Inverse Problems
-Another project that I have been working on is using autoencoders for compression
+#### Autoencoder Compression for Inverse Problems <a name="compression-heading"></a>
+Another project that we have been working on is using autoencoders for compression
 of state information in large-scale time-dependent PDE constrained inverse problems.
 Such problems
 are notorious not only for their difficulty in solving, but also for their requirement
@@ -57,10 +57,6 @@ a pre-trained autoencoder in order to be able to store all of the states in memo
 eliminating the need for checkpointing and additional PDE solves. The states are then
 decompressed as needed during the adjoint phase using the decoder portion of the autoencoder.
 
-### Specific Objectives
-#### Data-Informed Regularization
-
-#### Autoencoder Compression for Inverse Problems
 
 ### Significant Results
 #### Data-Informed Regularization
