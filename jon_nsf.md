@@ -3,9 +3,11 @@ layout: page
 title: Jonathan Wittmer Summary
 permalink: /jonnsf/
 ---
+<!---
 ## Problems that I have been working on
 - [Data-Informed Regularization](#di-heading)
 - [Autoencoder Compression for Inverse Problems](#compression-heading)
+-->
 
 ### Data-Informed Regularization<a name="di-heading"></a>
 Using experimental or measured data to infer a quantity of interest
