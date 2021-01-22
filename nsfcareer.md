@@ -54,7 +54,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 [4] Hwan Goh, Sheroze Sheriffdeen, Jonathan Wittmer, Tan Bui-Thanh, "Solving Bayesian Inverse Problems via Variational Autoencoders", Submitted, 2021, [https://arxiv.org/abs/1912.04212](https://arxiv.org/abs/1912.04212)
 
-[5] Sheriffdeen, Sheroze, et al. "Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models." [arXiv preprint arXiv:1912.08864](https://arxiv.org/abs/1912.04212) (2019)
+[5] Sheriffdeen, Sheroze, et al. "Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models." [arXiv preprint arXiv:1912.08864](https://arxiv.org/abs/1912.08864) (2019)
 
 ### Software<a name="software"></a>
 
