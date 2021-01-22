@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sheroze Sheriffdeen NSF Report
-permalink: /sherozensf/
+title: Deep Learning Enhanced Reduced Order Models
+permalink: /nsfcareer/year2/deep-rom/
 ---
 
 ### Major Activities

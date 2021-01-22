@@ -1,8 +1,7 @@
 ---
 layout: page
-<<<<<<< HEAD
-title: Hwan Goh NSF Report
-permalink: /hwannsf/
+title: Solving Bayesian Inverse Problems via Variational Autoencoders
+permalink: /nsfcareer/year2/uqvae/
 ---
 
 ### Major Activities:
