@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CDSE Project
-permalink: /cdse
+permalink: /cdse/
 ---
 
 # Major Goals of the Project
