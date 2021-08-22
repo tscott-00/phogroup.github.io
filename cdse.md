@@ -11,10 +11,22 @@ Our objective in this proposal is to develop an integrated research program that
 ## Aim 1: Developing scalable algorithms for managing large simulation data.
 One of the main bottlenecks to data scalability of existing inverse/UQ approaches is the amount of simulated data being generated and the associated costs of accessing this data.
 We shall develop innovative algorithms to overcome this bottleneck by minimizing the amount of simulation data and at the same time hiding the cost of data-movement by overlapping data-access with computation.
+#### Projects
+* [Deep Learning Enhanced Reduced Order Models](/cdse/dl_rom)
+* [Autoencoder Compression for Inverse Problems](/cdse/ae_compression)
+* [Physics Informed Neural Networks for Predicting Solutions to Time-Dependent PDEs](/cdse/pinns_time_dependent_pde)
+* [Model Constrained DNNs for Inverse Problems](/cdse/model_constrained)
+
 
 ## Aim 2: Creating strategies to tackle large observation data.
 While more observation data generally leads to less uncertain predictions, it
 makes the task of inversion and UQ more expensive. We shall develop iterative inversion/UQ methods that utilize only a manageable subset of data during each iteration. This is further enhanced by a streaming computational model that we will create to ensure data scalability while minimizing overall computation.
+#### Projects
+* [Randomized Approaches in Scientific Computing](/cdse/randomized_approaches)
+* [Layerwise DNN Training](/cdse/layerwise_training)
+* [Variational Inference with UQ-VAEs and Active Subspaces](/cdse/uqvae_active_subspaces)
+* [Active Subspaces for Training Neural Networks](/cdse/active_subspaces_training)
+* [Active Subspaces for Inverse Problems](/cdse/active_subspaces_inverse_problems)
 
 <!-- ## Accomplishments for Year 1 -->
 
