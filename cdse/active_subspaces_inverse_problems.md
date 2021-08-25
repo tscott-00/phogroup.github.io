@@ -33,7 +33,7 @@ where $x_i$ is drawn from the prior distribution $\rho(x)$.
 
 The nonlinear inverse probblem is
 
-$$  $$
+$$ \min_{x} \, \frac{1}{2}\left\| G(x) - d \right\|^2 + \frac{1}{2}  \left\| \bf{L} \Gamma^{-\frac{1}{2}} x\right\|^2 $$
 
 ### Significant Results
 1. For the linear inverse problems, the active subspace method allows to get pretty good solution even with only one-dimensional active subspace. However, if we use the traditional manner (i.e. the eigendecomposition of the operator) to determine the data-informed directions, we will be not able to achieve the same accuracy. The reason is that such convention method does take consideration of data/observation information into dectecting important data modes.
@@ -41,7 +41,16 @@ $$  $$
 ![](/assets/figures/hainguyen/AS_X_ray_1.png "fig:" )
 ![](/assets/figures/hainguyen/AS_X_ray_2.png "fig:")
 
-2. For the nonlinear inverse problem, while the traditional method is not able to return the data-informed directions, the active subspace method still capable of catching these modes very well. We now consider the poison 2D inverse problem in Hippylib package. Without the active subspace, we must pay time to pick properly the regularization parameter, for example, $10^{-8}$ in this problem. Whereas, we can pick more freely from a wide range of parameter, if the active subspace is adapted.
+2. For the nonlinear inverse problem, while the traditional method is not able to return the data-informed directions, the active subspace method still capable of catching these modes very well. We now consider the poison 2D inverse problem in Hippylib package. 
+   
+$$ \min_{m} \mathcal{J} := \frac{1}{2} \int_{\Omega} (u - u_d)^2 \, dx + \frac{\gamma}{2} \int_{\Omega} | \nabla m|^2 \, dx, $$ 
+
+where is the solution of
+
+$$ -\nabla \cdot (\exp(m) \nabla u) = f \quad  \text{in} \quad  \Omega$$
+$$ u = 0 \quad  \text{on} \quad  \partial \Omega $$
+
+Without the active subspace, we must pay time to pick properly the regularization parameter, for example, $10^{-8}$ in this problem. Whereas, we can pick more freely from a wide range of parameter, if the active subspace is adapted.
 
 ![](/assets/figures/hainguyen/Nonlinear_1.png "fig:")
 
