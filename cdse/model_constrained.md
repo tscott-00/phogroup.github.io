@@ -38,7 +38,6 @@ $$
 \textbf{u}_0 =  \bar{\textbf{u}} +\bar{U} \, \bar{Y}^{\dagger} (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}) - \alpha \Gamma G^T \Lambda (I - \bar{Y} \, \bar{Y}^{\dagger}) (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}).
 $$
 
-More detail about this work can be found at https://arxiv.org/abs/2105.12033.
 
 ### Significant Results
 
@@ -47,3 +46,4 @@ The results for the linear inverse problem with a linear neural network show tha
 ![image1](/assets/figures/hainguyen/mcDNN_fig_1.png "fig:")
 ![image2](/assets/figures/hainguyen/mcDNN_fig_2.png "fig:")
 
+More detail about this work can be found at https://arxiv.org/abs/2105.12033.
