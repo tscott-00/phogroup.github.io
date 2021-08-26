@@ -12,25 +12,28 @@ In this project, we introduce several model-constrained approaches—including b
 
 ### Specific Objectives
 
-The main idea is that we take advantage of the forward map $\mathcal{G}$ for regularizing the network. Moreover, we also expect that it is consistent with the form of the inverse solution; and thus, improving the accuracy of the training test. To have some intitutions of the method, let us look at the case of linear network $W$ and linear inverse problem with linear operator $G$. The formulation of mcDNN approach is
+The main idea is that we take advantage of the forward map G for regularizing the network. Moreover, we also expect that it is consistent with the form of the inverse solution; and thus, improving the accuracy of the training test. To have some intitutions of the method, let us look at the case of linear network and linear inverse problem with linear operator. The formulation of mcDNN approach is
 
 $$ \min_{\textbf{b},W} \frac{1}{2} \left\| U - (WY + B) \right\|_{\Gamma^{-1}}^2 +\frac{\alpha}{2} \left\|  Y -G (WY + B)\right\|_{\Lambda^{-1}}^2.$$
 
-The optimal solution $W$ and $\textbf{b}$ of the DNN training problem satisfies
+The optimal solution of the DNN training problem satisfies
 
 $$ \textbf{b} = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1} (\Gamma^{-1} \bar{\textbf{u}} + \alpha G^T \Lambda^{-1}  \bar{\textbf{y}} - {\Gamma^{-1} \bar{U} \, \bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1} \bar{Y} \, \bar{Y}^{\dagger}} \bar{\textbf{y}}), $$
 
 $$ W = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1}  (\Gamma^{-1} \bar{U} \,\bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1}\bar{Y} \, \bar{Y}^{\dagger}). $$
 
-Thus, for a given testing/observational data $\textbf{y}_{\text{obs}}$, the mcDNN inverse solution $\textbf{u}_{\text{mcDNN}}$ is given by
+Thus, for a given testing/observational data, the mcDNN inverse solution is given by
 
 $$ \textbf{u}_{\text{mcDNN}} = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1}   (\Gamma^{-1} \bar{\textbf{u}} + \alpha G^T \Lambda^{-1} \bar{\textbf{y}} + (\Gamma^{-1} \bar{U} \, \bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1} \bar{Y} \, \bar{Y}^{\dagger}) (\textbf{y}_{\text{obs}} - \bar{\textbf{y}})) $$
 
 which is exactly the solution of the following regularized linear inverse problem
+
 $$
 \min_{\textbf{u}} \frac{1}{2}  \left\|\textbf{y}_{\text{obs}} - G \textbf{u}\right\|_{\Gamma^{-1}}^2 + \frac{1}{2\alpha} \left\|\textbf{u} - \textbf{u}_0 \right\|_{\Lambda^{-1}}^2,
 $$
+
 where
+
 $$
 \textbf{u}_0 =  \bar{\textbf{u}} +\bar{U} \, \bar{Y}^{\dagger} (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}) - \alpha \Gamma G^T \Lambda (I - \bar{Y} \, \bar{Y}^{\dagger}) (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}).
 $$

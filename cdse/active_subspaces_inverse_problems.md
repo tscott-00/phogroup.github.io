@@ -13,23 +13,22 @@ To begin with, for the linear case, we define the function to determine active s
 
 $$ f(x) = \frac{1}{2}\left\| \bf{A} x - d \right\|^2.$$
 
-Then, the active subspace is the first k eigenvectors of $\bf{W}$ obtained by decomposition matrix $\bf{C}$ 
+Then, the active subspace is the first k eigenvectors obtained by decomposition matrix 
 
 $$ C = \int \nabla f(x) \nabla f(x)^T \rho(x) dx  = W \Lambda W^T .$$
 
-The inverse problem equation need to be solve now reads
+The inverse problem equation need to be solved now reads
 
 $$ \min_{x} \frac{1}{2} \left\| \bf{A} W_1 W_1^T x - d \right\|^2 + \frac{1}{2} \left\| \bf{L} x\right\|^2 ,$$
 
-where $L^T L = I - W_1 W_1^T$. The k-dimensional acctive subspacce $W_1$ is the first k eigennvectors of $W$.
-For the nonlinear function (map) $y = G(x)$, the misfit function reads
+where $$L^T L = I - W_1 W_1^T.$$
+
+For the nonlinear function, the misfit function reads
 $$ f(x) = \frac{1}{2}\left\| G(x) - d \right\|^2.$$
 
-The matrix $C$ is derived by Monte-Carlo method
+The active subspace matrix is derived by Monte-Carlo method
 
-$$ C = \frac{1}{N} \sum_{i = 1}^N \nabla f(x_i) \nabla f(x_i)^T = W \Lambda W^T ., $$
-
-where $x_i$ is drawn from the prior distribution $\rho(x)$.
+$$ C = \frac{1}{N} \sum_{i = 1}^N \nabla f(x_i) \nabla f(x_i)^T = W \Lambda W^T. $$
 
 The nonlinear inverse probblem is
 
@@ -49,9 +48,12 @@ $$ \min_{m} \mathcal{J} := \frac{1}{2} \int_{\Omega} (u - u_d)^2 \, dx + \frac{\
 where is the solution of
 
 $$ -\nabla \cdot (\exp(m) \nabla u) = f \quad  \text{in} \quad  \Omega$$
+
+associated with boundary conditions
+
 $$ u = 0 \quad  \text{on} \quad  \partial \Omega $$
 
-Without the active subspace, we must pay time to pick properly the regularization parameter, for example, $10^{-8}$ in this problem. Whereas, we can pick more freely from a wide range of parameter, if the active subspace is adapted. The figure 2. shows that the active subspace method allows to get inverse solution with parameter $10^{-6}$.
+Without the active subspace, we must pay time to pick properly the regularization parameter, for example, 1e-8 in this problem. Whereas, we can pick more freely from a wide range of parameter, if the active subspace is adapted. The figure 2. shows that the active subspace method allows to get inverse solution with parameter 1e-6.
 
 ![image3](/assets/figures/hainguyen/AS_non_linear.png "fig:")
 
