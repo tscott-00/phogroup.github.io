@@ -35,6 +35,7 @@ The nonlinear inverse probblem is
 
 $$ \min_{x} \, \frac{1}{2}\left\| G(x) - d \right\|^2 + \frac{1}{2}  \left\| \bf{L} \Gamma^{-\frac{1}{2}} x\right\|^2 $$
 
+
 ### Significant Results
 1. For the linear inverse problems, the active subspace method allows to get pretty good solution even with only one-dimensional active subspace. However, if we use the traditional manner (i.e. the eigendecomposition of the operator) to determine the data-informed directions, we will be not able to achieve the same accuracy. The reason is that such a convention method does take consideration of data/observation information into dectecting important data modes. The figure 1. shows that, with only one-dimensional active subspace, we are able to catch the main feature of the reconstructed X-Ray image; meanwhile, the traditional data-informed method is not. Table 1. presents the relativ error of the inverse image.
 
