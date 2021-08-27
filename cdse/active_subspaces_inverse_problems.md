@@ -4,6 +4,8 @@ title: Active Subspaces for Inverse Problems
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
+<div style="text-align: justify">
+
 ### Major Activities 
 
 In the traditional inverse problem, the Tikhonov regularization method is often used, which penalizes equally all data modes. Recently, a few studies show that data-informed directions should be intact. Nevertheless, the important modes are determined by doing an eigendecomposition of the linear operator. Thus, there are two main drawbacks of such a method: (i) it only applies to a linear operator (limited to the linear problem), and (ii) it ignores the observation data. According to this observation, I applied the active subspace method for solving the inverse problem, which can cope with both mentioned issues:
