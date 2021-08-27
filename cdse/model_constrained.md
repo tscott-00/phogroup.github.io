@@ -48,4 +48,4 @@ The results for the linear inverse problem with a linear neural network show tha
 
 ![image2](/assets/figures/hainguyen/mcDNN_fig_2.png)
 
-More detail about this work can be found at [Here](https://arxiv.org/abs/2105.12033).
+More detail about this work can be found at (https://arxiv.org/abs/2105.12033).
