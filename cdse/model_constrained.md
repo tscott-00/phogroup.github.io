@@ -4,7 +4,7 @@ title: Model Constrained DNNs for Inverse Problems
 permalink: /cdse/model_constrained
 ---
 
-<div style="text-align: justify">
+<!-- <div style="text-align: justify"> -->
 
 ### Major Activities
 
