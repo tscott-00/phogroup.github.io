@@ -25,7 +25,7 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 * [Randomized Approaches in Scientific Computing](/cdse/randomized_approaches)
 * [Layerwise DNN Training](/cdse/layerwise_training)
 * [Variational Inference with UQ-VAEs and Active Subspaces](/cdse/uqvae_active_subspaces)
-* [Active Subspaces for Training Neural Networks](/cdse/active_subspaces_training)
+* [Active Subspaces for Neural Networks Analysis](/cdse/active_subspaces_nn_analysis)
 * [Active Subspaces for Inverse Problems](/cdse/active_subspaces_inverse_problems)
 
 <!-- ## Accomplishments for Year 1 -->
