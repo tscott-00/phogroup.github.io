@@ -41,7 +41,8 @@ $$
 
 The results for the linear inverse problem with a linear neural network show that the model-constrained term added to the cost function gives better results than the purely navie DNN. In particular, the accuracy of pure NN solely depends on how much training data we have. Meanwhile, with the same training data set, the mcDNN approach gives a lower error in the test data set since that lowest error point coincides with the optimal regularization parameter of the inverse problem solver. Briefly, in the mcDNN approach, the forward map term parameter almost corresponds to the regularization parameter in the inverse linear problem.
 
-![](/assets/figures/hainguyen/mcDNN_fig_1.png "fig:")
-![](/assets/figures/hainguyen/mcDNN_fig_2.png "fig:")
+
+![image](/assets/figures/hainguyen/mcDNN_fig_1.png)
+![image2](/assets/figures/hainguyen/mcDNN_fig_2.png)
 
 More detail about this work can be found at https://arxiv.org/abs/2105.12033.
