@@ -4,8 +4,6 @@ title: Model Constrained DNNs for Inverse Problems
 permalink: /cdse/model_constrained
 ---
 
-<div style="text-align: justify">
-
 ### Major Activities
 
 In this project, we introduce several model-constrained approaches—including both feed-forward deep neural network (DNN) and autoencoders—that are capable of learning not only information hidden in the training data but also in the underlying mathematical models to solve inverse problems.  We present and provide intuitions for our formulations for general nonlinear problems.   For linear inverse problems and linear networks,  the first-order optimality conditions show that our model-constrained deep learning (mcDL) approaches can learn information encoded in the underlying mathematical models and thus can produce consistent or equivalent inverse solutions.
