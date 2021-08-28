@@ -8,7 +8,7 @@ permalink: /cdse/randomized_approaches
 #### Randomized Inverse Problems
 We have developed a unified framework under which we can study and understand
 randomized approaches to solving inverse problems. We show that this 
-various randomized approached to solving inverse problems can be viewed
+various randomized approach to solving inverse problems can be viewed
 as special cases of this more general framework. In particular, we prove
 asymptotic convergence results for a broad class of randomizations using 
 stochastic optimization theory. With some assumptions that are verified to hold, 
@@ -25,10 +25,10 @@ $$ \underset{u}{\operatorname{argmin}} J := \frac{1}{2} ||d - Au||^2_{\Sigma^{-1
 
 Various randomization schemes are then simply solutions with special choices of $$\sigma, \epsilon, \delta,$$ and $$\lambda$$.
 
-#### EnKF
-We take a new look at the Ensemble Kalman Filter through the lens
-of duality. 
-<!-- Krish - please fill this in with more detail -->
+#### Ensemble Kalman Filter (EnKF) through the lens of duality
+The EnKF for inverse problems can be viewed as a special case of the randomized right sketching algorithm. Due to the randomization of the covariance matrix (Regularization) involved, the right sketching algorithm often yields poor results as evident from the Figure below. Therefore, iterative versions of the EnKF is often employed for higher estimation accuracy. We take a new look at the Ensemble Kalman Filter through the lens
+of duality. In particular, we show that by dealing with a randomized Lagrangian dual function, the estimation equations as well as asymptotic/non asymptotic convergence results can be derived for the EnKF.  Furthermore, we show that such an interpretation allows one to design improved EnKF algorithms for finding the inverse solution which converges faster.
+
 
 ### Significant Results
 #### Randomized Inverse Problems
