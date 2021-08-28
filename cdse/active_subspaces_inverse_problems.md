@@ -4,8 +4,6 @@ title: Active Subspaces for Inverse Problems
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
-<div style="text-align: justify">
-
 ### Major Activities 
 
 In the traditional inverse problem, the Tikhonov regularization method is often used, which penalizes equally all data modes. Recently, a few studies show that data-informed directions should be intact. Nevertheless, the important modes are determined by doing an eigendecomposition of the linear operator. Thus, there are two main drawbacks of such a method: (i) it only applies to a linear operator (limited to the linear problem), and (ii) it ignores the observation data. According to this observation, I applied the active subspace method for solving the inverse problem, which can cope with both mentioned issues:
@@ -41,13 +39,18 @@ $$ \min_{x} \, \frac{1}{2}\left\| G(x) - d \right\|^2 + \frac{1}{2}  \left\| {L}
 
 ### Significant Results
 
-1. For the linear inverse problems, the active subspace method allows to get pretty good solution even with only one-dimensional active subspace. However, if we use the traditional manner (i.e. the eigendecomposition of the operator) to determine the data-informed directions, we will be not able to achieve the same accuracy. The reason is that such a convention method does take consideration of data/observation information into dectecting important data modes. The figure 1. shows that, with only one-dimensional active subspace, we are able to catch the main feature of the reconstructed X-Ray image; meanwhile, the traditional data-informed method is not. Table 1. presents the relativ error of the inverse image.
+#### Linear inverse problem
 
-![image1](/assets/figures/hainguyen/AS_X_ray_1.png "fig:" )
-![image2](/assets/figures/hainguyen/AS_X_ray_2.png "fig:")
+The active subspace method gives a pretty good solution even with only one-dimensional active subspace. However, if we use the traditional manner (i.e. the eigendecomposition of the operator) to determine the data-informed directions, we will be not able to achieve the same accuracy. The reason is that such a convention method does take consideration of data/observation information into dectecting important data modes. The figure 1. shows that, with only one-dimensional active subspace, we are able to catch the main feature of the reconstructed X-Ray image; meanwhile, the traditional data-informed method is not. Table 1. presents the relativ error of the inverse image.
+
+![image](/assets/figures/hainguyen/AS_X_ray_1.png)
+
+![image1](/assets/figures/hainguyen/AS_X_ray_2.png)
 
 
-2. For the nonlinear inverse problem, while the traditional method is not able to return the data-informed directions, the active subspace method still capable of catching these modes very well. We now consider the poison 2D inverse problem in Hippylib package. 
+#### Nonlinear inverse problem
+
+While the traditional method is not able to return the data-informed directions, the active subspace method still capable of catching these modes very well. We now consider the poison 2D inverse problem in Hippylib package. 
    
 $$ \min_{m} \mathcal{J} := \frac{1}{2} \int_{\Omega} (u - u_d)^2 \, dx + \frac{\gamma}{2} \int_{\Omega} | \nabla m|^2 \, dx, $$ 
 
@@ -59,7 +62,7 @@ associated with boundary conditions
 
 $$ u = 0 \quad  \text{on} \quad  \partial \Omega $$
 
-Without the active subspace, we must pay time to pick properly the regularization parameter, for example, 1e-8 in this problem. Whereas, we can pick more freely from a wide range of parameter, if the active subspace is adapted. The figure 2. shows that the active subspace method allows to get inverse solution with parameter 1e-6.
+Without the active subspace, we must take time to tune properly the regularization parameter, for example, 1e-8 in this problem. Whereas, we can pick more freely from a wide range of parameter when the active subspace mmethod is adapted. The figure 2. shows that the active subspace method allows to get inverse solution with parameter 1e-6.
 
-![image3](/assets/figures/hainguyen/AS_non_linear.png "fig:")
+![image2](/assets/figures/hainguyen/AS_non_linear.png)
 
