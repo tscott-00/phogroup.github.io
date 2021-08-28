@@ -10,7 +10,7 @@ This  project focus on forecasting solution of time-dependent PDE’s based on a
 
 $$u(t,x)=\sum_{j=1}^r U_j \alpha_j(t)$$
 
-A neural network is then used to fit the time-dependent coefficients ($\alpha_r(t):$ $r$ dimensional output) at different time instants ($1$ dimensional inputs). However, this approach can only predict solution within the training data set and fails at forecasting the solution  accurately at a future time instant (i.e outside the training data set). In order to deal with this issue, we incorporate a physics term in the loss function which is the discretized equation for $$\alpha(t)$$.  Fig. 1 below shows the effect of incorporating such a constraint.  
+A neural network is then used to fit the time-dependent coefficients ($$\alpha_r(t):$$ $$r$$ dimensional output) at different time instants ($$1$$ dimensional inputs). However, this approach can only predict solution within the training data set and fails at forecasting the solution  accurately at a future time instant (i.e outside the training data set). In order to deal with this issue, we incorporate a physics term in the loss function which is the discretized equation for $$\alpha(t)$$.  Fig. 1 below shows the effect of incorporating such a constraint.  
 
 ### Significant Results
 
