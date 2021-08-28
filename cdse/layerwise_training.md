@@ -23,6 +23,5 @@ In particular we also demonstrate that the procedure can be used for progressive
 ![image2](/assets/figures/Krish/adaptation_2.png)
 
     Fig 2: Final Neural network solution (on the left) vs True solution (on the right)
-<!-- Some beautiful pictures or videos could go here -->
-<!-- [![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video") -->
+
 
