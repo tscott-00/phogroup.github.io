@@ -38,7 +38,7 @@ This plot contains the base-10 log of the absolute value of the eigenvector coef
 
 From figure 2 we can see that the dominant eigenvectors has larger coefficients corresponding to the parameters mapping from the input layer to the first hidden layer, and from the final hidden layer to the oputput layer. Because the active subspace matrix is the covariance of the loss gradient with respect to network parameters, this means the network loss is most sensitive to the aformentioned parameters. Note that the horizontal striations in the eigenvector plot corresponds to the connections between hidden layers.
 
-Te third and final prominent finding is that a in order to reliably estimate the eigendecomposition of the active subspace matrix, there needs to be at least as many samples used to estimate the active subspace as there are network parameters.
+The third and final prominent finding is that a in order to reliably estimate the eigendecomposition of the active subspace matrix, there needs to be at least as many samples used to estimate the active subspace as there are network parameters.
 
 
 
