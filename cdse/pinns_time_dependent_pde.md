@@ -19,7 +19,8 @@ one can forecast the solution accurately at a future time instant by encoding th
 
 ![image](/assets/figures/Krish/PINNS.gif)
 
-     Fig 1: a) Forecasted solution without the Physics constraint (on the left); b) Forecasted solution with the Physics constraint (on the right)
+     Fig 1: a) Forecasted solution without the Physics constraint (on the left);
+     b) Forecasted solution with the Physics constraint (on the right)
 
 
 <!-- Some beautiful pictures or videos could go here -->
