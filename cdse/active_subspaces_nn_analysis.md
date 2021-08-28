@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Active Subspaces for Neural Networks Analysis
+title: Neural network expressiveness with active subspaces
 permalink: /cdse/active_subspaces_nn_analysis
 ---
 
 ### Major Activities 
 
-Neural networks are function approximators whose parameters exist in a very high dimensional space. Because of the layered and strongly inter-connected nature of neural networks, analysis can be difficult. To this end, active subspaces are leveraged as a computational tool for analysis of characteristics of the parameter space for a given neural network.
+Neural networks are function approximators whose parameters exist in a very high dimensional space. Because of the layered and strongly inter-connected nature of neural networks, analysis can be difficult. To this end, active subspaces are leveraged as a computational tool for analysis of characteristics of the parameter space for a given neural network. We introduce the concept of network condition number to measure the network expressiveness.
+
+<!---
 
 In order to train a network, we need a loss $$f(x)$$ function. We must also assume a prior distribution for network parameters to sample from; in this case, the standard normal probability distribution $$\rho(x)$$. Using these we can define the active subspace matrix
 
@@ -19,6 +21,7 @@ $$ C \approx \frac{1}{N} \sum_{j=1}^N \nabla f_j \nabla f_j^T = \hat W \hat \Lam
 The gradients of the loss are computed with respect to the network parameters.
 
 We leverage the eigendecomposition of the covariance matrix $$C$$ for our computational analysis.
+--->
 
 ### Significant Results
 
