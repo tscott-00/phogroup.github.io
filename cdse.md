@@ -30,20 +30,23 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 
 ### Publications<a name="publications"></a>
 
-[1] Myers, Aaron and Thiéry, Alexandre H. and Wang, Kainan and Bui-Thanh, Tan. (2021). Sequential ensemble transform for Bayesian inverse problems.  Journal of Computational Physics. 427  (C) 110055. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1016/j.jcp.2020.110055  ; Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+[1] Myers, Aaron and Thiéry, Alexandre H. and Wang, Kainan and Bui-Thanh, Tan. (2021). Sequential ensemble transform for Bayesian inverse problems.  Journal of Computational Physics. 427  (C) 110055. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1016/j.jcp.2020.110055.
 
-[2] Zhang, Wenbo and Rossini, Giovanni and Kamensky, David and Bui‐Thanh, Tan and Sacks, Michael S.. (2021). Isogeometric finite element‐based simulation of the aortic heart valve: Integration of neural network structural material model and structural tensor fiber architecture representations.  International Journal for Numerical Methods in Biomedical Engineering. 37  (4) . Status = Deposited in NSF-PAR  doi:https://doi.org/10.1002/cnm.3438  ; Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+[2] Zhang, Wenbo and Rossini, Giovanni and Kamensky, David and Bui‐Thanh, Tan and Sacks, Michael S.. (2021). Isogeometric finite element‐based simulation of the aortic heart valve: Integration of neural network structural material model and structural tensor fiber architecture representations.  International Journal for Numerical Methods in Biomedical Engineering. 37  (4). 
 
-[3] Ambartsumyan, Ilona and Boukaram, Wajih and Bui-Thanh, Tan and Ghattas, Omar and Keyes, David and Stadler, Georg and Turkiyyah, George and Zampini, Stefano. (2020). Hierarchical Matrix Approximations of Hessians Arising in Inverse Problems Governed by PDEs.  SIAM Journal on Scientific Computing. 42  (5) A3397 to A3426. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1137/19M1270367  ; Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
-[4] Goh, H.. (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145 . Status = Deposited in NSF-PAR  Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+[3] Ambartsumyan, Ilona and Boukaram, Wajih and Bui-Thanh, Tan and Ghattas, Omar and Keyes, David and Stadler, Georg and Turkiyyah, George and Zampini, Stefano. (2020). Hierarchical Matrix Approximations of Hessians Arising in Inverse Problems Governed by PDEs.  SIAM Journal on Scientific Computing. 42  (5) A3397 to A3426. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1137/19M1270367.
 
-[5] Kang, Shinhoo and Bui-Thanh, Tan. (2021). A scalable exponential-DG approach for nonlinear conservation laws: With application to Burger and Euler equations.  Computer Methods in Applied Mechanics and Engineering. 385  (C) 114031. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1016/j.cma.2021.114031  ; Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+[4] Goh, H.. (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. 
 
-[6] Sheroze Sheriffdeen, Jean C.. (2019). Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models.  ArXivorg.  . Status = Deposited in NSF-PAR  Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )   
+[5] Kang, Shinhoo and Bui-Thanh, Tan. (2021). A scalable exponential-DG approach for nonlinear conservation laws: With application to Burger and Euler equations.  Computer Methods in Applied Mechanics and Engineering. 385  (C) 114031. 
 
-[7] Goh, H.. (2020). Solving Forward and Inverse Problems Using Autoencoders.  ArXivorg.  . Status = Deposited in NSF-PAR  Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+[6] Sheroze Sheriffdeen, Jean C.. (2019). Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models. 
+[https://arxiv.org/abs/1912.08864](https://arxiv.org/abs/1912.08864)
 
-[8] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54  (6) . Status = Deposited in NSF-PAR  Federal Government's License = Acknowledged. (Completed by Bui-Thanh, null on 08/20/2021 )  
+
+[7] Goh, H.. (2020). Solving Forward and Inverse Problems Using Autoencoders. [https://arxiv.org/abs/1912.04212v3](https://arxiv.org/abs/1912.04212v3)
+
+[8] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54 (6).
 
 <!-- ## Accomplishments for Year 1 -->
 
