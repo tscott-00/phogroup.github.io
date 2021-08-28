@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Active Subspaces for Inverse Problems
+title: Data-Informed Inversion Methods using Active Subspace
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
 ### Major Activities 
 
-In the traditional inverse problem, the Tikhonov regularization method is often used, which penalizes equally all data modes. Recently, a few studies show that data-informed directions should be intact. Nevertheless, the important modes are determined by doing an eigendecomposition of the linear operator. Thus, there are two main drawbacks of such a method: (i) it only applies to a linear operator (limited to the linear problem), and (ii) it ignores the observation data. According to this observation, I applied the active subspace method for solving the inverse problem, which can cope with both mentioned issues:
-1. This method works for both linear and nonlinear operators. 
-2. The active subspace method considers the observation data for detecting the data-informed directions. Then, the regularization is not imposed on these modes. Consequently, this method is robust in terms of regularization parameters.
+In the traditional inverse problem, the Tikhonov regularization method is often used, which penalizes equally all data modes. Recently, a few studies show that data-informed directions should be intact. Nevertheless, the important modes are determined using an eigendecomposition of the linear operator. There are two main drawbacks of such a method: (i) it only applies to a linear operator (limited to the linear problem), and (ii) it ignores observational data. In order to address these two issues we have developed an active subspace data-informed inversion approach. In particular, our method works for both linear and nonlinear operators. 
+[]: # `2. The active subspace method uses observational data to select the data-informed directions. Then, the regularization is not imposed on these modes. Consequently, this method is robust in terms of regularization parameters.
 
 To begin with, for the linear case, we define the function to determine active subspace
 
@@ -35,7 +34,7 @@ $$ C = \frac{1}{N} \sum_{i = 1}^N \nabla f(x_i) \nabla f(x_i)^T = W \Lambda W^T.
 The nonlinear inverse probblem is
 
 $$ \min_{x} \, \frac{1}{2}\left\| G(x) - d \right\|^2 + \frac{1}{2}  \left\| {L} \Gamma^{-\frac{1}{2}} x\right\|^2 $$
-
+`
 
 ### Significant Results
 
