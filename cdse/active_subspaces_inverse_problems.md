@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data-Informed Inversion Methods using Active Subspace
+title: Active Subspace Data-Informed Inversion Method
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
