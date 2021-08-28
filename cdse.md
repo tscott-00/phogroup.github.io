@@ -12,7 +12,7 @@ Our objective in this proposal is to develop an integrated research program that
 One of the main bottlenecks to data scalability of existing inverse/UQ approaches is the amount of simulated data being generated and the associated costs of accessing this data.
 We shall develop innovative algorithms to overcome this bottleneck by minimizing the amount of simulation data and at the same time hiding the cost of data-movement by overlapping data-access with computation.
 #### Projects
-* [Deep Learning Enhanced Reduced Order Models](/cdse/dl_rom)
+* [Deep Learning Enhanced Reduced Order Models](nsf/sheroze_nsf.md)
 * [Managing big simulation for Inverse Problems with autoencoder](/cdse/ae_compression)
 * [Deep-learning-enhanced POD method](/cdse/pinns_time_dependent_pde)
 * [Model Constrained DNNs for Inverse Problems](/cdse/model_constrained)
