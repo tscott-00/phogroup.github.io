@@ -14,17 +14,7 @@ The main idea is that we take advantage of the forward map G for regularizing th
 
 $$ \min_{\textbf{b},W} \frac{1}{2} \left\| U - (WY + B) \right\|_{\Gamma^{-1}}^2 +\frac{\alpha}{2} \left\|  Y -G (WY + B)\right\|_{\Lambda^{-1}}^2.$$
 
-The optimal solution of the DNN training problem satisfies
-
-$$ \textbf{b} = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1} (\Gamma^{-1} \bar{\textbf{u}} + \alpha G^T \Lambda^{-1}  \bar{\textbf{y}} - {\Gamma^{-1} \bar{U} \, \bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1} \bar{Y} \, \bar{Y}^{\dagger}} \bar{\textbf{y}}), $$
-
-$$ W = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1}  (\Gamma^{-1} \bar{U} \,\bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1}\bar{Y} \, \bar{Y}^{\dagger}). $$
-
-Thus, for a given testing/observational data, the mcDNN inverse solution is given by
-
-$$ \textbf{u}_{\text{mcDNN}} = (\Gamma^{-1} + \alpha G^T \Lambda^{-1} G)^{-1}   (\Gamma^{-1} \bar{\textbf{u}} + \alpha G^T \Lambda^{-1} \bar{\textbf{y}} + (\Gamma^{-1} \bar{U} \, \bar{Y}^{\dagger} + \alpha G^T \Lambda^{-1} \bar{Y} \, \bar{Y}^{\dagger}) (\textbf{y}_{\text{obs}} - \bar{\textbf{y}})) $$
-
-which is exactly the solution of the following regularized linear inverse problem
+The optimal solution of the DNN training problem can be shown to be exactly the solution of the following regularized linear inverse problem
 
 $$
 \min_{\textbf{u}} \frac{1}{2}  \left\|\textbf{y}_{\text{obs}} - G \textbf{u}\right\|_{\Gamma^{-1}}^2 + \frac{1}{2\alpha} \left\|\textbf{u} - \textbf{u}_0 \right\|_{\Lambda^{-1}}^2,
