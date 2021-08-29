@@ -25,5 +25,6 @@ We have demonstrated that the autoencoder compression algorithm works for states
 
 
 <!-- Some beautiful pictures or videos could go here -->
-[![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video")
+<!-- [![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video") -->
+![acoustic-elastic wave equation video](/assets/figures/jon/mangll.gif)
 
