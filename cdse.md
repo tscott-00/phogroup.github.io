@@ -12,21 +12,21 @@ Our objective in this proposal is to develop an integrated research program that
 One of the main bottlenecks to data scalability of existing inverse/UQ approaches is the amount of simulated data being generated and the associated costs of accessing this data.
 We shall develop innovative algorithms to overcome this bottleneck by minimizing the amount of simulation data and at the same time hiding the cost of data-movement by overlapping data-access with computation.
 #### Projects
-* [Deep Learning Enhanced Reduced Order Models](nsf/sheroze_nsf.md)
-* [Managing big simulation for Inverse Problems with autoencoder](/cdse/ae_compression)
+* [Deep learning enhanced reduced order models](nsf/sheroze_nsf.md)
+* [Managing big simulation data for inverse problems with autoencoders](/cdse/ae_compression)
 * [Deep-learning-enhanced POD method](/cdse/pinns_time_dependent_pde)
-* [Model Constrained DNNs for Inverse Problems](/cdse/model_constrained)
+* [Model constrained DNNs for inverse problems](/cdse/model_constrained)
 
 
 ## Aim 2: Creating strategies to tackle large observation data.
 While more observation data generally leads to less uncertain predictions, it
 makes the task of inversion and UQ more expensive. We shall develop iterative inversion/UQ methods that utilize only a manageable subset of data during each iteration. This is further enhanced by a streaming computational model that we will create to ensure data scalability while minimizing overall computation.
 #### Projects
-* [On unifying randomized Approaches in inverse problems](/cdse/randomized_approaches)
+* [On unifying randomized approaches in inverse problems](/cdse/randomized_approaches)
 * [New approach for DNN architecture design](/cdse/layerwise_training)
-* [Variational Inference with UQ-VAEs and Active Subspaces](/cdse/uqvae_active_subspaces)
-* [Is DNN actually expressive?](/cdse/active_subspaces_nn_analysis)
-* [Active Subspaces data-informed approach for Inverse Problems](/cdse/active_subspaces_inverse_problems)
+* [Variational inference with UQ-VAEs](/nsfcareer/year2/uqvae/)
+* [Are DNNs actually expressive?](/cdse/active_subspaces_nn_analysis)
+* [Active subspaces data-informed approach for inverse problems](/cdse/active_subspaces_inverse_problems)
 
 ### Publications<a name="publications"></a>
 
@@ -36,7 +36,7 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 
 [3] Ambartsumyan, Ilona and Boukaram, Wajih and Bui-Thanh, Tan and Ghattas, Omar and Keyes, David and Stadler, Georg and Turkiyyah, George and Zampini, Stefano. (2020). Hierarchical Matrix Approximations of Hessians Arising in Inverse Problems Governed by PDEs.  SIAM Journal on Scientific Computing. 42  (5) A3397 to A3426. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1137/19M1270367.
 
-[4] Goh, H.. (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. 
+[4] Goh, Hwan and Sheriffdeen, Sheroze and Wittmer, Jonathan and Bui-Thanh, Tan (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. 
 
 [5] Kang, Shinhoo and Bui-Thanh, Tan. (2021). A scalable exponential-DG approach for nonlinear conservation laws: With application to Burger and Euler equations.  Computer Methods in Applied Mechanics and Engineering. 385  (C) 114031. 
 
