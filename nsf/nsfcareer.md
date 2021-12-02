@@ -12,15 +12,9 @@ permalink: /nsfcareer/
 1. [Aims](/nsfcareer/#aims)
 2. [Year 1](/nsfcareer/#year1)
 3. [Year 2](/nsfcareer/#year2)
-<!--
-  <>  - [Hwan Goh](/hwannsf)
-  <>  - [Sheroze Sheriffdeen](/sherozensf)
-  <>  - [Jonathan Wittmer](/jonnsf)
-  <>     - [Data Informed Regularization](/jonnsf/#di-heading)
-  <>     - [Autoencoder Compression](/jonnsf/#compression-heading)
--->
-4. [Publications](/nsfcareer/#publications)
-5. [Software](/nsfcareer/#software)
+4. [Year 3](/nsfcareer/#year3)
+5. [Publications](/nsfcareer/#publications)
+6. [Software](/nsfcareer/#software)
 
 ### Aims<a name="aims"></a>
 
@@ -31,19 +25,21 @@ Develop scalable data reduction approaches for Bayesian inverse problems.
 Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 ### Year 1 Progress<a name="year1"></a>
-
 [Year 1](/y1progress)
-### Year 2 Progress<a name="year2"></a>
 
+### Year 2 Progress<a name="year2"></a>
 - [Solving Bayesian Inverse Problems via Variational Autoencoders](/nsfcareer/year2/uqvae/)
 - [Deep Learning Enhanced Reduced Order Models](/nsfcareer/year2/deep-rom/)
 - [Data Informed Regularization](/nsfcareer/year2/data-informed/)
 - [Autoencoder Compression](/nsfcareer/year2/compression/)
-<!---
-<> - [Jonathan Wittmer](/jonnsf)
-<>    1. [Data Informed Regularization](/jonnsf/#di-heading)
-<>   2. [Autoencoder Compression](/jonnsf/#compression-heading)
--->
+
+### Year 3 Progress<a name="year3"></a>
+- [Jon](/nsfcareer/year3/jon/)
+- [Rusty](/nsfcareer/year3/rusty)
+- [Krish](/nsfcareer/year3/krish)
+- [Hai](/nsfcareer/year3/hai)
+
+
 ### Publications<a name="publications"></a>
 
 [1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf), Journal of Computational Physics, Volume 427, 15 February 2021, 110055.
