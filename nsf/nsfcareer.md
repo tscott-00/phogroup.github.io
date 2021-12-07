@@ -34,7 +34,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Autoencoder Compression](/nsfcareer/year2/compression/)
 
 ### Year 3 Progress<a name="year3"></a>
-- [Jon](/nsfcareer/year3/jon/)
+- [Autoencoder Compression](/nsfcareer/year3/compression/)
 - [Rusty](/nsfcareer/year3/rusty)
 - [Krish](/nsfcareer/year3/krish)
 - [Hai](/nsfcareer/year3/hai)
