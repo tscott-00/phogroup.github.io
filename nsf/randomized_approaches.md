@@ -41,4 +41,4 @@ For the 1D Deconvolution problem, the rate of convergence using the developed st
 
 ![image](/assets/figures/Krish/ENKI.png)
 
-    Fig 1: Reconstructed Solution (Left); Convergence rate for different methods (Right)
+    Fig 1: Reconstructed Solution corresponding to strategy III (Left); Convergence rate for different methods (Right)
