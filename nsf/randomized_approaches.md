@@ -37,7 +37,7 @@ performs poorly. We study this phenomenon from the viewpoint of regularization.
 
 Recently, the use of Ensemble Kalman filter as an inverse problem solver has received considerable interest where it is referred to as the Ensemble Kalman Inversion (EnKI). By revisiting the derivation of EnKI from a different perspective, we have developed a class of convergence improvement strategies leading to faster convergence to the true solution. 
 
-For the 1D Deconvolution problem, the rate of convergence using the developed strategy is demonstrated in Figure below. 
+For the 1D Deconvolution problem, the rate of convergence using the developed strategy is demonstrated in Figure below. Vanilla EnKI refers to the traditional EnKI algorithm.
 
 ![image](/assets/figures/Krish/ENKI.png)
 
