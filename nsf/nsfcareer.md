@@ -39,6 +39,8 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [New approach for DNN architecture design](/nsf/layerwise_training.md)
 - [Randomized Approaches in Scientific Computing](/nsf/randomized_approaches.md)
 
+- [Deep-learning enhanced model reduction method](/nsf/pinns_time_dependent_pde.md)
+
 
 - [Hai](/nsfcareer/year3/hai)
 
