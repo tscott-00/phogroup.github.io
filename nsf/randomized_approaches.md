@@ -33,3 +33,12 @@ performs poorly. We study this phenomenon from the viewpoint of regularization.
 <!-- Some beautiful pictures or videos could go here -->
 <!-- [![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video") -->
 
+#### Ensemble Kalman Inversion
+
+Recently, the use of Ensemble Kalman filter as an inverse problem solver has received considerable interest where it is referred to as the Ensemble Kalman Inversion (EnKI). By revisiting the derivation of EnKI from a different perspective, we have developed a class of convergence improvement strategies leading to faster convergence to the true solution. 
+
+For the 1D Deconvolution problem, the rate of convergence using different strategies is demonstrated in Figure below. 
+
+![image](/assets/figures/Krish/ENKI.png)
+
+    Fig 1: Reconstructed Solution (Left); Convergence rate for different methods (Right)

@@ -12,7 +12,7 @@ permalink: /nsf/layerwise_training.md
 
 
 ### Significant Results
-The proposed framework has been demonstrated on  regression problems such as the Boston housing price prediction problem where the method outperforms a baseline network.
+The proposed framework has been demonstrated on  regression problems such as the Boston housing price prediction problem and the MNIST classification problem. It is found that the method outperforms a baseline network.
 
 In particular we also demonstrate that the procedure can be used for progressively learning the solutions of PDE. Figure below shows the adaptive approach where one progressively learn the solution of Poisson's equation. 
 
