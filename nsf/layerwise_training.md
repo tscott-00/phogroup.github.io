@@ -18,10 +18,10 @@ In particular we also demonstrate that the procedure can be used for progressive
 
 ![image](/assets/figures/Krish/adaptation_1.png)
 
-    Fig 1: Neural architecture adaptation for progressively learning the solution of Poisson's equation
+    Fig 1: Adaptively learning the solution of Poisson's equation
 
-![image2](/assets/figures/Krish/adaptation_2.png)
+![image2](/assets/figures/Krish/Adaptation_3.png)
 
-    Fig 2: Final Neural network solution (on the left) vs True solution (on the right)
+    Fig 2: Adaptively learning the solution of Poisson's equation (Complex geometry)
 
 
