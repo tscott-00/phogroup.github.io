@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Year 2 --- Autoencoder Compression to Accelerate Inverse Problems
+title: Year 2 - Autoencoder Compression to Accelerate Inverse Problems
 permalink: /nsfcareer/year2/compression/
 ---
 
