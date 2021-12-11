@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep-learning enhanced model reduction method
-permalink: /nsf/pinns_time_dependent_pde.md
+permalink: /nsf/year3/pinns_time_dependent_pde
 ---
 
 ### Major Activities 

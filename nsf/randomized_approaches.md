@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Randomized Approaches in Scientific Computing
-permalink: /nsf/randomized_approaches.md
+permalink: /nsf/year3/randomized_approaches
 ---
 
 ### Major Activities 

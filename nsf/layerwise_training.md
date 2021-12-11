@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New approach for DNN architecture design
-permalink: /nsf/layerwise_training.md
+permalink: /nsf/year3/layerwise_training
 ---
 
 ### Major Activities 
