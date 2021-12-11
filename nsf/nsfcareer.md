@@ -35,7 +35,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 ### Year 3 Progress<a name="year3"></a>
 - [Autoencoder Compression](/nsfcareer/year3/compression/)
-- [Rusty](/nsfcareer/year3/rusty)
+- [Neural Networks and Active Subspaces](/nsfcareer/year3/active_subspaces_nn_analysis.md)
 - [New approach for DNN architecture design](/nsf/layerwise_training.md)
 - [Randomized Approaches in Scientific Computing](/nsf/randomized_approaches.md)
 
