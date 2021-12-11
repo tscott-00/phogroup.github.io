@@ -36,10 +36,11 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 ### Year 3 Progress<a name="year3"></a>
 - [Autoencoder Compression](/nsfcareer/year3/compression/)
 - [Neural Networks and Active Subspaces](/nsfcareer/year3/active_subspaces_nn_analysis)
-- [New approach for DNN architecture design](/nsfcareer/year3/layerwise_training)
+- [New Approach for DNN Architecture Design](/nsfcareer/year3/layerwise_training)
 - [Randomized Approaches in Scientific Computing](/nsfcareer/year3/randomized_approaches)
-- [Deep-learning enhanced model reduction method](/nsfcareer/year3/pinns_time_dependent_pde)
-- [Hai](/nsfcareer/year3/hai)
+- [Deep-learning Enhanced Model Reduction Method](/nsfcareer/year3/pinns_time_dependent_pde)
+- [Active Subspaces for Inverse Problems](/nsfcareer/year3/active_subspaces_inverse_problems)
+- [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
 
 
 ### Publications<a name="publications"></a>
