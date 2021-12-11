@@ -37,7 +37,8 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Jon](/nsfcareer/year3/jon/)
 - [Rusty](/nsfcareer/year3/rusty)
 - [Krish](/nsfcareer/year3/krish)
-- [Hai](/nsfcareer/year3/hai)
+- [Active subspaces for the inverse of theproblems](/nsfcareer/year3/active_subspaces_inverse_problems)
+- [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
 
 
 ### Publications<a name="publications"></a>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Active Subspace Data-Informed Inversion Method
-permalink: /cdse/active_subspaces_inverse_problems
+permalink: /nsfcareer/year3/active_subspaces_inverse_problems
 ---
 
 ### Major Activities 

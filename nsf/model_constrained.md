@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model Constrained DNNs for Inverse Problems
-permalink: /cdse/model_constrained
+permalink: /nsfcareer/year3/model_constrained
 ---
 
 ### Major Activities
