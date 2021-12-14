@@ -41,7 +41,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Deep-learning Enhanced Model Reduction Method](/nsfcareer/year3/pinns_time_dependent_pde)
 - [Active Subspaces for Inverse Problems](/nsfcareer/year3/active_subspaces_inverse_problems)
 - [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
-- [Undergraduate Research](/nsfcareer/year3/undergraduate_research)
+- [Undergraduate Research](/nsfcareer/year3/undergraduate_research_SVD)
 
 ### Publications<a name="publications"></a>
 
@@ -54,6 +54,10 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 [4] Hwan Goh, Sheroze Sheriffdeen, Jonathan Wittmer, Tan Bui-Thanh, "Solving Bayesian Inverse Problems via Variational Autoencoders", Submitted, 2021, [https://arxiv.org/abs/1912.04212](https://arxiv.org/abs/1912.04212)
 
 [5] Sheriffdeen, Sheroze, et al. "Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models." [arXiv preprint arXiv:1912.08864](https://arxiv.org/abs/1912.08864) (2019)
+
+[] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh,  "DIAS regularization for inverse problems.", In preparation.
+
+[] Hai Nguyen, Tan Bui-Thanh,  "Model-constrained Deep Learning Approaches for Inverse Problems." Submitted May 2021, [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
 
 ### Software<a name="software"></a>
 
