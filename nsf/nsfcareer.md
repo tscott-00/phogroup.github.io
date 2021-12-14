@@ -41,7 +41,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Deep-learning Enhanced Model Reduction Method](/nsfcareer/year3/pinns_time_dependent_pde)
 - [Active Subspaces for Inverse Problems](/nsfcareer/year3/active_subspaces_inverse_problems)
 - [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
-
+- [Undergraduate Research](/nsfcareer/year3/undergraduate_research)
 
 ### Publications<a name="publications"></a>
 
