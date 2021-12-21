@@ -59,8 +59,9 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 [7] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh,  "DIAS regularization for inverse problems." In preparation.
 
-[8] Jonathan Wittmer, Krishnanunni C G, Hai Nguyen, Tan Bui-Thanh, "On Unifying Randomized Methods for Inverse and Optimization Problems." In preparation.
+[8] Jonathan Wittmer, C G Krishnanunni, Hai Nguyen, Tan Bui-Thanh, "On Unifying Randomized Methods for Inverse and Optimization Problems." In preparation.
 
+[9] C G Krishnanunni, Tan Bui-Thanh, "Layerwise Sparsifying Training and Sequential Learning Strategy for Neural Architecture Adaptation" In preparation.
 
 ### Software<a name="software"></a>
 
