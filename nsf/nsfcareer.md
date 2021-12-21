@@ -55,9 +55,12 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 [5] Sheriffdeen, Sheroze, et al. "Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models." [arXiv preprint arXiv:1912.08864](https://arxiv.org/abs/1912.08864) (2019)
 
-[] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh,  "DIAS regularization for inverse problems.", In preparation.
+[6] Hai Nguyen, Tan Bui-Thanh,  "Model-constrained Deep Learning Approaches for Inverse Problems." Submitted May 2021, [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
 
-[] Hai Nguyen, Tan Bui-Thanh,  "Model-constrained Deep Learning Approaches for Inverse Problems." Submitted May 2021, [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
+[7] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh,  "DIAS regularization for inverse problems." In preparation.
+
+[8] Jonathan Wittmer, Krishnanunni C G, Hai Nguyen, Tan Bui-Thanh, "On Unifying Randomized Methods for Inverse and Optimization Problems." In preparation.
+
 
 ### Software<a name="software"></a>
 
