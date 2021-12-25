@@ -15,7 +15,7 @@ Ziyu Wang & Tan Bui-Thanh
 
 ### Report
 
-[Variance Reduction-Principle Componenet Analysis](/assets/figures/under_graduate_figures/Louie.pdf)
+[Variance Reduction-Principle Component Analysis](/assets/figures/under_graduate_figures/Louie.pdf)
 
 ### Reference
 [1] Shamir, O. A Stochastic PCA and SVD Algorithm with an Exponential Convergence Rate.arXiv:1409.2848, 2015
