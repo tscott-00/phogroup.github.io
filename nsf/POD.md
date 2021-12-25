@@ -1,20 +1,16 @@
 ---
 layout: page
-title: Year 3 - Undergraduate Research
+title: Physics Informed Deep Learning Enhanced by POD
 permalink: /nsfcareer/year3/POD
 ---
 
-### Major Activities 
-The research aim is to extend the exponential convergence rate algorithm, developed by Shamir [1]. In particular, the algorithm is able to find the first eigenvector of the data matrix with exponential rate. In this research, we aim to develop an algorithm for finding the multiple eigenvetors of a matrix simultaneously with the same convergence rate.
+### Brief Description
 
-### Significant Results
-The reproduced result is the same as that in the paper.
-![image](/assets/figures/under_graduate_figures/plot1.png)
+This project focus on forecasting solution of time-dependent PDE’s using a neural network based surrogate model. The first stage in this approach is to perform a POD based model reduction to approximate the system solution. The solution is represented   as a linear combination of orthonormal modes by computing the singular value decomposition of a snapshot matrix. A neural network is then employed to learn the nonlinear map between the POD coefficients, an 'r' dimensional output, and the time instants which are 1 dimensional inputs. However, this approach can only predict solutions within the training data set and fails at forecasting the solutions accurately at a future time instant outside the training data set. In order to deal with this issue, we incorporate a physics term in the loss function, which is the discretized equation for the POD coefficients. Thus the method suitably combines data with physics (governing PDE) to arrive at a good surrogate model for the underlying process. Numerical results on a linear advection equation show that by encoding the physics into the training process, one can forecast the solution accurately at a future time instant.
+### Contributors
 
+Jennifer Zheng, Tan Bui-Thanh & C G Krishnanunni
 
-The developed algorithm is promising, although we still are not able to achieve the consistent convergence. Hence, the further research is needed.
+### Report
 
-![image](/assets/figures/under_graduate_figures/plot3_2.png)
-
-### Reference
-[1] Shamir, O. A Stochastic PCA and SVD Algorithm with an Exponential Convergence Rate.arXiv:1409.2848, 2015
+[Physics Informed Deep Learning Enhanced by POD](/assets/figures/under_graduate_figures/Jennifer.pdf)

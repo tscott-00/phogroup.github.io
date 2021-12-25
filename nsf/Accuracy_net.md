@@ -1,20 +1,27 @@
 ---
 layout: page
-title: Year 3 - Undergraduate Research
+title: Improving the Accuracy of Neural Networks
 permalink: /nsfcareer/year3/Accuracy_net
 ---
 
-### Major Activities 
-The research aim is to extend the exponential convergence rate algorithm, developed by Shamir [1]. In particular, the algorithm is able to find the first eigenvector of the data matrix with exponential rate. In this research, we aim to develop an algorithm for finding the multiple eigenvetors of a matrix simultaneously with the same convergence rate.
+### Brief Description
 
-### Significant Results
-The reproduced result is the same as that in the paper.
-![image](/assets/figures/under_graduate_figures/plot1.png)
+This project aims to answer the question: what are effective ways to improve a neural
+network’s accuracy? A neural network was created to classify an individual's race according
+to photos of their faces. This neural network’s performance was recorded after changing its
+parameters to test how its accuracy is affected. This project also compares the results of
+normal neural networks vs convolutional neural networks (CNNs) and using black and white
+images vs RGB images. The results indicate that networks tend to perform better when there
+are more epochs, more layers, and/or more training data. There appears to be neither much of
+a difference in accuracy between normal neural nets and CNNs nor between black and white
+and RGB images. The lack of improvement is most likely because the dataset is not very
+diverse. However, this study did not cover all possible changes in parameter, so future studies
+should attempt more possible permutations.
 
+### Contributors
 
-The developed algorithm is promising, although we still are not able to achieve the consistent convergence. Hence, the further research is needed.
+Emily Nguyen & Tan Bui-Thanh
 
-![image](/assets/figures/under_graduate_figures/plot3_2.png)
+### Report
 
-### Reference
-[1] Shamir, O. A Stochastic PCA and SVD Algorithm with an Exponential Convergence Rate.arXiv:1409.2848, 2015
+[Improving the Accuracy of Neural Networks](/assets/figures/under_graduate_figures/Emily.pdf)

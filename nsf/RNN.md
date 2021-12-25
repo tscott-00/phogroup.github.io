@@ -1,20 +1,24 @@
 ---
 layout: page
-title: Year 3 - Undergraduate Research
+title: Recurrent Neural Networks for Predicting ODE Dynamics
 permalink: /nsfcareer/year3/RNN
 ---
 
-### Major Activities 
-The research aim is to extend the exponential convergence rate algorithm, developed by Shamir [1]. In particular, the algorithm is able to find the first eigenvector of the data matrix with exponential rate. In this research, we aim to develop an algorithm for finding the multiple eigenvetors of a matrix simultaneously with the same convergence rate.
+### Brief Description
 
-### Significant Results
-The reproduced result is the same as that in the paper.
-![image](/assets/figures/under_graduate_figures/plot1.png)
+Recurrent Neural Networks (RNN) have shown to have remarkable capabilities when it
+comes to modeling sequential data and have been at the forefront of research in time-series
+forecasting problems in a variety of fields. First looking at RNNs with a mathematical focus,
+we saw whether claims of model stability from published and unpublished papers could be
+rigorously defended. We then investigate the practical abilities of RNNs through their implementation on certain systems of ordinary differential equations (ODE). We consider two
+approaches of Long Short-Term Memory (LSTM) Recurrent Neural Network architectures for
+predicting future time steps of solutions to first and second order ODEs as well as systems of
+coupled ODEs to use as a guide for more complicated systems in the future. 
 
+### Contributors
 
-The developed algorithm is promising, although we still are not able to achieve the consistent convergence. Hence,  further research is needed.
+Camille Renaud & Tan Bui-Thanh
 
-![image](/assets/figures/under_graduate_figures/plot3_2.png)
+### Report
 
-### Reference
-[1] Shamir, O. A Stochastic PCA and SVD Algorithm with an Exponential Convergence Rate.arXiv:1409.2848, 2015
+[Recurrent Neural Networks for Predicting ODE Dynamics](/assets/figures/under_graduate_figures/Camille.pdf)
