@@ -22,7 +22,7 @@ one can forecast the solution accurately at a future time instant by encoding th
      Fig 1: a) Forecasted solution without the Physics constraint (on the left);
      b) Forecasted solution with the Physics constraint (on the right)
 
-
+- [PDF FILE](/assets/figures/Krish/Jennifer.pdf)
 <!-- Some beautiful pictures or videos could go here -->
 <!-- [![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video") -->
 
