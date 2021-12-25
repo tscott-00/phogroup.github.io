@@ -44,9 +44,13 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
 
-- [SVD](/nsfcareer/year3/undergraduate_research_SVD)
+- [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
 
-- [Deep-learning Enhanced POD Method](/nsfcareer/year3/pinns_time_dependent_pde)
+- [Recurrent Neural Networks for Predicting ODE Dynamics](/nsfcareer/year3/RNN)
+
+- [Improving the Accuracy of Neural Networks](/nsfcareer/year3/Accuracy_net)
+
+- [Physics Informed Deep Learning Enhanced by POD](/nsfcareer/year3/POD)
 
 ### Publications<a name="publications"></a>
 

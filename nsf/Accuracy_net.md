@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Year 3 - Undergraduate Research
-permalink: /nsfcareer/year3/undergraduate_research_SVD/
+permalink: /nsfcareer/year3/Accuracy_net
 ---
 
 ### Major Activities 
