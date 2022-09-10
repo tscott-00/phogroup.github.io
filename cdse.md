@@ -48,11 +48,11 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 
 [8] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54 (6).
 
-[9] Hai Nguyen, Tan Bui-Thanh.  (2021).  "Model-constrained Deep Learning Approaches for Inverse Problems." , [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
+[[9](https://arxiv.org/abs/2105.12033)] Hai Nguyen, Tan Bui-Thanh.  (2021).  "Model-constrained Deep Learning Approaches for Inverse Problems." , [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
 
-[10] Hai Nguyen, Tan Bui-Thanh.  (2022). "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." [https://arxiv.org/abs/2208.04995](https://arxiv.org/abs/2208.04995)
+[[10](https://arxiv.org/abs/2208.04995)] Hai Nguyen, Tan Bui-Thanh.  (2022). "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." [https://arxiv.org/abs/2208.04995](https://arxiv.org/abs/2208.04995)
 
-[11] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh. (2022).  "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems." Computation, 10(3), 38.
+[[11](https://www.mdpi.com/2079-3197/10/3/38)] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh. (2022).  "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems." Computation, 10(3), 38.
 
 <!-- ## Accomplishments for Year 1 -->
 

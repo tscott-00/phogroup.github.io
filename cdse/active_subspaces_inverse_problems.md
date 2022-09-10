@@ -1,55 +1,73 @@
 ---
 layout: page
-title: Active Subspace Data-Informed Inversion Method
+title: DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
 ### Major Activities 
 
-In the traditional inverse problem, the Tikhonov regularization method is often used, which penalizes equally all data modes. Recently, a few studies show that data-informed directions should be intact. Nevertheless, the important modes are determined using an eigendecomposition of the linear operator. There are two main drawbacks of such a method: (i) it only applies to a linear operator (limited to the linear problem), and (ii) it ignores observational data. In order to address these two issues we have developed an active subspace data-informed inversion approach. In particular, our method works for both linear and nonlinear operators. 
+Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [paper](https://www.mdpi.com/2079-3197/10/3/38). The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea
+that only data-uninformed parameters need to be regularized, while the data-informed parameters,
+on which data and forward model are integrated, should remain untouched. We propose to employ
+the active subspace method to determine the data-informativeness of a parameter. The resulting
+framework is thus called a data-informed (DI) active subspace (DIAS) regularization. Four proposed
+DIAS variants are rigorously analyzed, shown to be robust with the regularization parameter and
+capable of avoiding polluting solution features informed by the data. They are thus well suited
+for problems with small or reasonably small noise corruptions in the data. Furthermore, the DIAS
+approaches can effectively reuse any Tikhonov regularization codes/libraries. Though they are
+readily applicable for nonlinear inverse problems, we focus on linear problems in this paper in
+order to gain insights into the framework. Various numerical results for linear inverse problems are
+presented to verify theoretical findings and to demonstrate advantages of the DIAS framework over
+the Tikhonov, truncated SVD, and the TSVD-based DI approaches
+
 
 ### Significant Results
 
-#### Linear inverse problem (X-Ray imaging)
+<p align="center">
+<img src="/assets/figures/hainguyen/DIAS_1.png">
+<figcaption><b>Figure 1: 1D deconvolution problem.</b>  (Left): uncentered AS subspace versus centered AS subspace in representing the true solution. In the uncentered eigenspace, the true solution lies almost entirely in the first eigenmode, while it predominantly lies in the second and sixth modes of the centered eigenspace (Right): relative error of DIAS-A and TSVD solutions as a function of active subspace dimension r. Uncentered AS provides more accurate projection, even with one active direction (r = 1). Centered AS needs at least 10 active directions to start being comparable to the uncentered counterpart in terms of accuracy.</figcaption>
+</p>
 
-The orginal active subspace method is to detect the main data directions and then ignore the unimportant modes. Thus, we analyze both cases: (i)approximated misfit term (ii) full misfit term. 
 
-The former includes 
+<p align="center">
+<img src="/assets/figures/hainguyen/DIAS_2.png">
+<figcaption><b>Figure 2: 1D deconvolution problem.</b> Solutions for 1D deconvolution problem with different active subspace dimensions r = {1, 10}
+ and an overregularization parameter value α = 1e4. (Left) r = 1, uncentered approaches
+are more robust to the regularization parameter since uncentered methods
+do not penalize the data-informed direction. (Right) r = 10, all the DIAS
+solutions are similar since all methods end up spanning the same subspace.</figcaption>
+</p>
 
-##### ACT: the data misfit only considered acitve data modes.
 
-##### ACT-M: the data misfit only considered acitve data modes and the active subspace matrix is substracted from the gradient mean.
 
-The latter consists of 
+<p align="center">
+<img src="/assets/figures/hainguyen/DIAS_3.png">
+<figcaption><b>Figure 3: X-ray Tomography.</b> Eigenvectors of uncentered AS wi and centered AS vi
+, i = {1, 2, 6, 9} and their corresponding eigenvalues, noise level 1%. A striking difference between the first
+eigenvector of the two active subspaces.</figcaption>
+</p>
 
-##### ACT-Full: the data misfit considered all data modes.
 
-##### ACT-M-Full: the data misfit considered all data modes and the active subspace matrix is substracted from the gradient mean.
 
-The figure 1 shows the obatained results by all four methods with very large regularization parameter, as opposed to the Tikhonov method (which is overregularized). Firstly, with one-dimensional active subspace, ACT, ACT-Full, and ACT-M-Full methods give better reconstructions than Tik. Secondly, in optimal rank, all methods are robust in terms of regulariation parameter. In other words, we can avoid overregularize the informed data modes. Table 1. presents the relative error of the inverse image.
+<p align="center">
+<img src="/assets/figures/hainguyen/DIAS_4.png">
+<figcaption><b>Figure 4: X-ray Tomography.</b> DIAS solutions for X-ray tomography problem with overregularization parameter α = 1e8, noise level 1%.</figcaption>
+</p>
 
-![image](/assets/figures/hainguyen/AS_X_ray_1.png)
 
-![image1](/assets/figures/hainguyen/AS_X_ray_2.png)
 
-#### Nonlinear PDE-constrained inverse problem
 
-We now consider the poison 2D inverse problem in Hippylib package. 
-   
-$$ \min_{m} \mathcal{J} := \frac{1}{2} \int_{\Omega} (u - u_d)^2 \, dx + \frac{\gamma}{2} \int_{\Omega} | \nabla m|^2 \, dx, $$ 
 
-where $ u$ is the solution of the following PDE
+ <!-- 
+<p align="center">
+<img src="/assets/figures/hainguyen/...">
+<figcaption><b>Figure 1: </b> ... </figcaption>
+</p>
 
-$$ -\nabla \cdot (\exp(m) \nabla u) = f \quad  \text{in} \quad  \Omega$$
+ -->
 
-with boundary conditions
 
-$$ u = 0 \quad  \text{on} \quad  \partial \Omega $$
 
-<!---
-Without the active subspace, we must take time to tune properly the regularization parameter, for example, 1e-8 in this problem. Whereas, we can pick more freely from a wide range of parameter when the active subspace mmethod is adapted. The figure 2. shows that the active subspace method allows to get inverse solution with parameter 1e-6.
---->
-Fig 2 shows that our active subspace data-informed approach outperforms the traditional Tikhonov inversion method.
 
-![image2](/assets/figures/hainguyen/AS_non_linear.png)
+
 
