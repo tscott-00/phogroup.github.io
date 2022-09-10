@@ -5,46 +5,43 @@ permalink: /cdse/model_constrained
 ---
 
 ### Major Activities
-
-In this project, we introduce several model-constrained approaches—including both feed-forward deep neural network (DNN) and autoencoders—that are capable of learning not only information hidden in the training data but also in the underlying mathematical models to solve inverse problems.  We present and provide intuitions for our formulations for general nonlinear problems.   For linear inverse problems and linear networks,  the first-order optimality conditions show that our model-constrained deep learning (mcDL) approaches can learn information encoded in the underlying mathematical models and thus can produce consistent or equivalent inverse solutions.
-
-### Specific Objectives
-
-The main idea is that we take advantage of the forward map G for regularizing the network. Moreover, we also expect that it is consistent with the form of the inverse solution; and thus, improving the accuracy of the training test. To have some intitutions of the method, let us look at the case of linear network and linear inverse problem with linear operator. The formulation of mcDNN approach is
-
-$$ \min_{\textbf{b},W} \frac{1}{2} \left\| U - (WY + B) \right\|_{\Gamma^{-1}}^2 +\frac{\alpha}{2} \left\|  Y -G (WY + B)\right\|_{\Lambda^{-1}}^2.$$
-
-The optimal solution of the DNN training problem can be shown to be exactly the solution of the following regularized linear inverse problem
-
-$$
-\min_{\textbf{u}} \frac{1}{2}  \left\|\textbf{y}_{\text{obs}} - G \textbf{u}\right\|_{\Gamma^{-1}}^2 + \frac{1}{2\alpha} \left\|\textbf{u} - \textbf{u}_0 \right\|_{\Lambda^{-1}}^2,
-$$
-
-where
-
-$$
-\textbf{u}_0 =  \bar{\textbf{u}} +\bar{U} \, \bar{Y}^{\dagger} (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}) - \alpha \Gamma G^T \Lambda (I - \bar{Y} \, \bar{Y}^{\dagger}) (\textbf{y}_{\text{obs}} - \bar{\textbf{y}}).
-$$
-
-
-### Significant Results
-#### Linear problem for testing the derivation
-The results for the linear inverse problem with a linear neural network show that the model-constrained term added to the cost function gives better results than the  naive DNN. In particular, the accuracy of naive DNN solely depends on how much training data we have. Meanwhile, as shown in the figure 1., with the same training data set, the mcDNN approach gives a lower error in the test data set.
-
-
-![image](/assets/figures/hainguyen/mcDNN_fig_1.png)
-
-![image2](/assets/figures/hainguyen/mcDNN_fig_2.png)
-
-#### Nonlinear PDE problems
-
-The results for training the conductivity coefficients for heat equation as shown in the firgure 3. It can be seen that with smaller training data set mcDNN approach is able to achive the same accuracy level compared to the naive DNN. An test sample of the inverse field obtained by Naive DNN and mcDNN is presented in the figure 4.
-
-![image](/assets/figures/hainguyen/mcDNN_fig3.png)
-
-![image2](/assets/figures/hainguyen/mcDNN_fig4.png)
-
-
-
+Last year, we have been working on the the theorectical part for pure machine learning (nDNN) and model-constrained deep learning approaches (mcDNN). The numerical results are provided for linear 1D inverse deconvolution problem, and 2D Heat equation. The mcDNN requires less training data to achieve the same accuracy level compared to nDNN. It is due to the fact that, for linear case, mcDNN has the data-driven form of Tikhonov inverse solver framwork, for non-linear problem, mcDNN is reinforced by the model-constrained term, and thus encodeing the physic. This year we develop the Tikonov neural network approach (TNet) and apply all approaches to more complicated problems (2D Burgers' equations and 2D Navier-Stokes equation). We present and provide intuitions and rigorous results for TNet. The advantgeous features of Tnet are (1) requires a few observation samples and no need for true parameter of interest (PoI); (2) recovering exactly Tikhonov framework in the case of linear inverse problem (3) converges faster (with fewer training samples) to Tikhonov's accuracy level than mcDNN and nDNN.
 
 More detail about this work can be found at [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033).
+
+### Significant Results
+
+<p align="center">
+<img src="/assets/figures/hainguyen/mcDNN1D.png">
+<figcaption><b>Figure 1: 1D Linear deconvolution problem</b> The average relative error at the optimal regularization parameter versus the training size for nDNN, mcDNN, TNet, and  Tikhonov methods. The result for Case II (data augmentation technique) is on the left figure for training size up to $5000$, and a similar result is shown on the right figure for Case III (all distinct samples data) </figcaption>
+</p>
+
+
+<p align="center">
+<img src="/assets/figures/hainguyen/mcDNN2Dheat.png">
+<figcaption><b>Figure 2: 2D heat conductivity inverse problem</b> The average relative error over 500 test samples. The comparisons are done for  nDNN (dashed curves), mcDNN (dotted curves), TNet (colored solids curves), and Tikhonov (TIK: black curve) over a wide range of regularization parameter values </figcaption>
+</p>
+
+<p align="center">
+<img src="/assets/figures/hainguyen/mcDNN2Dheat2.png">
+<figcaption><b>Figure 3: 2D heat conductivity inverse problem</b> Predicted (reconstructed) heat conductivities for an unseen noisy test sample obtained by nDNN, mcDNN, and  TNet neural networks along with the Tikhonov reconstruction.  Shown in the middle column are the synthetic ground truth (Exact) conductivity and the corresponding temperature field for reference </figcaption>
+</p>
+
+
+<p align="center">
+<img src="/assets/figures/hainguyen/mcDNN2DBur.png">
+<figcaption><b>Figure 4: 2D Burger's equations.</b>  Predicted (reconstructed) initial x-velocity component for an unseen noisy test sample obtained by nDNN, mcDNN, and  TNet neural networks along with the Tikhonov reconstruction.  Shown in the middle column are the synthetic ground truth (Exact) x-velocity and the corresponding x-velocity at the final time for reference. </figcaption>
+</p>
+
+<p align="center">
+<img src="/assets/figures/hainguyen/mcDNN2DNS.png">
+<figcaption><b>Figure 5: 2D Navier-Stokes equation </b> Predicted (reconstructed) initial vorticities for an unseen noisy test sample obtained by nDNN, mcDNN, and  TNet neural networks along with the Tikhonov reconstruction.  Shown in the middle column are the synthetic ground truth (Exact) vorticity and the corresponding vorticity at the final time for reference. </figcaption>
+</p>
+
+<!-- 
+<p align="center">
+<img src="/assets/figures/hainguyen/...">
+<figcaption><b>Figure 1: </b> ... </figcaption>
+</p>
+
+ -->

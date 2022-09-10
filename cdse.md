@@ -15,8 +15,8 @@ We shall develop innovative algorithms to overcome this bottleneck by minimizing
 * [Deep learning enhanced reduced order models](nsf/sheroze_nsf.md)
 * [Managing big simulation data for inverse problems with autoencoders](/cdse/ae_compression)
 * [Deep-learning-enhanced POD method](/cdse/pinns_time_dependent_pde)
-* [Model constrained DNNs for inverse problems](/cdse/model_constrained)
-
+* [Model-constrained Deep Learning Approaches for Inverse Problems](/cdse/model_constrained)
+* [A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems](/cdse/mctangent)
 
 ## Aim 2: Creating strategies to tackle large observation data.
 While more observation data generally leads to less uncertain predictions, it
@@ -26,7 +26,7 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 * [New approach for DNN architecture design](/cdse/layerwise_training)
 * [Variational inference with UQ-VAEs](/nsfcareer/year2/uqvae/)
 * [Are DNNs actually expressive?](/cdse/active_subspaces_nn_analysis)
-* [Active subspaces data-informed approach for inverse problems](/cdse/active_subspaces_inverse_problems)
+* [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems.](/cdse/active_subspaces_inverse_problems)
 
 ### Publications<a name="publications"></a>
 
@@ -47,6 +47,12 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 [7] Goh, H.. (2020). Solving Forward and Inverse Problems Using Autoencoders. [https://arxiv.org/abs/1912.04212v3](https://arxiv.org/abs/1912.04212v3)
 
 [8] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54 (6).
+
+[9] Hai Nguyen, Tan Bui-Thanh.  (2021).  "Model-constrained Deep Learning Approaches for Inverse Problems." , [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
+
+[10] Hai Nguyen, Tan Bui-Thanh.  (2022). "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." [https://arxiv.org/abs/2208.04995](https://arxiv.org/abs/2208.04995)
+
+[11] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh. (2022).  "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems." Computation, 10(3), 38.
 
 <!-- ## Accomplishments for Year 1 -->
 
