@@ -26,7 +26,7 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 * [New approach for DNN architecture design](/cdse/layerwise_training)
 * [Variational inference with UQ-VAEs](/nsfcareer/year2/uqvae/)
 * [Are DNNs actually expressive?](/cdse/active_subspaces_nn_analysis)
-* [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems.](/cdse/active_subspaces_inverse_problems)
+* [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/cdse/active_subspaces_inverse_problems)
 
 ### Publications<a name="publications"></a>
 

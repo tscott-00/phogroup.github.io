@@ -1,11 +1,11 @@
 ---
 layout: page
-title: DIAS: A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems
+title: A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems
 permalink: /cdse/mctangent
 ---
 
 ### Major Activities 
-This work has been completed during this year and is under rereview in International Journal of Computational Fluid Dynamics. The abtract: Real-time accurate solutions of large-scale complex dynamical systems are in critical
+This work has been completed during this year and is under rereview in International Journal of Computational Fluid Dynamics [[paper](https://arxiv.org/abs/2208.04995)]. The abtract: Real-time accurate solutions of large-scale complex dynamical systems are in critical
 need for control, optimization, uncertainty quantification, and decision-making in practical engineering and science applications. This paper contributes in this direction a model-constrained tangent
 manifold learning (mcTangent) approach. At the heart of mcTangent is the synergy of several desirable strategies: i) a tangent manifold learning to take advantage of the neural network speed and
 the time-accurate nature of the method of lines; ii) a model-constrained approach to encode the

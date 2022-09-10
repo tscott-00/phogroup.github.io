@@ -11,7 +11,7 @@ More detail about this work can be found at [https://arxiv.org/abs/2105.12033](h
 
 <p align="center">
 <img src="/assets/figures/hainguyen/mcDNN_architecture.png">
-<figcaption><b>Figure 2:</b> Model-constrained neural network architecture mcDNN. The observables y is fed into the neural network Ψ. The parameter u∗ predicted by the netork is pushed through the PtO map G to generate the corresponding predicted observations y∗. Both predicted parameters and observations are compared with ground truth u and y, respectively, to provide the mean-square error in the loss function L..</figcaption>
+<figcaption><b>Figure 1:</b> Model-constrained neural network architecture mcDNN. The observables y is fed into the neural network Ψ. The parameter u∗ predicted by the netork is pushed through the PtO map G to generate the corresponding predicted observations y∗. Both predicted parameters and observations are compared with ground truth u and y, respectively, to provide the mean-square error in the loss function L..</figcaption>
 </p>
 
 ### Significant Results

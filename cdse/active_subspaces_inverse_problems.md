@@ -1,12 +1,12 @@
 ---
 layout: page
-title: DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems
+title: DIAS-A Data-Informed Active Subspace Regularization Framework for Inverse Problems
 permalink: /cdse/active_subspaces_inverse_problems
 ---
 
 ### Major Activities 
 
-Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [paper](https://www.mdpi.com/2079-3197/10/3/38). The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea
+Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [[paper](https://www.mdpi.com/2079-3197/10/3/38)]. The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea
 that only data-uninformed parameters need to be regularized, while the data-informed parameters,
 on which data and forward model are integrated, should remain untouched. We propose to employ
 the active subspace method to determine the data-informativeness of a parameter. The resulting
@@ -53,19 +53,6 @@ eigenvector of the two active subspaces.</figcaption>
 <img src="/assets/figures/hainguyen/DIAS_4.png">
 <figcaption><b>Figure 4: X-ray Tomography.</b> DIAS solutions for X-ray tomography problem with overregularization parameter α = 1e8, noise level 1%.</figcaption>
 </p>
-
-
-
-
-
- <!-- 
-<p align="center">
-<img src="/assets/figures/hainguyen/...">
-<figcaption><b>Figure 1: </b> ... </figcaption>
-</p>
-
- -->
-
 
 
 
