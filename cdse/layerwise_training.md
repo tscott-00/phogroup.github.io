@@ -21,6 +21,13 @@ and a trial-and-error approach (Architecture search) is often employed to retrie
 neural network.  Thus, there is a need for
 adaptive principles to guide the architecture design of a neural network.
 
+<p align="center">
+<img src="/assets/figures/Krish/schematic.png">
+<figcaption>Figure 1: Schematic of layerwise training Algorithm.</figcaption>
+</p>
+
+
+
 One of the most promising directions is perhaps the layerwise training of neural
 networks (Algorithm I).  In this project, the layers of a resnet architecture is trained one at a time, and once they are trained, the input data is mapped forward through the layer to create a new learning problem.  This  is then
 followed by a sparse training
@@ -28,10 +35,6 @@ of the enriched NN with L1-regularization only on the weights
 and biases of the newly added hidden layer. In order to promote learning in subsequent layers and to allow for effective information transfer, we use a manifold regularization term which is based on the similarity in the input data set. Further, we also incorporate a physics informed regularizer for each layer in an attempt to create interpretable hidden layers in a deep neural network. However, the layer-wise training strategy suffers from the training saturation problem where the loss does not decrease after adding a few layers. In order to overcome this issue, a sequential learning strategy (Algorithm 2) is employed
 where a sequence of small networks is trained to learn the residual produced by Algorithm 1.  
 
-<p align="center">
-<img src="/assets/figures/Krish/schematic.png">
-<figcaption>Figure 1: Schematic of layerwise training Algorithm.</figcaption>
-</p>
 
 ### Significant Results
 
