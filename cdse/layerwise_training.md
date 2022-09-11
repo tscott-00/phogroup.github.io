@@ -28,7 +28,10 @@ of the enriched NN with L1-regularization only on the weights
 and biases of the newly added hidden layer. In order to promote learning in subsequent layers and to allow for effective information transfer, we use a manifold regularization term which is based on the similarity in the input data set. Further, we also incorporate a physics informed regularizer for each layer in an attempt to create interpretable hidden layers in a deep neural network. However, the layer-wise training strategy suffers from the training saturation problem where the loss does not decrease after adding a few layers. In order to overcome this issue, a sequential learning strategy (Algorithm 2) is employed
 where a sequence of small networks is trained to learn the residual produced by Algorithm 1.  
 
-
+<p align="center">
+<img src="/assets/figures/Krish/schematic.png">
+<figcaption>Figure 1: Schematic of layerwise training Algorithm.</figcaption>
+</p>
 
 ### Significant Results
 
@@ -39,13 +42,18 @@ We have additionally demonstrated the approach on a wide variety of problems in 
 * Physics reinforced adaptive neural network (PRANN): Combining sparse noisy measurement data with incomplete/approximate physics.
 * Adaptive learning for inverse problems.
 
-Further, we have also compared our proposed approach with other state of the art layerwise training methods. Figure 1 shows the results for PIANN for learing a PDE with complex geometry.   
+Further, we have also compared our proposed approach with other state of the art layerwise training methods. Figure 3 shows the results for PIANN for learing a PDE with complex geometry.   
+
+<p align="center">
+<img src="/assets/figures/Krish/summary.png">
+<figcaption>Figure 2: a) Layerwise training curve on a regression task where the ridge indicates the point where we add a new layer; b) Summary of results for MNIST classification task.</figcaption>
+</p>
+
 
 <p align="center">
 <img src="/assets/figures/Krish/PIANN.png">
-<figcaption>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
+<figcaption>Figure 3: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
 </p>
-
 
 
 
