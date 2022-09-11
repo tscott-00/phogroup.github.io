@@ -23,6 +23,7 @@ While more observation data generally leads to less uncertain predictions, it
 makes the task of inversion and UQ more expensive. We shall develop iterative inversion/UQ methods that utilize only a manageable subset of data during each iteration. This is further enhanced by a streaming computational model that we will create to ensure data scalability while minimizing overall computation.
 #### Projects
 * [On unifying randomized approaches in inverse problems](/cdse/randomized_approaches)
+* [A new look at the Ensemble Kalman Filter](/cdse/kalman)
 * [New approach for DNN architecture design](/cdse/layerwise_training)
 * [Variational inference with UQ-VAEs](/nsfcareer/year2/uqvae/)
 * [Are DNNs actually expressive?](/cdse/active_subspaces_nn_analysis)
