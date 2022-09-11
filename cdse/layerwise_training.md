@@ -5,23 +5,47 @@ permalink: /cdse/layerwise_training
 ---
 
 ### Major Activities 
- Training deep networks suffers from the common problems such as:  i) Need for a gigantic training set to confront over-fitting issue; ii) architecture adaptability problems, e.g., any amendments to a pretrained DNN requires retraining from the scratch. Therefore, there is a need to develop a computationally efficient procedure for training a DNN without making any compromise on the accuracy achieved by traditional back propagation algorithm.
 
- In this project, we propose a two stage Algorithm for progressively growing neural networks.
+Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
+
+
+### Brief description of the procedure
+
+It has been observed that deep neural networks (DNN) create increasingly
+simpler but more useful  representations  of the learning problem layer by layer. Furthermore, empirical
+evidence supports the paradigm that depth of a network is of crucial
+importance. Such large networks, however, yield
+computationally complex optimization problems. Furthermore, despite
+such successes, the mechanisms behind deep learning remain a mystery
+and a trial-and-error approach (Architecture search) is often employed to retrieve the best
+neural network.  Thus, there is a need for
+adaptive principles to guide the architecture design of a neural network.
+
+One of the most promising directions is perhaps the layerwise training of neural
+networks (Algorithm I).  In this project, the layers of a resnet architecture is trained one at a time, and once they are trained, the input data is mapped forward through the layer to create a new learning problem.  This  is then
+followed by a sparse training
+of the enriched NN with L1-regularization only on the weights
+and biases of the newly added hidden layer. In order to promote learning in subsequent layers and to allow for effective information transfer, we use a manifold regularization term which is based on the similarity in the input data set. Further, we also incorporate a physics informed regularizer for each layer in an attempt to create interpretable hidden layers in a deep neural network. However, the layer-wise training strategy suffers from the training saturation problem where the loss does not decrease after adding a few layers. In order to overcome this issue, a sequential learning strategy (Algorithm 2) is employed
+where a sequence of small networks is trained to learn the residual produced by Algorithm 1.  
 
 
 
 ### Significant Results
-The proposed framework has been demonstrated on  regression problems such as the Boston housing price prediction problem where the method outperforms a baseline network.
 
-In particular we also demonstrate that the procedure can be used for progressively learning the solutions of PDE. Figure below shows the adaptive approach where one progressively learn the solution of Poisson's equation. 
+We have additionally demonstrated the approach on a wide variety of problems in scientific machine learning (goverened by PDE's) such as:
 
-![image](/assets/figures/Krish/adaptation_1.png)
+* Image classification problem.
+* Physics informed adaptive neural network (PIANN): A framework for adaptively solving PDE's.
+* Physics reinforced adaptive neural network (PRANN): Combining sparse noisy measurement data with incomplete/approximate physics.
+* Adaptive learning for inverse problems.
 
-    Fig 1: Neural architecture adaptation for progressively learning the solution of Poisson's equation
+<p align="center">
+<img src="/assets/figures/Krish/PIANN.png">
+<figcaption><b>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
+</p>
 
-![image2](/assets/figures/Krish/adaptation_2.png)
 
-    Fig 2: Final Neural network solution (on the left) vs True solution (on the right)
+    
+
 
 
