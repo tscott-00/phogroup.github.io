@@ -9,7 +9,7 @@ permalink: /cdse/layerwise_training
 Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
 
 
-### Brief description of the procedure
+### Brief outline of the procedure
 
 It has been observed that deep neural networks (DNN) create increasingly
 simpler but more useful  representations  of the learning problem layer by layer. Furthermore, empirical
@@ -41,7 +41,7 @@ We have additionally demonstrated the approach on a wide variety of problems in 
 
 <p align="center">
 <img src="/assets/figures/Krish/PIANN.png">
-<figcaption><b>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
+<figcaption><b>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.<b></figcaption>
 </p>
 
 
