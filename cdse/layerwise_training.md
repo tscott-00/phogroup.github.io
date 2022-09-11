@@ -62,7 +62,7 @@ Figure 3 below shows the results (evolution of solution with layer addition) for
 <figcaption>Figure 3: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
 </p>
 
-We have also demonstrated that our proposed approach serves as a natural candidate for recovering stable inverse maps from sparse data. Inverse problems are usually ill-posed and  involves learning the map from low-dimensional space (observation space) to a high dimensional space (parameter space). By exploring the relationship between manifold regularization and stability, we could enforce stability (well-posedness) while adding layers. Figure shows the comparison between different methods for learning inverse maps.
+We have also demonstrated that our proposed approach serves as a natural candidate for recovering stable inverse maps from sparse data. Inverse problems are usually ill-posed and  involves learning the map from low-dimensional space (observation space) to a high dimensional space (parameter space). By exploring the relationship between manifold regularization and stability, we could enforce stability (well-posedness) while adding new layers. Figure 4 below shows a comparison between different methods for learning inverse maps.
  
 <p align="center">
 <img src="/assets/figures/Krish/inverse.png">
