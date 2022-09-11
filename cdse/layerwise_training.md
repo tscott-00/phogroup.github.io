@@ -45,7 +45,7 @@ We have additionally demonstrated the approach on a wide variety of problems in 
 * Physics reinforced adaptive neural network (PRANN): Combining sparse noisy measurement data with incomplete/approximate physics.
 * Adaptive learning for inverse problems.
 
-Further, we have also compared our proposed approach with other state of the art layerwise training methods. Figure 1 shows such a comparison for the clasiification task and also shows a layerwise training curve for a regression task.
+Further, we have also compared our proposed approach with other state of the art layerwise training methods. Figure 2 shows such a comparison for the clasification task and also shows a layerwise training curve for a regression task.
 
 
 
