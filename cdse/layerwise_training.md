@@ -43,7 +43,7 @@ Further, we have also compared our proposed approach with other state of the art
 
 <p align="center">
 <img src="/assets/figures/Krish/PIANN.png">
-<figcaption><b>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain<b>.</figcaption>
+<figcaption>Figure 1: Physics informed adaptive neural network for progressively learning the Poisson's equation with a slit in the domain.</figcaption>
 </p>
 
 
