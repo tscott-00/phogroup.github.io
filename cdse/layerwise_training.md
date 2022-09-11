@@ -4,7 +4,7 @@ title: New approach for DNN architecture design
 permalink: /cdse/layerwise_training
 ---
 
-### Major Activities 
+ 
 
 Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
 
@@ -38,6 +38,8 @@ We have additionally demonstrated the approach on a wide variety of problems in 
 * Physics informed adaptive neural network (PIANN): A framework for adaptively solving PDE's.
 * Physics reinforced adaptive neural network (PRANN): Combining sparse noisy measurement data with incomplete/approximate physics.
 * Adaptive learning for inverse problems.
+
+Further, we have also compared our proposed approach with other state of the art layerwise training methods. Figure 1 shows the results for PIANN for learing a PDE with complex geometry.   
 
 <p align="center">
 <img src="/assets/figures/Krish/PIANN.png">
