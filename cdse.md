@@ -17,6 +17,7 @@ We shall develop innovative algorithms to overcome this bottleneck by minimizing
 * [Deep-learning-enhanced POD method](/cdse/pinns_time_dependent_pde)
 * [Model-constrained Deep Learning Approaches for Inverse Problems](/cdse/model_constrained)
 * [A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems](/cdse/mctangent)
+* [Model-Constrained Bayesian Neural Networks for Uncertainty Quantification](/cdse/mcbnn)
 
 ## Aim 2: Creating strategies to tackle large observation data.
 While more observation data generally leads to less uncertain predictions, it
@@ -26,7 +27,7 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 * [A new look at the Ensemble Kalman Filter](/cdse/kalman)
 * [New approach for DNN architecture design](/cdse/layerwise_training)
 * [Variational inference with UQ-VAEs](/nsfcareer/year2/uqvae/)
-* [Are DNNs actually expressive?](/cdse/active_subspaces_nn_analysis)
+* [Neural Networks and Active Subspaces](/cdse/active_subspaces_nn_analysis)
 * [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/cdse/active_subspaces_inverse_problems)
 
 ### Publications<a name="publications"></a>
