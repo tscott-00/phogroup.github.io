@@ -17,6 +17,7 @@ We shall develop innovative algorithms to overcome this bottleneck by minimizing
 * [Deep-learning-enhanced POD method](/cdse/pinns_time_dependent_pde)
 * [Model-constrained Deep Learning Approaches for Inverse Problems](/cdse/model_constrained)
 * [A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems](/cdse/mctangent)
+* [Model-Constrained Bayesian Neural Networks for Uncertainty Quantification](/cdse/mcbnn)
 
 ## Aim 2: Creating strategies to tackle large observation data.
 While more observation data generally leads to less uncertain predictions, it
