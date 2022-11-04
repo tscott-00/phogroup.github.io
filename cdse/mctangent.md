@@ -37,7 +37,7 @@ presented to study and demonstrate the capability of the proposed mcTangent lear
 
 <p align="center">
 <img src="/assets/figures/hainguyen/animated_burger.gif">
-<figcaption><b>Figure 4: : Burger’s equations.</b> The solutions of Burgers equation obtained by Finite different method versus mcTangent learning approach. Traning data: [0, 0.1], Testing: [0, 15]</figcaption>
+<figcaption><b>Figure 4: : Burger’s equations.</b> The solutions of Burgers equation obtained by Finite different method versus mcTangent learning approach. Traning data: [0, 0.1], Testing: [0, 1.5]</figcaption>
 </p>
 
 
