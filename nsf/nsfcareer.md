@@ -13,8 +13,9 @@ permalink: /nsfcareer/
 2. [Year 1](/nsfcareer/#year1)
 3. [Year 2](/nsfcareer/#year2)
 4. [Year 3](/nsfcareer/#year3)
-5. [Publications](/nsfcareer/#publications)
-6. [Software](/nsfcareer/#software)
+5. [Year 4](/nsfcareer/#year4)
+6. [Publications](/nsfcareer/#publications)
+7. [Software](/nsfcareer/#software)
 
 ### Aims<a name="aims"></a>
 
@@ -42,6 +43,11 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Active Subspaces for Inverse Problems](/nsfcareer/year3/active_subspaces_inverse_problems)
 - [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
 
+### Year 4 Progress<a name="year4"></a>
+- [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/model_constrained)
+- [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/mctangent)
+- [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
+
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
 
 - [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
@@ -64,13 +70,15 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 
 [5] Sheriffdeen, Sheroze, et al. "Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models." [arXiv preprint arXiv:1912.08864](https://arxiv.org/abs/1912.08864) (2019)
 
-[6] Hai Nguyen, Tan Bui-Thanh,  "Model-constrained Deep Learning Approaches for Inverse Problems." Submitted May 2021, [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
+[6] Jonathan Wittmer, C G Krishnanunni, Hai Nguyen, Tan Bui-Thanh, "On Unifying Randomized Methods for Inverse and Optimization Problems." In preparation.
 
-[7] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh,  "DIAS regularization for inverse problems." In preparation.
+[7] C G Krishnanunni, Tan Bui-Thanh, "Layerwise Sparsifying Training and Sequential Learning Strategy for Neural Architecture Adaptation" In preparation.
 
-[8] Jonathan Wittmer, C G Krishnanunni, Hai Nguyen, Tan Bui-Thanh, "On Unifying Randomized Methods for Inverse and Optimization Problems." In preparation.
+[[8](https://arxiv.org/abs/2105.12033)] Hai Nguyen, Tan Bui-Thanh.  (2021).  "Model-constrained Deep Learning Approaches for Inverse Problems." , [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
 
-[9] C G Krishnanunni, Tan Bui-Thanh, "Layerwise Sparsifying Training and Sequential Learning Strategy for Neural Architecture Adaptation" In preparation.
+[[9](https://arxiv.org/abs/2208.04995)] Hai Nguyen, Tan Bui-Thanh.  (2022). "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." [https://arxiv.org/abs/2208.04995](https://arxiv.org/abs/2208.04995)
+
+[[10](https://www.mdpi.com/2079-3197/10/3/38)] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh. (2022).  "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems." Computation, 10(3), 38.
 
 ### Software<a name="software"></a>
 
