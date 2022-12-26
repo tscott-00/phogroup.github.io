@@ -44,7 +44,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Model Constrained DNNs for Inverse Problems](/nsfcareer/year3/model_constrained)
 
 ### Year 4 Progress<a name="year4"></a>
-- [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/model_constrained)
+- [TNet: A Tikhonov neural network for inverse problems](/nsfcareer/year4/model_constrained)
 - [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/mctangent)
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
 

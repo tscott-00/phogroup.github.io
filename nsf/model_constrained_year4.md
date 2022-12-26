@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems
+title: TNet - A Tikhonov neural network for inverse problems
 permalink: /nsfcareer/year4/model_constrained
 ---
 
