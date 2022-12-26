@@ -49,13 +49,9 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
-
 - [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
-
 - [Recurrent Neural Networks for Predicting ODE Dynamics](/nsfcareer/year3/RNN)
-
 - [Improving the Accuracy of Neural Networks](/nsfcareer/year3/Accuracy_net)
-
 - [Physics Informed Deep Learning Enhanced by POD](/nsfcareer/year3/POD)
 
 ### Publications<a name="publications"></a>

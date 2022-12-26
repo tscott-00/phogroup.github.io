@@ -6,7 +6,7 @@ permalink: /nsfcareer/year4/DIAS_year4
 
 ### Major Activities 
 
-Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [[paper](https://www.mdpi.com/2079-3197/10/3/38)]. The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea
+<div style="text-align: justify">Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [[paper](https://www.mdpi.com/2079-3197/10/3/38)]. The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea
 that only data-uninformed parameters need to be regularized, while the data-informed parameters,
 on which data and forward model are integrated, should remain untouched. We propose to employ
 the active subspace method to determine the data-informativeness of a parameter. The resulting
