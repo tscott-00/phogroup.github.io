@@ -4,8 +4,8 @@ title: A Two-Stage Strategy for Deep Neural Network Architecture Adaptation
 permalink: /nsfcareer/year4/two_stage_approach
 ---
 
-
-<div style="text-align: justify">Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
+### Major Activities
+Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
 
 
 ### Brief outline of the procedure
