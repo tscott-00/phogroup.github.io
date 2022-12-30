@@ -48,6 +48,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [TNet: A Tikhonov neural network for inverse problems](/nsfcareer/year4/model_constrained)
 - [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/mctangent)
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
+- [A Two-Stage Strategy for Deep Neural Network Architecture Adaptation](/nsfcareer/year4/two_stage_approach)
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
 - [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
