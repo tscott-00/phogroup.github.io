@@ -5,7 +5,7 @@ permalink: /nsfcareer/year4/two_stage_approach
 ---
 
 
-Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
+<div style="text-align: justify">Last year we showed that a two-stage adaptive procedure can be employed for progressively learning the training data-set. The framework has been demonstrated on regression problems where the method outperformed a baseline network and is parameter efficient. In particular we also demonstrated that the procedure may be used for progressively learning the solutions of PDE in a fast and efficient manner in comparison with the traditional PINNs approach.
 
 
 ### Brief outline of the procedure
@@ -69,6 +69,3 @@ We have also demonstrated that our proposed approach serves as a natural candida
 obtained by Proposed method.</figcaption>
 </p>
     
-
-
-
