@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New approach for DNN architecture design
-permalink: /nsfcareer/year4/two_stage
+permalink: /nsfcareer/year4/two_stage_approach
 ---
 
 
