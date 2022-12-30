@@ -1,6 +1,6 @@
 ---
 layout: page
-title: New approach for DNN architecture design
+title: A Two-Stage Strategy for Deep Neural Network Architecture Adaptation
 permalink: /nsfcareer/year4/two_stage_approach
 ---
 
@@ -9,7 +9,6 @@ permalink: /nsfcareer/year4/two_stage_approach
 
 
 ### Brief outline of the procedure
-
 It has been observed that deep neural networks (DNN) create increasingly
 simpler but more useful  representations  of the learning problem layer by layer. Furthermore, empirical
 evidence supports the paradigm that depth of a network is of crucial
