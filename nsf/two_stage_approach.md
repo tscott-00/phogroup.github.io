@@ -76,3 +76,8 @@ We have also demonstrated that our proposed approach serves as a natural candida
 obtained by Proposed method.</figcaption>
 </p>
     
+<p align="center">
+<img src="/assets/figures/Krish/inverse_stability.png">
+<figcaption>Figure 6: Predicted parameter field for a particular test observation sample using different methods: a) Solution obtained by equivalent baseline network; b) True solution; c)  Solution
+obtained by Proposed method.</figcaption>
+</p>
