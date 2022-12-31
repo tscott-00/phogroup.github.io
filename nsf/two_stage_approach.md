@@ -34,6 +34,11 @@ and biases of the newly added hidden layer. In order to promote learning in subs
 where a sequence of small networks is trained to learn the residual produced by Algorithm 1.  
 
 
+
+![layerwise training video](/assets/figures/Krish/layerwise_addition.gif)
+
+
+
 ### Significant Results
 
 We have additionally demonstrated the approach on a wide variety of problems in scientific machine learning (goverened by PDE's) such as:
