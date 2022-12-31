@@ -77,7 +77,7 @@ obtained by Proposed method.</figcaption>
 </p>
     
 
-    In addition, the evolution of solution across the hidden layers for a particular test observation sample is shown in Figure 6. It is clear from  Figure 6 that injecting stability in later layers allows the network to recover fine details in the parameter field when the baseline network fails to do so. 
+In addition, the evolution of solution across the hidden layers for a particular test observation sample is shown in Figure 6. It is clear from  Figure 6 that injecting stability in later layers allows the network to recover fine details in the parameter field when the baseline network fails to do so. 
 
 
 <p align="center">
