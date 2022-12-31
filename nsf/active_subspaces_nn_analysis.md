@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Neural Networks and Active Subspaces
-permalink: /nsfcareer/year3/active_subspaces_nn_analysis/
+permalink: /nsfcareer/year3/active_subspaces_nn_analysis
 ---
 
 ### Major Activities 
@@ -11,21 +11,24 @@ Neural networks are function approximators whose parameters exist in a very high
 
 ### Significant Results
 
-The first prominent finding is that neural networks exhibit strong resistance to active subspace based dimension reduction techniques, indicating that all computation units are important.
+Last year we showed that that neural networks exhibit strong resistance to active subspace based dimension reduction techniques, indicating that all computation units are important.
 
 The following figure illustrates the eigenvalues of the active subspace matrix for a network with 1 input neuron, 1 output neuron, and 5 hidden layers with 35 neurons per hidden layer, giving 5146 parameters total. The active subspace was estimated with ten thousand samples. The losses were calculated on a regression problem to regress a sin function.
 
 ![The eigenvalues of the active subspace matrix for a network with 5146 parameters and 10000 active subspace samples.](/assets/figures/rusty/CDSE_eigenvalues.png "fig:CDSE_Eigenvalues")
 
-The second prominent finding is that some network parameters are more important than others, in the sense that the loss is more sensitive to them than others. 
+We have determined that some network parameters are more important than others, in the sense that the loss is more sensitive to them than others. 
 
 ![The eigenvectors of the active subspace matrix for a network with 5146 parameters and 10000 active subspace samples.](/assets/figures/rusty/CDSE_eigenvectors.png "fig:CDSE_Eigenvectors")
 
-The third prominent finding is related to the creation of a network condition number. We see that for various network architectures, the network condition number behaves in a fashion that mimics the behavior of the total parameter count for a network.
+Further research has shown that we can create a network "condition number". We see that for various network architectures, the network condition number behaves in a fashion that mimics the behavior of the total parameter count for a network.
 
 ![The network condition number for dense fully connected networks evaluated on a sin regression.](/assets/figures/rusty/MTED_plot.png "fig:MTED_plot")
 
 ![A contour plot of the total number of parameters for dense fully connected networks.](/assets/figures/rusty/parameter_count_contour.png "fig:parameter_count")
+
+Further analysis is underway to determine the active subspace behavior of model-constrained neural networks.
+
 
 <!-- Some beautiful pictures or videos could go here -->
 <!-- [![acoustic-elastic wave equation video](/assets/figures/jon/mangll_animation_frame.png)](/assets/figures/jon/mangll_animation_trimmed.ogv "Mangll video") -->

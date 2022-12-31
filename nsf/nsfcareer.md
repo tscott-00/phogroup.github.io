@@ -47,6 +47,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Autoencoder Compression](/nsfcareer/year4/compression/)
 - [TNet: A Tikhonov neural network for inverse problems](/nsfcareer/year4/model_constrained)
 - [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](/nsfcareer/year4/mctangent)
+- [Model Constrained Bayesian Neural Networks for Uncertainty Quantification](/nsfcareer/year4/mcbnn)
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
 - [A Two-Stage Strategy for Deep Neural Network Architecture Adaptation](/nsfcareer/year4/two_stage_approach)
 
