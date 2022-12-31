@@ -76,8 +76,14 @@ We have also demonstrated that our proposed approach serves as a natural candida
 obtained by Proposed method.</figcaption>
 </p>
     
+
+    In addition, the evolution of solution across the hidden layers for a particular test observation sample is shown in Figure 6. It is clear from  Figure 6 that injecting stability in later layers allows the network to recover fine details in the parameter field when the baseline network fails to do so. 
+
+
 <p align="center">
 <img src="/assets/figures/Krish/inverse_stability.png">
-<figcaption>Figure 6: Predicted parameter field for a particular test observation sample using different methods: a) Solution obtained by equivalent baseline network; b) True solution; c)  Solution
-obtained by Proposed method.</figcaption>
+<figcaption>Figure 6: Evolution of parameter field across the hidden layers for a particular test observation sample: First row left to right: Solution after training layer L=3; Solution after training layer L=5; Solution after training layer L=7. Second row left to right: Solution after training layer L=9;  Solution after training layer L=12;  Exact solution. </figcaption>
 </p>
+
+A key advantage of this approach is that 
+the interpretability of different hidden layers could be exploited for adapting neural network for growing data, i.e when new data is available.  The two parts of the network could be trained independently, one at a time to adapt to a new dataset. 
