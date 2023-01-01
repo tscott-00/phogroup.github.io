@@ -19,6 +19,6 @@ The proposed convergence improvement strategy is demonstrated for an Initial Con
 
 <p align="center">
 <img src="/assets/figures/Krish/enkf.png">
-<figcaption>Figure 1: a)  Solution obtained by traditional additive inflation strategy; b) True solution; c) Solution obtained by the proposed convergence improvement strategy.</figcaption>
+<figcaption>Figure 1: a)  Solution obtained by existing additive inflation strategy (Schillings et al.); b) True solution; c) Solution obtained by the proposed convergence improvement strategy.</figcaption>
 </p>
 
