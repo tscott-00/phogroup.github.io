@@ -51,7 +51,7 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
 - [A Two-Stage Strategy for Deep Neural Network Architecture Adaptation](/nsfcareer/year4/two_stage_approach)
 - [A new look at the Ensemble Kalman Filter for Inverse Problems](/nsfcareer/year4/EnKF)
-](/nsfcareer/year4/two_stage_approach)
+
 
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
