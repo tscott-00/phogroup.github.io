@@ -22,3 +22,9 @@ The proposed convergence improvement strategy is demonstrated for an Initial Con
 <figcaption>Figure 1: a)  Solution obtained by existing additive inflation strategy (Schillings et al.); b) True solution; c) Solution obtained by the proposed convergence improvement strategy.</figcaption>
 </p>
 
+Further, the results for 1D deconvolution problem comparing different convergence improvement strategies is shown in Figure 2. EnKI-MC and EnKI-HC refers to multiplicative covariance correction and hybrid covariance correction respectively developed as part of the method. 
+
+<p align="center">
+<img src="/assets/figures/Krish/EnKI_new.png">
+<figcaption>Figure 2: Performance of different variants of EnKI (N=20 ensembles, Iterations=1000) for 1D Deconvolution problem. Left to right: Reconstructed solution by different methods;  Convergence of relative error w.r.t truth for different methods.</figcaption>
+</p>
