@@ -50,6 +50,9 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [Model Constrained Bayesian Neural Networks for Uncertainty Quantification](/nsfcareer/year4/mcbnn)
 - [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year4/DIAS_year4)
 - [A Two-Stage Strategy for Deep Neural Network Architecture Adaptation](/nsfcareer/year4/two_stage_approach)
+- [A new look at the Ensemble Kalman Filter for Inverse Problems](/nsfcareer/year4/EnKF)
+](/nsfcareer/year4/two_stage_approach)
+
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
 - [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
