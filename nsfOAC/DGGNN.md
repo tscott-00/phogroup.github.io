@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Year 4 - Autoencoder Compression to Accelerate Inverse Problems
-permalink: /nsfcareer/year4/compression/
+title: DGGNN
+permalink: /nsfOAC/DGGNN/
 ---
 ### Algorithm improvements
 We previously proposed an autoencoder based compression approach to eliminate the need 

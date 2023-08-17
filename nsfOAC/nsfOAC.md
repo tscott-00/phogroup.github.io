@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CAREER - Scalable Approaches for Large-Scale Data-driven Bayesian Inverse Problems in High Dimensional Parameter Spaces
+title: Toward a Rigorous and Reliable Scientific Deep Learning Framework for Forward, Inverse, and UQ Problems
 permalink: /nsfOAC/
 ---
 
@@ -10,23 +10,25 @@ permalink: /nsfOAC/
 
 # Table of Contents
 1. [Aims](/nsfOAC/#aims)
-2. [Year 1](/nsfOAC/#year1)
-3. [Year 2](/nsfOAC/#year2)
-4. [Year 3](/nsfOAC/#year3)
-5. [Year 4](/nsfOAC/#year4)
+2. [Projects](/nsfOAC/#proj)
 6. [Publications](/nsfOAC/#publications)
 7. [Software](/nsfOAC/#software)
 
 ### Aims<a name="aims"></a>
 
 #### Aims 1
-Develop scalable data reduction approaches for Bayesian inverse problems.
+NEEDS TO BE CHANGED
 
 #### Aims 2
-Develop scalable sampling methods for large-scale Bayesian inverse solutions.
+NEEDS TO BE CHANGED
 
-### Year 1 Progress<a name="year1"></a>
-[Year 1](/y1progress)
+### Projects<a name="proj"></a>
+- [Neural Architecture Adaptation Problem](/nsfOAC/adaptation/)
+- [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
+- [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
+- [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
+- [Expressivity of Neural Networks](/nsfOAC/express/)
+- [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
 
 
 ### Publications<a name="publications"></a>
