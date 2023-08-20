@@ -12,5 +12,5 @@ I have obtained preliminary results for 1D Burger equation and 1D sod tube probl
 
 ![Fig1](/assets/figures/hainguyen/DNGNN_fig1.png)
 
-![Fig2](/assets/figures/hainguyen/DGGNN_fig2.png)
+![Fig2](/assets/figures/hainguyen/DNGNN_fig2.png)
 
