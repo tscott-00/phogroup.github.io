@@ -10,7 +10,7 @@ Real-time accurate solutions of large-scale complex dynamical systems are in cri
 ### Results
 I have obtained preliminary results for 1D Burger equation and 1D sod tube problem to show the potential of the approach for solving shock-type and discontinuity problems. It can be seen from the figure 1 that DG-GNN mcTangent is able to predict accurately 6 times beyond the training data time horizon. All solutions have excellent agreement with the traditional DG solver solutions. Note that this test data sample case is independently generated from training data. Similar promising results for the 1D sod tube problem are obtained as shown in figure 2. It can be seen that DG-GNN mcTangent learns the propagation of discontinuities as well as the traditional DG solver method.
 
-![Fig1](/assets/figures/hainguyen/DNGNN_fig1.png)
+![Fig1](/assets/figures/hainguyen/DGGNN_fig1.png)
 
 ![Fig2](/assets/figures/hainguyen/DGGNN_fig2.png)
 
