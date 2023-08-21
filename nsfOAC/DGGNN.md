@@ -1,9 +1,9 @@
 ---
 layout: page
-title: DGGNN
+title: Discontinuous Galerkin Graph Neural Network model-constrained tangent learning approach for shock-type problems (DG-GNN mcTangent)
 permalink: /nsfOAC/DGGNN/
 ---
-### Discontinuous Galerkin Graph Neural Network model-constrained tangent learning approach for shock-type problems (DG-GNN mcTangent)
+### Introduction about project
 
 Real-time accurate solutions of large-scale complex dynamical systems are in critical need for control, optimization, uncertainty quantification, and decision-making in practical engineering and science applications, especially digital twin applications. Among these, the shock-type problems like Burger equation, Euler equations are far more challenging to solve and train the surrogate models from practical data. In this project, we propose the DG-GNN mcTangent to learn the tangent of the dynamic system of these shock-type problems. Specifically, DG-GNN mcTangent represents a significant advancement over the original mcTangent approach, [mcTangent](https://arxiv.org/abs/2208.04995). It retains the core features of separating temporal and spatial discretizations to capture the method of lines nature. One key enhancement is its ability to handle discontinuous solutions arising from Discontinuous Galerkin (DG) methods. Discontinuous solutions pose challenges in numerical computations, but DG-GNN mcTangent is specifically designed to address these challenges. By leveraging the strengths of the original mc-Tangent approach, DG-GNN mcTangent effectively handles discontinuities, ensuring sufficiently accurate and stable results. Furthermore, DG-GNN mcTangent inherits the localization causality feature of the Graph Neural Network (GNN) architecture. This means it can efficiently capture localized dependencies, benefiting from the GNN’s ability to learn and utilize spatial relationships within the problem domain. This comprehensive framework empowers it to solve dynamical systems with discontinuous solutions while effectively capturing spatial relationships. 
 
