@@ -72,3 +72,5 @@ accurately recover the properties of the North American continent.
 The checkpointing strategy yields the inversion results shown above. Results 
 using the autoencoder compression strategy are expected in the next month, 
 at which point we will submit the work for publication.
+
+Testin
