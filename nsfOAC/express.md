@@ -3,72 +3,27 @@ layout: page
 title: Expressivity of Neural Networks
 permalink: /nsfOAC/express/
 ---
-### Algorithm improvements
-We previously proposed an autoencoder based compression approach to eliminate the need 
-for checkpointing in solving time-dependent PDE based inverse problems. We showed 
-the viability of this method on a model acoustic-elastic wave propagation problem 
-on a box-shaped domain, inverting for a deviation from the prior mean acoustic wave speed. 
-This approach wase based on using the Tensorflow SavedModel API where Tensorflow 
-models were trained in Python and loaded in C++ to interface with a sophisticated 
-discontinuous Galerkin finite element solver. While the approach worked fairly well
---- an overall speedup of ~10% compared to the checkpointing case using CPUs ---
-the performance gains were rather lack-luster. 
+### Expressivity of Neural Networks
 
-This year we propose a new method using a novel sparse-dense model approach. This arose 
-from the observation that about 90% of the parameters of the autoencoder 
-lived in the first encoding layer and last decoding layer --- the layers that 
-map from and to the higher dimensional state space. By sparsifying only these layers, we 
-reduced the total number of parameters in the autoencoder model by 80% and 
-reduced the computational cost of using the autoencoder to solve the inverse problem. 
-We found empirically that this reduction in representation power of the autoencoder 
-did not negatively impact accuracy in solving the inverse problem. 
+Neural networks are function approximators whose parameters exist in a very high dimensional space. Because of the layered and strongly inter-connected nature of neural networks, analysis can be difficult. To this end, active subspaces are leveraged as a computational tool for analysis of characteristics of the parameter space for a given neural network. We introduce the concept of a network condition number to measure how easily one can train a given neural network.
+
+
 
 ### Results
-Building upon the results from the previous year in which we showed that an autoencoder compression 
-strategy works on an acoustic-elastic inverse problem, we now show scaling results for this approach 
-on the model box problem. All results presented here utilize our novel sparse-dense 
-autoencoder architecture and implementation.
 
-|Degrees of freedom  |  $$\nabla$$ Speedup | $$\mathcal{H}v$$ Speedup | Relative error % |
-|--------------------|---------------------|--------------------------|------------------|
-|4,096               |  1.06               | 1.20                     | 1.7              |
-|32,768              |  1.19               | 1.26                     | 0.7              |
-|262,144             |  1.17               | 1.22                     | 0.6              |
-|2,097,152           |  1.17               | 1.23                     | 0.7              |
-|16,777,216          |  1.22               | 1.27                     | 0.4              |
+Analysis of the eigendecomposition behavior of a full rank active subspace matrix for the global parameter space has revealed two major findings so far:
 
-$$\nabla$$ speedup is the speedup of the gradient computation compared to the checkpointing 
-case and $$\mathcal{H}v$$ speedup is the speedup of each Hessian-vector product. 
-Relative errors reported here are the average relative error over the whole domain. 
-This table shows the scaling of our method to a problem that is 64 times larger 
-than the problems considered last year. 
+- The eigenvalues of the eigendecomposition decay very slowly (on a logarithmic scale), indicating the resistance of the global parameter space to active subspace based dimension reduction techniques.
+- The eigenvectors of the eigendecomposition display a discrete structure reflecting the layers of the network, indicating that earlier parameters in the network are more important in that they have a greater effect upon the loss.
 
+<!-- ![The eigenvalues of the active subspace matrix for a network with 5146 parameters and 10000 active subspace samples.](/assets/figures/rusty/CDSE_eigenvalues.png "fig:CDSE_Eigenvalues") -->
 
-![acoustic-elastic wave equation inverse result](/assets/figures/jon/uqbox_cutaway_contour_shadow.png)
-Inversion result for problem with 16,777,216 degrees of freedom. Shown is an isosurface 
-of the inclusion in the acoustic wave speed embedded in a cutaway of the domain. 
+<!-- ![The eigenvectors of the active subspace matrix for a network with 5146 parameters and 10000 active subspace samples.](/assets/figures/rusty/CDSE_eigenvectors.png "fig:CDSE_Eigenvectors") -->
 
+Additionally, research has shown that we can create a network "condition number". We see that for various network architectures, the network condition number behaves in a fashion that mimics the behavior of the total parameter count for a network.
 
-#### Moving outside of the box
-As a capstone example for this project, we are working on implementing our compression 
-approach for an earth-scale seisimic inverse problem. 3 explosion sources are 
-places in the north, southeast, and southwest of North America and an array of 
-130 seismic sensors throughout the continent record local velocities at each timestep. 
-This setup poses a number of additional challenges that have not been faced in the box example:
-- More degrees of freedom
-- Adaptive mesh refinement
-- Non-conforming mesh with hanging faces
-- Non-uniform per-process work distribution
-We are actively working on adapting our compression strategy to this new challenging setup. 
+![The network condition number for dense fully connected networks evaluated on a sin regression.](/assets/figures/rusty/MTED_plot.png "fig:MTED_plot")
 
-![acoustic-elastic wave equation video](/assets/figures/jon/velocity_trisource.gif)
-Shown here is an animation of the velocity timeseries created from the 3 source setup. 
+![A contour plot of the total number of parameters for dense fully connected networks.](/assets/figures/rusty/parameter_count_contour.png "fig:parameter_count")
 
-<p align="center">
-  <img src="/assets/figures/jon/uqearth_130km_inverse_only.png"/>
-</p>
-We aim to invert for the wave speed throughout the earth, but in particular aim to 
-accurately recover the properties of the North American continent. 
-The checkpointing strategy yields the inversion results shown above. Results 
-using the autoencoder compression strategy are expected in the next month, 
-at which point we will submit the work for publication.
+Further analysis is underway to determine the active subspace behavior of model-constrained neural networks.
