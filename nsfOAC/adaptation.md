@@ -29,10 +29,17 @@ regularization and manifold regularization, it is possible to progressively grow
 
 ![Fig1](/assets/figures/Krish/result_1.png "fig:summ")
 
-![Fig1](/assets/figures/Krish/result_2.png "fig:summ2")
+![Fig2](/assets/figures/Krish/result_2.png "fig:summ2")
+
+![Fig3](/assets/figures/Krish/result_3.png "fig:summ3")
 
 
 #### Network topological derivative approach for deep neural architecture adaptation.
 
 
-In this project, we define the {\it{topological derivative}} for a neural network which is conceptually the derivative of a shape functional with respect to infinitesimal changes in the neural network topology. Using an optimal control viewpoint, we show that the network topological derivative exists under certain conditions and a closed form expression is derived. In particular, we show that computing the network topological derivative involves solving an eigenvalue problem concerning the Hessian of the Hamiltonian with respect to network parameters. The algorithm we derived simply determines the optimal location along the depth where a new layer needs to be introduced during the training phase and the associated parametric initialization for the newly added layer.  
+In this project, we define the topological derivative for a neural network which is conceptually the derivative of a shape functional with respect to infinitesimal changes in the neural network topology. Using an optimal control viewpoint, we show that the network topological derivative exists under certain conditions and a closed form expression is derived. In particular, we show that computing the network topological derivative involves solving an eigenvalue problem concerning the Hessian of the Hamiltonian with respect to network parameters. The algorithm we derived simply determines the optimal location along the depth where a new layer needs to be introduced during the training phase and the associated parametric initialization for the newly added layer.  We demonstrate our approach on a synthetic data-set generated based on solving the heat equation. Figure 4 shows the relative magnitude of the topological derivative for each layer at different iterations of our alogorithm. Each iteration corresponds to adding a new layer in the network. Comparison with other adaptation strategies showed that our approach provides the best generalization performance (least relative error on a test data-set) as evident from Figure 5. 
+
+
+![Fig4](/assets/figures/Krish/result_4.png "fig:summ4")
+
+![Fig5](/assets/figures/Krish/result_5.png "fig:summ5")
