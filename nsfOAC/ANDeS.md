@@ -3,72 +3,83 @@ layout: page
 title: Adaptive Finite Element for Network Architecture Design
 permalink: /nsfOAC/ANDeS/
 ---
-### Algorithm improvements
-We previously proposed an autoencoder based compression approach to eliminate the need 
-for checkpointing in solving time-dependent PDE based inverse problems. We showed 
-the viability of this method on a model acoustic-elastic wave propagation problem 
-on a box-shaped domain, inverting for a deviation from the prior mean acoustic wave speed. 
-This approach wase based on using the Tensorflow SavedModel API where Tensorflow 
-models were trained in Python and loaded in C++ to interface with a sophisticated 
-discontinuous Galerkin finite element solver. While the approach worked fairly well
---- an overall speedup of ~10% compared to the checkpointing case using CPUs ---
-the performance gains were rather lack-luster. 
+### Introduction
+A major overhead in the training process for deep neural networks is the architecture and hyperparameter search. Many architectures 
+may be well-suited to any particular problem, and over-parameterized networks may provide little gains in accuracy for the increases 
+in memory and compute costs. There is thus a desire for an adaptive algorithm which can efficiently find the minimal parameterization
+(minimum network depth and width) for a desired accuracy (e.g., a mean-squared error loss $\mathcal{L}_\textrm{MSE}<\varepsilon_
+\textrm{threshold}$ for a regression problem).
 
-This year we propose a new method using a novel sparse-dense model approach. This arose 
-from the observation that about 90% of the parameters of the autoencoder 
-lived in the first encoding layer and last decoding layer --- the layers that 
-map from and to the higher dimensional state space. By sparsifying only these layers, we 
-reduced the total number of parameters in the autoencoder model by 80% and 
-reduced the computational cost of using the autoencoder to solve the inverse problem. 
-We found empirically that this reduction in representation power of the autoencoder 
-did not negatively impact accuracy in solving the inverse problem. 
+Our approach to an efficient algorithm for adaptive network design (ANDes) begins with the parallels between the Residual Network 
+(ResNet) \cite{he2015deep} and forward Euler numerical integration. ResNets add skip connections, creating a layer evaluation defined 
+by
 
-### Results
-Building upon the results from the previous year in which we showed that an autoencoder compression 
-strategy works on an acoustic-elastic inverse problem, we now show scaling results for this approach 
-on the model box problem. All results presented here utilize our novel sparse-dense 
-autoencoder architecture and implementation.
+$$ x_l = x_{l-1} + F_l(\theta_l,x_{l-1}) $$
 
-|Degrees of freedom  |  $$\nabla$$ Speedup | $$\mathcal{H}v$$ Speedup | Relative error % |
-|--------------------|---------------------|--------------------------|------------------|
-|4,096               |  1.06               | 1.20                     | 1.7              |
-|32,768              |  1.19               | 1.26                     | 0.7              |
-|262,144             |  1.17               | 1.22                     | 0.6              |
-|2,097,152           |  1.17               | 1.23                     | 0.7              |
-|16,777,216          |  1.22               | 1.27                     | 0.4              |
+where the state $x$ after the $l$-th layer is the sum of the previous state and the $l$-th layer output. This matches the forward 
+Euler scheme
+$$ x(t_n) = x(t_{n-1}) + \Delta t_n f\Bigl(x(t_{n-1})\Bigr) $$
 
-$$\nabla$$ speedup is the speedup of the gradient computation compared to the checkpointing 
-case and $$\mathcal{H}v$$ speedup is the speedup of each Hessian-vector product. 
-Relative errors reported here are the average relative error over the whole domain. 
-This table shows the scaling of our method to a problem that is 64 times larger 
-than the problems considered last year. 
+This gives rise to the [Neural ODE](https://arxiv.org/abs/1512.03385), which instead treats the network as describing the first time derivative of a 
+continuous ODE. Well-known ODE solvers (e.g., adaptive Runge-Kutta methods) can be used in 
+the evaluation to adaptively trade off accuracy and computational speed. This greatly reduces the memory cost, as the parameters are 
+used to describe the ODE, rather than each integration in the pseudo-time variable. Further, by describing Lipschitz-continuous ODEs 
+through the use of Lipschitz nonlinearities (e.g., ReLU and tanh), the initial-value problem (i.e, evaluating the neural network) has 
+unique solutions.
+
+Unfortunately, the Neural ODE tends to learn more and more complicated ODEs as training progresses, leading the ODE solvers to choose 
+very small timesteps and increasing the computational cost to evaluate. While there have been some [recent works](https://arxiv.org/abs/2002.02798) in regularizing the 
+learned ODEs to require fewer solver evaluations, we turn our attention back towards neural 
+networks as discretizations of the ODE.
+
+By viewing ResNets instead as finite element methods (FEM) in time, we can generalize the forward Euler as a continuous FEM solution 
+(e.g., continuous Galerkin methods) with interpolating polynomial degree 1. This allows us to leverage the body of work in a 
+posteriori error analysis and adaptive FEM (e.g., for [mesh refinement](https://www.cambridge.org/core/journals/acta-numerica/article/an-optimal-control-approach-to-a-posteriori-error-estimation-in-finite-element-methods/5C67A03F528C6FA69F37A97DF5C3BE19)
+and [optimal control](https://link.springer.com/article/10.1007/s10543-010-0270-8))to adapt the network architecture during training to guarantee improvement in performance. Further, we will be able 
+to definitively find a point at which further training and refinement provides improvement below some threshold, and stop training.
 
 
-![acoustic-elastic wave equation inverse result](/assets/figures/jon/uqbox_cutaway_contour_shadow.png)
-Inversion result for problem with 16,777,216 degrees of freedom. Shown is an isosurface 
-of the inclusion in the acoustic wave speed embedded in a cutaway of the domain. 
+### Width-based Method
+It is well-known that using the ReLU activation function can result in a
+piecewise-linear map across a layer. In short, a neuron receiving from a layer of ReLU-activated 
+neurons has a value equal to the sum of several piecewise-linear functions which have slopes defined by the layer weights and kinks at 
+the locations defined by the quotient of the biases and weights. Thus, the contribution of one neuron to the value of a neuron two 
+layers down is a piecewise-linear function, and the total value of that neuron is a multivariate piecewise-linear function with each 
+neuron two layers prior as its inputs.
+
+With this relationship, we again generalize the piecewise-linear map to a FEM solution with linear polynomials. Instead of ReLU, we 
+leverage the compact support of the typical FEM basis function, Lagrange polynomials. As in FEM, the output neuron's value is the sum 
+of all basis functions. In this case, each basis function is defined as having a representative domain $[-1,1]$, which is then 
+transformed through the affine transformations defined by the weights and biases. For the linear case, (i.e., the hat function)
+The hat function locations and widths are explicitly controlled by the biases, with the endpoints of each hat aligning with
+the peaks of its neighbors, as it does in FEM. The weight matrix now holds the interpolant node values for each piecewise linear map.
+
+This formulation has two added upsides: (1) This allows us to perform a posteriori error analysis and add neurons with weights and 
+biases designed to add basis functions where contributions to the error estimate are high. (2) The compact support allows us to 
+easily identify out-of-distribution (OOD) inputs, as OOD inputs will result in an output of entirely zeros (or completely unchanged, 
+for ResNets).
 
 
-#### Moving outside of the box
-As a capstone example for this project, we are working on implementing our compression 
-approach for an earth-scale seisimic inverse problem. 3 explosion sources are 
-places in the north, southeast, and southwest of North America and an array of 
-130 seismic sensors throughout the continent record local velocities at each timestep. 
-This setup poses a number of additional challenges that have not been faced in the box example:
-- More degrees of freedom
-- Adaptive mesh refinement
-- Non-conforming mesh with hanging faces
-- Non-uniform per-process work distribution
-We are actively working on adapting our compression strategy to this new challenging setup. 
+For ease of implementation (and avoiding the use of looped $\texttt{argwhere}$ calls), this can be implemented as a $\texttt{ReLU}$
+composed with a $\texttt{min}$ of two linear functions:
 
-![acoustic-elastic wave equation video](/assets/figures/jon/velocity_trisource.gif)
-Shown here is an animation of the velocity timeseries created from the 3 source setup. 
+$$
+    y_{i,j}(x) = 
+        W_{i,j}\cdot\texttt{ReLU}\Biggl(\texttt{min}\Bigl(
+        1 + \frac{x - B_{i,j}}{B_{i,j} - B_{i, j-1}}\,\,, \quad
+        1 - \frac{x - B_{i,j}}{B_{i, j+1} - B_{i,j}}\Bigr)\Biggr)
+$$
 
-<p align="center">
-  <img src="/assets/figures/jon/uqearth_130km_inverse_only.png"/>
-</p>
-We aim to invert for the wave speed throughout the earth, but in particular aim to 
-accurately recover the properties of the North American continent. 
-The checkpointing strategy yields the inversion results shown above. Results 
-using the autoencoder compression strategy are expected in the next month, 
-at which point we will submit the work for publication.
+### Error Estimators
+We need error estimators with high effectivity, that is: the ratio of the estimated error to the actual error.
+
+$$
+    \eta = \Bigl|\frac{\varepsilon_{\textrm{est}}}{\varepsilon_{\textrm{true}}}\Bigr|
+$$
+
+Here, the true error we aim to estimate is the improvement gained from a finer discretization (wider layer).
+This could be done by explicitly calculating the finer (wider) solution. However, this is extremely costly 
+to do every iteration, more than doubling evaluation time in training. Instead, we currently use finite difference
+to approximate the truncation error associated with using a piecewise linear function compared to the next higher
+order. If the curvature is too large to be accurately represented by the hat functions, we add a neuron in
+$h$-refinement fashion. Similarly, if the curvature is sufficiently small, we may remove a hat function.
