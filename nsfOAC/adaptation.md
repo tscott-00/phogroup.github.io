@@ -25,10 +25,7 @@ networks.  Layerwise training of neural networks is an approach that addresses  
 In a recent work, we have shown that by equipping a greedy layerwise training approach with  sparsity promoting
 regularization and manifold regularization, it is possible to progressively grow a neural network along its depth while achieving superior performance in comparison to a baseline network. We use ``robustness" as a desirable property for deep neural networks and use this as a criteria to devise a two stage strategy for progressively adapting neural network to the given data-set. We demonstrate the approach on a variety of problems such as regression task, classification task, physics informed neural network problem (adaptive PINNs) and adaptive learning of inverse maps from sparse data. A few results on the efficiency of our approach in comparison to other methods is provided below. 
 
-Left to right: Summary of architecture adaptation results for Boston house price prediction problem:
-Our approach is the most accurate in comparison to other methods; Summary of adaptation results for MNIST
-classification problem (20 neurons in each hidden layer): our approach provides the best results with 96.9% testing
-accuracy
+
 
 ![Left to right: Summary of architecture adaptation results for Boston house price prediction problem: Our approach is the most accurate in comparison to other methods; Summary of adaptation results for MNIST classification proble (20 neurons in each hidden layer): our approach provides the best results with 96.9 % testing accuracy](/assets/figures/Krish/result_1.png "fig:summ")
 
