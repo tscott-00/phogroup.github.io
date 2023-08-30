@@ -29,6 +29,9 @@ regularization and manifold regularization, it is possible to progressively grow
 
 ![Fig1](/assets/figures/Krish/result_1.png "fig:summ")
 
+![Fig1](/assets/figures/Krish/result_2.png "fig:summ2")
+
+
 #### Network topological derivative approach for deep neural architecture adaptation.
 
 
