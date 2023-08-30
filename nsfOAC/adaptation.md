@@ -27,7 +27,7 @@ regularization and manifold regularization, it is possible to progressively grow
 
 
 
-![Left to right: Summary of architecture adaptation results for Boston house price prediction problem: Our approach is the most accurate in comparison to other methods; Summary of adaptation results for MNIST classification proble (20 neurons in each hidden layer): our approach provides the best results with 96.9 % testing accuracy](/assets/figures/Krish/result_1.png "fig:summ")
+![Fig1](/assets/figures/Krish/result_1.png "fig:summ")
 
 #### Network topological derivative approach for deep neural architecture adaptation.
 
