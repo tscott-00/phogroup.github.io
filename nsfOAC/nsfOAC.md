@@ -31,15 +31,15 @@ NEEDS TO BE CHANGED
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
 
 
-### Publications<a name="publications"></a>
+<!-- ### Publications<a name="publications"></a>
 
 [1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf), Journal of Computational Physics, Volume 427, 15 February 2021, 110055.
 
-[2] Aaron Myers, “Particle Methods for Bayesian Inverse Problems Governed by Partial Differential Equations”. PhD Thesis, The University of Texas at Austin, 2020.
+[2] Aaron Myers, “Particle Methods for Bayesian Inverse Problems Governed by Partial Differential Equations”. PhD Thesis, The University of Texas at Austin, 2020. -->
 
 
 
-### Software<a name="software"></a>
+<!--  ### Software<a name="software"></a> 
 
 - [Deep Learning Enhanced Reduced Order Models](https://github.com/sheroze1123/BayesianInferenceDL)
-- [UQ-VAE](https://github.com/phogroup/uq-vae)
+- [UQ-VAE](https://github.com/phogroup/uq-vae)  -->

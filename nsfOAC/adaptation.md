@@ -3,72 +3,49 @@ layout: page
 title: Neural Architecture Adaptation Problem
 permalink: /nsfOAC/adaptation/
 ---
-### Algorithm improvements
-We previously proposed an autoencoder based compression approach to eliminate the need 
-for checkpointing in solving time-dependent PDE based inverse problems. We showed 
-the viability of this method on a model acoustic-elastic wave propagation problem 
-on a box-shaped domain, inverting for a deviation from the prior mean acoustic wave speed. 
-This approach wase based on using the Tensorflow SavedModel API where Tensorflow 
-models were trained in Python and loaded in C++ to interface with a sophisticated 
-discontinuous Galerkin finite element solver. While the approach worked fairly well
---- an overall speedup of ~10% compared to the checkpointing case using CPUs ---
-the performance gains were rather lack-luster. 
+### Problem description
+It has been observed that deep neural networks (DNN) create increasingly
+simpler but more useful  representations  of the learning problem layer by layer. Furthermore, empirical
+evidence supports the paradigm that depth of a network is of crucial
+importance. Such large networks, however, yield
+computationally complex optimization problems. Furthermore, despite
+such successes, the mechanisms behind deep learning remain a mystery
+and a trial-and-error approach (Architecture search) is often employed to retrieve the best
+neural network. Thus, there is a need for
+adaptive principles to guide the architecture design of a neural network. In this project we focus on developing mathematically principled schemes for progressively adapting neural network to generalize well on the given data set and possibly outperform an adhoc baseline neural network.
 
-This year we propose a new method using a novel sparse-dense model approach. This arose 
-from the observation that about 90% of the parameters of the autoencoder 
-lived in the first encoding layer and last decoding layer --- the layers that 
-map from and to the higher dimensional state space. By sparsifying only these layers, we 
-reduced the total number of parameters in the autoencoder model by 80% and 
-reduced the computational cost of using the autoencoder to solve the inverse problem. 
-We found empirically that this reduction in representation power of the autoencoder 
-did not negatively impact accuracy in solving the inverse problem. 
+### Adopted strategy
 
-### Results
-Building upon the results from the previous year in which we showed that an autoencoder compression 
-strategy works on an acoustic-elastic inverse problem, we now show scaling results for this approach 
-on the model box problem. All results presented here utilize our novel sparse-dense 
-autoencoder architecture and implementation.
+Based on two different design philosophies, we have developed two different algorithms:
 
-|Degrees of freedom  |  $$\nabla$$ Speedup | $$\mathcal{H}v$$ Speedup | Relative error % |
-|--------------------|---------------------|--------------------------|------------------|
-|4,096               |  1.06               | 1.20                     | 1.7              |
-|32,768              |  1.19               | 1.26                     | 0.7              |
-|262,144             |  1.17               | 1.22                     | 0.6              |
-|2,097,152           |  1.17               | 1.23                     | 0.7              |
-|16,777,216          |  1.22               | 1.27                     | 0.4              |
+####  A two-stage strategy for deep neural network architecture adaptation
 
-$$\nabla$$ speedup is the speedup of the gradient computation compared to the checkpointing 
-case and $$\mathcal{H}v$$ speedup is the speedup of each Hessian-vector product. 
-Relative errors reported here are the average relative error over the whole domain. 
-This table shows the scaling of our method to a problem that is 64 times larger 
-than the problems considered last year. 
+One of the most promising directions to solving the above problem is perhaps the layerwise training of neural
+networks.  Layerwise training of neural networks is an approach that addresses  the issue of the choice of depth of a neural network and the computational complexity involved with training.
+In a recent work, we have shown that by equipping a greedy layerwise training approach with  sparsity promoting
+regularization and manifold regularization, it is possible to progressively grow a neural network along its depth while achieving superior performance in comparison to a baseline network. We use ``robustness" as a desirable property for deep neural networks and use this as a criteria to devise a two stage strategy (Algo 2.1 and Algo 2.2) for progressively adapting neural network to the given data-set. We demonstrate the approach on a variety of problems such as regression task, classification task, physics informed neural network problem (adaptive PINNs) and adaptive learning of inverse maps from sparse data. A few results on the efficiency of our approach in comparison to other methods is provided below. 
 
 
-![acoustic-elastic wave equation inverse result](/assets/figures/jon/uqbox_cutaway_contour_shadow.png)
-Inversion result for problem with 16,777,216 degrees of freedom. Shown is an isosurface 
-of the inclusion in the acoustic wave speed embedded in a cutaway of the domain. 
+
+![Fig1](/assets/figures/Krish/result_1.png "fig:summ")
+
+Figure 1 (left) shows the performance of our algorithm on a prototype regression task (Boston house pricing prediction) where we see that our approach outperformed other conventional approaches. Figure 1 (right) shows the performance of our algorithm on the MNIST classification task where again we see that our approach provides the best results.
+
+![Fig2](/assets/figures/Krish/result_2.png "fig:summ2")
+
+![Fig3](/assets/figures/Krish/result_3.png "fig:summ3")
+
+ Figure 2 shows how our approach can be used for a physics informed neural network task. Finally, Figure 3 demonstrates an application of our approach on a regression task characterized by low availability of data. The aim is to learn an inverse map in an adaptive fashion, i.e lean an observable (low dimensional space) to parameter (high dimensional space) map. We show that using the developed procedure, it is possible to impart stability to the learned inverse map thereby improving the prediction accuracy. Figure 3 shows the evolution of parameter (prediction for a given observation data) across the hidden layer. We found that by injecting stability (through manifold regularization) in later layers allows the network to recover fine details in the parameter field when the baseline network fails to do so.  
 
 
-#### Moving outside of the box
-As a capstone example for this project, we are working on implementing our compression 
-approach for an earth-scale seisimic inverse problem. 3 explosion sources are 
-places in the north, southeast, and southwest of North America and an array of 
-130 seismic sensors throughout the continent record local velocities at each timestep. 
-This setup poses a number of additional challenges that have not been faced in the box example:
-- More degrees of freedom
-- Adaptive mesh refinement
-- Non-conforming mesh with hanging faces
-- Non-uniform per-process work distribution
-We are actively working on adapting our compression strategy to this new challenging setup. 
 
-![acoustic-elastic wave equation video](/assets/figures/jon/velocity_trisource.gif)
-Shown here is an animation of the velocity timeseries created from the 3 source setup. 
 
-<p align="center">
-  <img src="/assets/figures/jon/uqearth_130km_inverse_only.png"/>
-</p>
-We aim to invert for the wave speed throughout the earth, but in particular aim to 
-accurately recover the properties of the North American continent. 
-The checkpointing strategy yields the inversion results shown above. Results 
-using the autoencoder compression strategy are expected in the next month, 
-at which point we will submit the work for publication.
+#### Network topological derivative approach for deep neural architecture adaptation.
+
+
+In this project, we define the topological derivative for a neural network which is conceptually the derivative of a shape functional with respect to infinitesimal changes in the neural network topology. Using an optimal control viewpoint, we show that the network topological derivative exists under certain conditions and a closed form expression is derived. In particular, we show that computing the network topological derivative involves solving an eigenvalue problem concerning the Hessian of the Hamiltonian with respect to network parameters. The algorithm we derived simply determines the optimal location along the depth where a new layer needs to be introduced during the training phase and the associated parametric initialization for the newly added layer.  We demonstrate our approach on a synthetic data-set generated based on solving the heat equation. Figure 4 shows the relative magnitude of the topological derivative for each layer at different iterations of our alogorithm. Each iteration corresponds to adding a new layer in the network. Comparison with other adaptation strategies showed that our approach provides the best generalization performance (least relative error on a test data-set) as evident from Figure 5. 
+
+
+![Fig4](/assets/figures/Krish/result_4.png "fig:summ4")
+
+![Fig5](/assets/figures/Krish/result_5.png "fig:summ5")
