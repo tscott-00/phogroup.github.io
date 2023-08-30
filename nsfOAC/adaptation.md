@@ -33,6 +33,10 @@ regularization and manifold regularization, it is possible to progressively grow
 
 ![Fig3](/assets/figures/Krish/result_3.png "fig:summ3")
 
+Figure 1 (left) shows the performance of our algorithm on a prototype regression task (Boston house pricing prediction) where we see that our approach outperformed other conventional approaches. Figure 1 (right) shows the performance of our algorithm on the MNIST classification task where again we see that our approach provides the best results. Figure 2 shows how our approach can be used for a physics informed neural network task. Finally, Figure 3 demonstrates an application of our approach on a regression task characterized by low availability of data. The aim is to learn an inverse map in an adaptive fashion, i.e lean an observable (low dimensional space) to parameter (high dimensional space) map. We show that using the developed procedure, it is possible to impart stability to the learned inverse map thereby improving the prediction accuracy. Figure 3 shows the evolution of parameter (prediction for a given observation data) across the hidden layer. We found that by injecting stability (through manifold regularization) in later layers allows the network to recover fine details in the parameter field when the baseline network fails to do so.  
+
+
+
 
 #### Network topological derivative approach for deep neural architecture adaptation.
 
