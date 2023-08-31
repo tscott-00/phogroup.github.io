@@ -12,7 +12,7 @@ constructed a Neural Network architecture that utilizes quadrature in order to a
 approximation.
 
 Many traditional activation functions have proven to be universal via the construction of Neural 
-Network Approximate Identity (denoted nAI or $\mathcal B_\theta$), a family of bell-shaped curves 
+Network Approximate Identity (denoted nAI), a family of bell-shaped curves 
 which are a combination of a given activation function. With quadrature, these nAI can approximate any continuous function with 
 accuracy increasing with respect to the number of quadrature points. By implementing a Neural 
 Network that utilizes quadrature, we hope to give a fair comparison between the effectiveness of 
