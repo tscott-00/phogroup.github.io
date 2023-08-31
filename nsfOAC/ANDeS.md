@@ -7,8 +7,7 @@ permalink: /nsfOAC/ANDes/
 A major overhead in the training process for deep neural networks is the architecture and hyperparameter search. Many architectures 
 may be well-suited to any particular problem, and over-parameterized networks may provide little gains in accuracy for the increases 
 in memory and compute costs. There is thus a desire for an adaptive algorithm which can efficiently find the minimal parameterization
-(minimum network depth and width) for a desired accuracy (e.g., a mean-squared error loss \\(\mathcal{L}_\textrm{MSE}<\varepsilon_
-\textrm{threshold}\\) for a regression problem).
+(minimum network depth and width) for a desired accuracy (e.g., a mean-squared error loss for a regression problem).
 
 Our approach to an efficient algorithm for adaptive network design (ANDes) begins with the parallels between the [ResNet](https://arxiv.org/abs/1512.03385) and forward Euler numerical integration,
 which gives rise to the [Neural ODE](https://arxiv.org/abs/1512.03385), which instead treats the network as describing the first time derivative of a 
