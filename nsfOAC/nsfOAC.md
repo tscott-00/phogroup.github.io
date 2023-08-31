@@ -25,7 +25,7 @@ NEEDS TO BE CHANGED
 ### Projects<a name="proj"></a>
 - [Neural Architecture Adaptation Problem](/nsfOAC/adaptation/)
 - [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
-- [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDes/)
+- [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
 - [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
 - [Expressivity of Neural Networks](/nsfOAC/express/)
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
