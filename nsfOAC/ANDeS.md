@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adaptive Finite Element for Network Architecture Design
-permalink: /nsfOAC/ANDeS/
+permalink: /nsfOAC/ANDes/
 ---
 ### Introduction
 A major overhead in the training process for deep neural networks is the architecture and hyperparameter search. Many architectures 
