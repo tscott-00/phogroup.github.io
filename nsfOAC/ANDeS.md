@@ -10,7 +10,7 @@ in memory and compute costs. There is thus a desire for an adaptive algorithm wh
 (minimum network depth and width) for a desired accuracy (e.g., a mean-squared error loss \\(\mathcal{L}_\textrm{MSE}<\varepsilon_
 \textrm{threshold}\\) for a regression problem).
 
-Our approach to an efficient algorithm for adaptive network design (ANDes) begins with the parallels between the [ResNet]{https://arxiv.org/abs/1512.03385} and forward Euler numerical integration,
+Our approach to an efficient algorithm for adaptive network design (ANDes) begins with the parallels between the [ResNet](https://arxiv.org/abs/1512.03385) and forward Euler numerical integration,
 which gives rise to the [Neural ODE](https://arxiv.org/abs/1512.03385), which instead treats the network as describing the first time derivative of a 
 continuous ODE. Well-known ODE solvers (e.g., adaptive Runge-Kutta methods) can be used in 
 the evaluation to adaptively trade off accuracy and computational speed. This greatly reduces the memory cost, as the parameters are 
