@@ -3,7 +3,7 @@ layout: page
 title: B-Functions and Quadrature-Based Neural Networks
 permalink: /nsfOAC/Bspline/
 ---
-### Activation Functions, Universality, and $\mathcal B_\theta$ Functions
+### Activation Functions, Universality, and $$\mathcal B_\theta$$ Functions
 Activation functions are a critical component of Deep Neural Networks. Their non-linear structure 
 and universal properties enable the network to model a wide variety of problems. Given their 
 frequent occurence, many have proposed the question: which activation function is best? To answer 

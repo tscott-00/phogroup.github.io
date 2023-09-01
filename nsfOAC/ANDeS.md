@@ -25,7 +25,7 @@ networks as discretizations of the ODE.
 By viewing ResNets instead as finite element methods (FEM) in time, we can generalize the forward Euler as a continuous FEM solution 
 (e.g., continuous Galerkin methods) with interpolating polynomial degree 1. This allows us to leverage the body of work in a 
 posteriori error analysis and adaptive FEM (e.g., for [mesh refinement](https://www.cambridge.org/core/journals/acta-numerica/article/an-optimal-control-approach-to-a-posteriori-error-estimation-in-finite-element-methods/5C67A03F528C6FA69F37A97DF5C3BE19)
-and [optimal control](https://link.springer.com/article/10.1007/s10543-010-0270-8))to adapt the network architecture during training to guarantee improvement in performance. Further, we will be able 
+and [optimal control](https://link.springer.com/article/10.1007/s10543-010-0270-8)) to adapt the network architecture during training to guarantee improvement in performance. Further, we will be able 
 to definitively find a point at which further training and refinement provides improvement below some threshold, and stop training.
 
 
