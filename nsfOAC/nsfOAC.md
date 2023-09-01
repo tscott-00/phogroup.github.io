@@ -4,7 +4,7 @@ title: Toward a Rigorous and Reliable Scientific Deep Learning Framework for For
 permalink: /nsfOAC/
 ---
 
-![](/assets/figures/y1/title_new.png)  |  ![](/assets/figures/rusty/poisson.png)
+![](/assets/figures/y1/one.png)  |  ![](/assets/figures/rusty/poisson.png)
 ![](/assets/figures/krish/result_3.png) | ![](/assets/figures/Krish/result_5.png)
 
 
