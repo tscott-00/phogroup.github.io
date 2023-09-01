@@ -11,8 +11,7 @@ permalink: /nsfOAC/
 # Table of Contents
 1. [Aims](/nsfOAC/#aims)
 2. [Projects](/nsfOAC/#proj)
-<!--6. [Publications](/nsfOAC/#publications)
-7. [Software](/nsfOAC/#software) -->
+
 
 ### Aims<a name="aims"></a>
 
