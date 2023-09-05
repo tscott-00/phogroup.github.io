@@ -17,11 +17,24 @@ permalink: /nsfOAC/
 
 ### Aims<a name="aims"></a>
 
-#### Aims 1
-NEEDS TO BE CHANGED
+#### Aims 1: Develop rigorous and adaptive architecture design for deep learning
+One of the key challenges in adapting deep learning methods to science and engineering problems is how to
+determine the architecture of deep learning for the problem under consideration. Leveraging well-developed applied math techniques to develop rigorous approaches for architecture design.
 
-#### Aims 2
-NEEDS TO BE CHANGED
+#### Aims 2: Develop model-constrained deep learning methods for forward and inverse simulations
+Many data-driven science and engineering problems governed by physic laws,
+e.g. governing equations have limited experimental or
+observational data. In this case, pure data-driven deep learning approaches
+are prone to
+over-fitting and thus not capable of respecting the mathematical models. Capitalizing on our decade of experience on large-scale forward simulations, we shall develop model-constrained deep neural network methods to encode the underlying mathematical models in order to obtain fast and accurate forward and inverse solutions.
+
+#### Aims 3: Develop model-constrained  uncertainty quantification for deep learning  
+Most, if not all, deep learning approaches  do not
+  take into account the variability in the  data and the
+  uncertainty in training, and neither do they provide uncertainty associated
+  with deep learning predictions.
+  Leveraging our expertise in Bayesian inversion
+and uncertainty quantification (UQ) we shall develop a model-constrained Bayesian approaches to quantity the uncertainty in deep learning solutions
 
 ### Projects<a name="proj"></a>
 - [Neural Architecture Adaptation Problem](/nsfOAC/adaptation/)
