@@ -40,11 +40,13 @@ and uncertainty quantification (UQ) we shall develop a model-constrained Bayesia
 - [Neural Architecture Adaptation Problem](/nsfOAC/adaptation/)
 - [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
 - [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
-- [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
 - [Expressivity of Neural Networks](/nsfOAC/express/)
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
 
-
+### Undergraduate research
+- [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
+- [Akhil](/nsfOAC/akhil/)
+- [Cole](/nsfOAC/cole/)
 <!-- ### Publications<a name="publications"></a>
 
 [1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf), Journal of Computational Physics, Volume 427, 15 February 2021, 110055.
