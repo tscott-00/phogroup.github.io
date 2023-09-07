@@ -45,7 +45,7 @@ and uncertainty quantification (UQ) we shall develop a model-constrained Bayesia
 
 ### Undergraduate research
 - [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
-- [Akhil](/nsfOAC/akhil/)
+- [Memory-based Medium-range Weather Forecasting](/nsfOAC/weather-forecast/)
 - [Cole](/nsfOAC/cole/)
 
 <!-- ### Publications<a name="publications"></a>
