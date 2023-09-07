@@ -3,9 +3,10 @@ layout: page
 title: Memory-based deep learning architectures for global weather forecasting
 permalink: /nsfOAC/weather-forecast/
 ---
-[//]: # Contact Akhil for updates / changes to this page (this is a comment)
+[//]: # 09/06/2023 - update by Akhil (this is a comment)
+
 <link rel="stylesheet" href="/assets/css/akhil/layout.css">
-<div class="poster-row" markdown="1">
+<div class="poster-row main-row" markdown="1">
 <div class="poster-column" markdown="1">
 <div class="poster-scols" markdown="1">
 
@@ -105,10 +106,38 @@ So variants replacing the transformer FCN layers with CNN or NAT (neighborhood a
 
 </div>
 
-</div>
-<div class="poster-scols" markdown="1">
+---
 
-### Memory-based Deep Learning Architectures
+The first four are Direct Prediction, the last four are Reduced Order.
+
+<div class="img-row" markdown="1">
+
+[<img src="/assets/figures/akhil/weather-prediction/expectedPDE.svg"/>](/assets/figures/akhil/weather-prediction/expectedPDE.svg)
+[<img src="/assets/figures/akhil/weather-prediction/PDE.png"/>](/assets/figures/akhil/weather-prediction/PDE.png)
+
+</div>
+
+
+</div>
+
+---
+
+<div class="poster-scols thin" markdown="1">
+
+### Weather Prediction (PredRNN)
+
+Preliminary testing produces acceptable results for PredRNN on ERA5 weather data<sup>4</sup>.
+
+[<img src="/assets/figures/akhil/weather-prediction/predrnn_hourly.png"/>](/assets/figures/akhil/weather-prediction/predrnn_hourly.png)
+
+#### Weather Prediction (POD) // Ongoing Work
+
+POD correlations capture rain-shadow effects, geostrophic flow, etc. that otherwise require extensive spatial modeling.
+
+[<img src="/assets/figures/akhil/weather-prediction/POD.png"/>](/assets/figures/akhil/weather-prediction/POD.png)
+
+- PredRNN and convolutional methods like CNN work best for direct learning in observable systems, but reduced-order modeling with POD and transformers can provide comparable accuracy.
+- PredRNN is capable in latent-variable systems, but POD methods show promise at easily capturing complex inter-variable relations.
 
 </div>
 </div>

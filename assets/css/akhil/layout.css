@@ -11,6 +11,9 @@ with h3 headers and p paragraphs
     .img-row>* {
         flex-wrap: wrap;
     }
+    .main-row {
+        flex-wrap: wrap !important;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -37,6 +40,12 @@ with h3 headers and p paragraphs
      :root {
         --column-rule-width: 30vw;
         /* 40% of viewport width, as percentage is invalid */
+    }
+    .thin {
+        width: 30vw;
+    }
+    .main-row {
+        flex-wrap: nowrap !important;
     }
 }
 
