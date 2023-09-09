@@ -1,25 +1,9 @@
 ---
 layout: page
-title: B-Functions and Quadrature-Based Neural Networks
-permalink: /nsfOAC/cole/
+title: Learning Navier Stokes in the Frequency Domain
+permalink: /nsfOAC/fourier-learning/
 ---
-### Activation Functions, Universality, and $$\mathcal B_\theta$$ Functions
+### Motivation
+Though initial results for learning approximate solutions to Navier Stokes problems using the [mcTangent](https://arxiv.org/abs/2208.04995) method have been promising, making accurate predictions at time steps well past the end of the training dataset remains difficult. A new strategy, based on [latent space learning](https://arxiv.org/abs/2301.10391) may help to combat this problem. By converting the dataset into the frequency domain and using neural networks to learn the evolution of the Fourier coefficients through time, we hope to learn a more accurate approximate solution at later timesteps.
 
-
-
-### Results
-Our initial experiments were conducted with the purpose of evaluating this quadrature approximation 
-and its convergence to some random function. The figures below depict how the quadrature increases 
-in accuracy as the number of quadrature points goes from 10 to 20.
-
-![Quadrature Approximation (N=10)](/assets/figures/breedis/B_Function_Quadrature_Interpolation_10.png)
-![Quadrature Approximation (N=20)](/assets/figures/breedis/B_Function_Quadrature_Interpolation_20.png)
-
-By implementing a Neural Network that mimics the quadrature approximations above, we were able to 
-better approximate the function with few points, as given in the next figure.
-
-![QBNN Approximation (N=10)](/assets/figures/breedis/BNN_Multiple_Theta_Preds.png)
-
-With a successful implementation of QBNN, current steps involve using QBNN and other standard Neural 
-Networks to compare several traditional activation functions using nAI.
-
+![Methodology](/assets/figures/cole/fourier_mc_tangent.png)
