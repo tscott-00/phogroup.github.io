@@ -48,12 +48,15 @@ and uncertainty quantification (UQ) we shall develop a model-constrained Bayesia
 - [Memory-based Medium-range Weather Forecasting](/nsfOAC/weather-forecast/)
 - [Learning Navier Stokes in the Frequency Domain](/nsfOAC/fourier-learning/)
 
-<!-- ### Publications<a name="publications"></a>
+### Publications<a name="publications"></a>
 
-[1] Aaron Myers, Alexandre H. Thiery, Kainan Wang, and Tan Bui-Thanh, [Sequential Ensemble Transform for Bayesian Inverse Problems](https://arxiv.org/pdf/1909.09591.pdf), Journal of Computational Physics, Volume 427, 15 February 2021, 110055.
+[1] Lee, Jeonghun J, Tan Bui-Thanh, Umberto Villa, and Omar Ghattas, [Forward and inverse modeling of fault transmissibility in subsurface flows](https://www.sciencedirect.com/science/article/pii/S0898122122003935), Computers and Mathematics with Applications, Volume 128, 15 December 2022, 354-367.
 
-[2] Aaron Myers, “Particle Methods for Bayesian Inverse Problems Governed by Partial Differential Equations”. PhD Thesis, The University of Texas at Austin, 2020. -->
+[2] S Muralikrishnan, S Shannon, Tan Bui-Thanh, [A multilevel block preconditioner for the HDG trace system applied to incompressible resistive MHD](https://www.sciencedirect.com/science/article/pii/S0045782522007319), Computers Methods in Applied Mechanics and Engineering, Volume 404, 1 February 2023, 11575.
 
+[3] Hai V. Nguyen,  Tan Bui-Thanh, [A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems](https://www.tandfonline.com/doi/full/10.1080/10618562.2022.2146677), International Journal of Computational Fluid Dynamics, Volume 36, Issue 7.
+
+[4] Ella Steins,  Tan Bui-Thanh, Michael Herty, Siegfried Müller, [Probabilistic constrained Bayesian inversion for transpiration cooling](https://onlinelibrary.wiley.com/doi/full/10.1002/fld.5135), Numerical Methods in Fluids, Volume 94, Issue 12, 2020-2039.
 
 
 <!--  ### Software<a name="software"></a> 
