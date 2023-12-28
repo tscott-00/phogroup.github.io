@@ -64,6 +64,19 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 
 [14] Goh, H.. (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. Status = Added in NSF-PAR  
 
+### Licenses
+### Other Conference Presentations / Papers
+
+[1] Russell Philley, Hai V. Nguyen, and Tan Bui-Thanh (2023). Model-constrained uncertainty quantification for scientific deep learning of inverse solutions. the XLIV Iberto-Latin American Congress on Computational Mechanics in Engineering, Refereed proceeding. Porto, Portugal. Status = PUBLISHED;
+
+### Other Products
+### Other Publications
+### Patent Applications
+### Technologies or Techniques
+### Thesis/Dissertations
+
+[1] Wittmer, Jonathan. Accelerating inverse solutions with machine learning and randomization. (2023).  The University of Texas at Austin.
+
 
 <!-- ## Accomplishments for Year 1 -->
 
