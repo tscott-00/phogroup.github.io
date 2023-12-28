@@ -32,29 +32,38 @@ makes the task of inversion and UQ more expensive. We shall develop iterative in
 
 ### Publications<a name="publications"></a>
 
-[1] Myers, Aaron and Thiéry, Alexandre H. and Wang, Kainan and Bui-Thanh, Tan. (2021). Sequential ensemble transform for Bayesian inverse problems.  Journal of Computational Physics. 427  (C) 110055. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1016/j.jcp.2020.110055.
-
-[2] Zhang, Wenbo and Rossini, Giovanni and Kamensky, David and Bui‐Thanh, Tan and Sacks, Michael S.. (2021). Isogeometric finite element‐based simulation of the aortic heart valve: Integration of neural network structural material model and structural tensor fiber architecture representations.  International Journal for Numerical Methods in Biomedical Engineering. 37  (4). 
-
-[3] Ambartsumyan, Ilona and Boukaram, Wajih and Bui-Thanh, Tan and Ghattas, Omar and Keyes, David and Stadler, Georg and Turkiyyah, George and Zampini, Stefano. (2020). Hierarchical Matrix Approximations of Hessians Arising in Inverse Problems Governed by PDEs.  SIAM Journal on Scientific Computing. 42  (5) A3397 to A3426. Status = Deposited in NSF-PAR  doi:https://doi.org/10.1137/19M1270367.
-
-[4] Goh, Hwan and Sheriffdeen, Sheroze and Wittmer, Jonathan and Bui-Thanh, Tan (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. 
-
-[5] Kang, Shinhoo and Bui-Thanh, Tan. (2021). A scalable exponential-DG approach for nonlinear conservation laws: With application to Burger and Euler equations.  Computer Methods in Applied Mechanics and Engineering. 385  (C) 114031. 
-
-[6] Sheroze Sheriffdeen, Jean C.. (2019). Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models. 
+[1] Sheroze Sheriffdeen, Jean C.. (2019). Accelerating PDE-constrained Inverse Solutions with Deep Learning and Reduced Order Models. 
 [https://arxiv.org/abs/1912.08864](https://arxiv.org/abs/1912.08864)
 
 
-[7] Goh, H.. (2020). Solving Forward and Inverse Problems Using Autoencoders. [https://arxiv.org/abs/1912.04212v3](https://arxiv.org/abs/1912.04212v3)
+[2] Goh, H.. (2020). Solving Forward and Inverse Problems Using Autoencoders. [https://arxiv.org/abs/1912.04212v3](https://arxiv.org/abs/1912.04212v3)
 
-[8] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54 (6).
 
-[[9](https://arxiv.org/abs/2105.12033)] Hai Nguyen, Tan Bui-Thanh.  (2021).  "Model-constrained Deep Learning Approaches for Inverse Problems." , [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033)
+[3] Nguyen, H., and Bui-Thanh, T., Model-Constrained Deep Learning Approaches for Inverse Problems, SIAM Journal of Scientific Computing, In Production, 2023. [https://arxiv.org/abs/2105.12033](https://arxiv.org/abs/2105.12033). Status = ACCEPTED.
 
-[[10](https://arxiv.org/abs/2208.04995)] Hai Nguyen, Tan Bui-Thanh.  (2022). "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." [https://arxiv.org/abs/2208.04995](https://arxiv.org/abs/2208.04995)
+[4]Nguyen, Hai V. and Bui-Thanh, Tan. (2022). A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems.  International Journal of Computational Fluid Dynamics. 36  (7) 655 to 685. Status = Added in NSF-PAR doi: https://doi.org/10.1080/10618562.2022.2146677
 
-[[11](https://www.mdpi.com/2079-3197/10/3/38)] Hai Nguyen, Jonathan Wittmer, Tan Bui-Thanh. (2022).  "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems." Computation, 10(3), 38.
+[5] Nguyen, Hai and Wittmer, Jonathan and Bui-Thanh, Tan. (2022). DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems.  Computation. 10  (3) 38. Status = Added in NSF-PAR   doi: https://doi.org/10.3390/computation10030038
+
+
+[6] Lee, Jeonghun J. and Bui-Thanh, Tan and Villa, Umberto and Ghattas, Omar. (2022). Forward and inverse modeling of fault transmissibility in subsurface flows.  Computers & Mathematics with Applications. 128  (C) 354 to 367. Status = Added in NSF-PAR   doi: https://doi.org/10.1016/j.camwa.2022.09.013
+
+[7] Steins, Ella and Bui‐Thanh, Tan and Herty, Michael and Müller, Siegfried. (2022). Probabilistic constrained Bayesian inversion for transpiration cooling.  International Journal for Numerical Methods in Fluids. 94  (12) 2020 to 2039. Status = Added in NSF-PAR   doi: https://doi.org/10.1002/fld.5135
+
+[8] Muralikrishnan, Sriramkrishnan and Shannon, Stephen and Bui-Thanh, Tan and Shadid, John N. (2023). A multilevel block preconditioner for the HDG trace system applied to incompressible resistive MHD.  Computer Methods in Applied Mechanics and Engineering. 404  (C) 115775. Status = Added in NSF-PAR   doi: https://doi.org/10.1016/j.cma.2022.115775
+
+[9] Ambartsumyan, Ilona and Boukaram, Wajih and Bui-Thanh, Tan and Ghattas, Omar and Keyes, David and Stadler, Georg and Turkiyyah, George and Zampini, Stefano. (2020). Hierarchical Matrix Approximations of Hessians Arising in Inverse Problems Governed by PDEs.  SIAM Journal on Scientific Computing. 42  (5) A3397 to A3426. Status = Added in NSF-PAR   doi: https://doi.org/10.1137/19M1270367
+
+[10] Kang, Shinhoo and Bui-Thanh, Tan. (2021). A scalable exponential-DG approach for nonlinear conservation laws: With application to Burger and Euler equations.  Computer Methods in Applied Mechanics and Engineering. 385  (C) 114031. Status = Added in NSF-PAR   doi: https://doi.org/10.1016/j.cma.2021.114031
+
+[11] Myers, Aaron and Thiéry, Alexandre H. and Wang, Kainan and Bui-Thanh, Tan. (2021). Sequential ensemble transform for Bayesian inverse problems.  Journal of Computational Physics. 427  (C) 110055. Status = Added in NSF-PAR   doi: https://doi.org/10.1016/j.jcp.2020.110055
+
+[12] Zhang, Wenbo and Rossini, Giovanni and Kamensky, David and Bui‐Thanh, Tan and Sacks, Michael S.. (2021). Isogeometric finite element‐based simulation of the aortic heart valve: Integration of neural network structural material model and structural tensor fiber architecture representations.  International Journal for Numerical Methods in Biomedical Engineering. 37  (4). Status = Added in NSF-PAR   doi: https://doi.org/10.1002/cnm.3438
+
+[13] Bui-Thanh, T.. (2021). The Optimality of Bayes' Theorem.  SIAM news. 54  (6). Status = Added in NSF-PAR  
+
+[14] Goh, H.. (2021). Solving Bayesian Inverse Problems via Variational Autoencoders.  Proceeding of Machine Learning Research, 2nd Annual Conference on Mathematical and Scientific Machine Learning. 145. Status = Added in NSF-PAR  
+
 
 <!-- ## Accomplishments for Year 1 -->
 
