@@ -45,9 +45,9 @@ appearing in later stages of the algorithm.
 
 
 ![Fig4](/assets/figures/Krish/topo_2.png "fig:summ4")
-**Figure 1: Evolution of solution (3D air current profile) upon adding new hidden layers (Left to right): Solution after
+Figure 1: Evolution of solution (3D air current profile) upon adding new hidden layers (Left to right): Solution after
 the 4th iteration; Solution after the 5th iteration; Solution after the 6th iteration; Solution after the 8th iteration;
-Solution after the 10th iteration; True solution.**
+Solution after the 10th iteration; True solution.
 
 In the context of **active learning**, our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
 generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected. A brief outline of our procedure is as follows: a) Start
@@ -59,7 +59,9 @@ adding a new layer with a specific initialization informed by the topological de
 learn the steady state solution for different initial conditions. We start the active learning procedure starting from 10 samples and
 considered comparing our method with other approaches.
 
-![Fig5](/assets/figures/Krish/active.png "fig:summ5")
+![Fig5](/assets/figures/Krish/active_new.png "fig:summ5")
+Figure 2: Left to right: Relative error on the predicted charge state for 250 different test dataset using the proposed
+approach (final number of training samples: 50); Comparison between different active learning approaches.
 
 Figure 2 (right) shows that our proposed approach exhibits superior performance in comparison to other active
 learning strategies. In Figure 2 (right), the term “iterations” refer to each time a new data sample is added to
