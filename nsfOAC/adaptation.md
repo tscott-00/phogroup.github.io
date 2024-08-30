@@ -4,15 +4,20 @@ title: Neural Architecture Adaptation Problem
 permalink: /nsfOAC/adaptation/
 ---
 ### Problem description
-It has been observed that deep neural networks (DNN) create increasingly
-simpler but more useful  representations  of the learning problem layer by layer. Furthermore, empirical
-evidence supports the paradigm that depth of a network is of crucial
-importance. Such large networks, however, yield
-computationally complex optimization problems. Furthermore, despite
-such successes, the mechanisms behind deep learning remain a mystery
-and a trial-and-error approach (Architecture search) is often employed to retrieve the best
-neural network. Thus, there is a need for
-adaptive principles to guide the architecture design of a neural network. In this project we focus on developing mathematically principled schemes for progressively adapting neural network to generalize well on the given data set and possibly outperform an adhoc baseline neural network.
+Last year, we developed and demonstrated two adaptive principles to guide the architecture design of a neural
+network. In particular, our framework for adaptivity  involves computing a quantity
+called as the “topological derivative” which finds enormous application in the field of structural mechanics, image
+processing and inverse problems. This year we also explored several potential applications
+of the “topological derivative” especially in the context of active learning. The problem statement can be summarized as follows:
+
+- Conventional active learning (adaptive data sampling) strategies start by training on a few labeled data
+samples. In order to confront the overfitting of a small dataset, it is essential to choose a small neural
+network in the beginning. However, as new data points are queried and added to the training data set, it is
+essential to increase the capacity of the network to improve the generalization. Therefore, it is essential to
+develop an active learning framework that incorporates architecture adaptation.
+- A well-known issue in statistical active learning literature is the training saturation problem [24], i.e tendency
+to get trapped in a local minima and unable to learn on augmenting the training dataset with a new datapoint. It is imperative to have a strategy that handles this issue.
+
 
 ### Adopted strategy
 
