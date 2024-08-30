@@ -49,6 +49,6 @@ generalization (if the bias of the model is small). Note that the variance is a 
 
 
 
-![Fig4](/assets/figures/Krish/topo_1.png "fig:summ4")
+![Fig4](/assets/figures/Krish/topo.png "fig:summ4")
 
 ![Fig5](/assets/figures/Krish/result_5.png "fig:summ5")
