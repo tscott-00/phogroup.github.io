@@ -38,17 +38,27 @@ network architecture adaptation in the framework. In particular, we provide answ
 layers and fixed width) for E epochs; b) Compute the topological derivative for each layer by solving an eigen value
 problem and identify the optimal location to introduce a new layer along with the corresponding initialization for
 the parameters; c) Train the new network with the added layer for E epochs; d) Repeat the steps until there is no
-more improvement in the result (decrease in validation loss).
-
-
-Our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
-generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected.
-
-
-
+more improvement in the result (decrease in validation loss). The improvement in solution (3D air current profile) on adding new layers is shown in Figure 1 where one clearly
+sees that the algorithm progressively picks up complex features in the solution as evident from more contour lines
+appearing in later stages of the algorithm.
 
 
 
 ![Fig4](/assets/figures/Krish/topo.png "fig:summ4")
 
-![Fig5](/assets/figures/Krish/result_5.png "fig:summ5")
+In the context of active learning, our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
+generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected. A brief outline of our procedure is as follows: a) Start
+with a small number of training samples (say 10) and a small network (in our case 2 hidden layer, 20 neurons in
+each layer with some % sparsity, i.e only a few connections); b) Train the network to some E epochs; c) Add a new
+data sample by solving an optimization problem; d) Retrain the network and continue the procedure; e) If
+after adding say r new samples, the validation loss does not decrease, then improve the capacity of the network by
+adding a new layer with a specific initialization informed by the topological derivative. The procedure is demonstrated on the Collisional-radiative model (CR model) where the objective is to
+learn the steady state solution for different initial conditions. We start the active learning procedure starting from 10 samples and
+considered comparing our method with other approaches.
+
+![Fig5](/assets/figures/Krish/active.png "fig:summ5")
+
+Figure 2 (right) shows that our proposed approach exhibits superior performance in comparison to other active
+learning strategies. In Figure 2 (right), the term “iterations” refer to each time a new data sample is added to
+the training data set. Figure 2 (left) shows the point-wise relative error achieved by our proposed framework for the four charge states for 250 different test cases which clearly indicates that our
+method learns the steady state reasonably well.
