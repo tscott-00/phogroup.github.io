@@ -46,7 +46,7 @@ appearing in later stages of the algorithm.
 
 ![Fig4](/assets/figures/Krish/topo.png "fig:summ4")
 
-In the context of active learning, our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
+In the context of **active learning**, our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
 generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected. A brief outline of our procedure is as follows: a) Start
 with a small number of training samples (say 10) and a small network (in our case 2 hidden layer, 20 neurons in
 each layer with some % sparsity, i.e only a few connections); b) Train the network to some E epochs; c) Add a new
