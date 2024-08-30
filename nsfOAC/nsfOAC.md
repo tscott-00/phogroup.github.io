@@ -42,6 +42,7 @@ and uncertainty quantification (UQ) we shall develop a model-constrained Bayesia
 - [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
 - [Expressivity of Neural Networks](/nsfOAC/express/)
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
+- [For Arjit](/nsfOAC/weather/)
 
 ### Undergraduate research
 - [B-Functions and Quadrature-Based Neural Networks](/nsfOAC/Bspline/)
