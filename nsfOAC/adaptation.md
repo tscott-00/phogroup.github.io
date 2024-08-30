@@ -34,8 +34,19 @@ network architecture adaptation in the framework. In particular, we provide answ
 
 #### Brief outline of the proposed approach
 
+ In the active learning procedure, we need to improve the size of the network as more training data-points are added. For this we use employ the topological derivative approach that we developed last year to make a decision on where to add a new layer and how to initialize the new layer. As an example of how the topological derivative approach works, we provide a sample numerical results for a wind velocity reconstruction problem where the objective is to predict the magnitude of wind velocity on a uniform 3D grid based on sparse measurement data. A brief outline of our procedure is as follows: a) Train a small network (with two hidden
+layers and fixed width) for E epochs; b) Compute the topological derivative for each layer by solving an eigen value
+problem and identify the optimal location to introduce a new layer along with the corresponding initialization for
+the parameters; c) Train the new network with the added layer for E epochs; d) Repeat the steps until there is no
+more improvement in the result (decrease in validation loss).
 
-In this project, we define the topological derivative for a neural network which is conceptually the derivative of a shape functional with respect to infinitesimal changes in the neural network topology. Using an optimal control viewpoint, we show that the network topological derivative exists under certain conditions and a closed form expression is derived. In particular, we show that computing the network topological derivative involves solving an eigenvalue problem concerning the Hessian of the Hamiltonian with respect to network parameters. The algorithm we derived simply determines the optimal location along the depth where a new layer needs to be introduced during the training phase and the associated parametric initialization for the newly added layer.  We demonstrate our approach on a synthetic data-set generated based on solving the heat equation. Figure 4 shows the relative magnitude of the topological derivative for each layer at different iterations of our alogorithm. Each iteration corresponds to adding a new layer in the network. Comparison with other adaptation strategies showed that our approach provides the best generalization performance (least relative error on a test data-set) as evident from Figure 5. 
+
+Our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
+generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected.
+
+
+
+
 
 
 ![Fig4](/assets/figures/Krish/result_4.png "fig:summ4")
