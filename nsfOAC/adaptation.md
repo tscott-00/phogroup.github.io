@@ -45,9 +45,9 @@ appearing in later stages of the algorithm.
 
 
 ![Fig4](/assets/figures/Krish/topo_2.png "fig:summ4")
-Figure 1: Evolution of solution (3D air current profile) upon adding new hidden layers (Left to right): Solution after
+**Figure 1: Evolution of solution (3D air current profile) upon adding new hidden layers (Left to right): Solution after
 the 4th iteration; Solution after the 5th iteration; Solution after the 6th iteration; Solution after the 8th iteration;
-Solution after the 10th iteration; True solution.
+Solution after the 10th iteration; True solution.**
 
 In the context of **active learning**, our sample selection strategy is based on minimizing the variance of an estimator (neural network) which indirectly improves the
 generalization (if the bias of the model is small). Note that the variance is a function of the new data-point to be selected. A brief outline of our procedure is as follows: a) Start
