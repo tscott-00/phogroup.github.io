@@ -5,7 +5,7 @@ permalink: /nsfOAC/
 ---
 
 ![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png)
-![](/assets/figures/Krish/result_5.png)
+![](/assets/figures/Krish/topo_2.png)
 
 
 
