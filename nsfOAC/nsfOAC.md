@@ -37,7 +37,7 @@ Most, if not all, deep learning approaches  do not
 and uncertainty quantification (UQ) we shall develop a model-constrained Bayesian approaches to quantity the uncertainty in deep learning solutions
 
 ### Projects<a name="proj"></a>
-- [Neural Architecture Adaptation Problem](/nsfOAC/adaptation/)
+- [Active Learning with Neural Architecture Adaptation](/nsfOAC/adaptation/)
 - [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
 - [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
 - [Expressivity of Neural Networks](/nsfOAC/express/)

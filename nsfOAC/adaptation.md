@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Neural Architecture Adaptation Problem
+title:  Active Learning with Neural Architecture Adaptation
 permalink: /nsfOAC/adaptation/
 ---
 ### Problem description
