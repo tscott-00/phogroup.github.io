@@ -39,8 +39,8 @@ and uncertainty quantification (UQ) we shall develop a model-constrained Bayesia
 ### Projects<a name="proj"></a>
 - [Active Learning with Neural Architecture Adaptation](/nsfOAC/adaptation/)
 - [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
-- [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/)
-- [Expressivity of Neural Networks](/nsfOAC/express/)
+<!-- - [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/) -->
+<!-- - [Expressivity of Neural Networks](/nsfOAC/express/) -->
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
 - [For Arjit](/nsfOAC/weather/)
 
