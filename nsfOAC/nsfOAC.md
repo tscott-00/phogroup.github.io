@@ -43,7 +43,7 @@ Deep learning models, like other surrogate modeling techniques, may not suitably
 - [Active Learning with Neural Architecture Adaptation](/nsfOAC/adaptation/)
 - [Discontinuous Galerkin-Graph Neural Network](/nsfOAC/DGGNN/)
 - [Uncertainty Quantification for Deep Learning](/nsfOAC/UQ/)
-- [For Arjit](/nsfOAC/weather/)
+- [Physics-Constrained Deep Learning Models for Weather Forecasting](/nsfOAC/weather/)
 <!-- - [Adaptive Finite Element for Network Architecture Design](/nsfOAC/ANDeS/) -->
 <!-- - [Expressivity of Neural Networks](/nsfOAC/express/) -->
 
