@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Discontinuous Galerkin Graph Neural Network model-constrained tangent learning approach for shock-type problems (DG-GNN mcTangent)
-permalink: /nsfOAC/DGGNN/
+permalink: /nsfOAC/DGGNN_old/
 ---
 ### Introduction about project
 
