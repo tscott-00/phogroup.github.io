@@ -6,9 +6,7 @@ permalink: /nsfOAC/
 
 ![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png)
 ![](/assets/figures/Krish/topo_2.png)
-
-
-
+![](/assets/figures/hainguyen/DGGNN_2D_Euler_Airfoil_Mach1p2_AoA5.gif)
 
 # Table of Contents
 1. [Aims](/nsfOAC/#aims)
