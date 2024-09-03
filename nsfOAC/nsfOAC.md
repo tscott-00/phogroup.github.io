@@ -7,6 +7,7 @@ permalink: /nsfOAC/
 <!-- ![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png) -->
 ![](/assets/figures/rusty/nsfoac_23-24/mcbnn)
 ![](/assets/figures/Krish/topo_2.png)
+Evolution of solution (3D air current profile) upon adding new hidden layers in architecture adaptation.
 ![](/assets/figures/hainguyen/DGGNN_2D_Euler_Airfoil_Mach1p2_AoA5.gif)
 
 # Table of Contents
