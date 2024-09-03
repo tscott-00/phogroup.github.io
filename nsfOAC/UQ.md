@@ -13,10 +13,14 @@ We are testing the performance of MCBNN by solving three inverse problems govern
 
 <!-- ![PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. Observation locations indicated by dots.](/assets/figures/rusty/mcbnn_poisson_no_titles.png "fig:mcbnn_heateq") -->
 
-![PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; 5 observations, 10 observations, 50 observations. Observation locations indicated by dots.](/assets/figures/rusty/nsfoac_23-24/poisson/increasing_observation_count.png "fig:mcbnn_heateq")
+![](/assets/figures/rusty/nsfoac_23-24/poisson/increasing_observation_count.png "fig:mcbnn_heateq")
+
+Figure 1: PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; 5 observations, 10 observations, 50 observations. Observation locations indicated by dots.
 
 Additionally, we show qualitative results for an inversion of the Navier-Stokes equation here.
 
-![Initial conditions solved when inverting the Navier-Stokes equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; initial condition, terminal condition. Observation locations indicated by dots.](/assets/figures/rusty/nsfoac_23-24/navierstokes/case_289.png "fig:mcbnn_navier")
+![](/assets/figures/rusty/nsfoac_23-24/navierstokes/case_289.png "fig:mcbnn_navier")
+
+Figure 2: Initial conditions solved when inverting the Navier-Stokes equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; initial condition, terminal condition. Observation locations indicated by dots.
 
 <!-- Furthermore, tests have shown that training MCBNN with a "warm-start" --- a way to sample particles from the physical prior --- enables the network to learn faster than networks with initial parameters sampled from a simple, non-physical distribution like a Gaussian. -->
