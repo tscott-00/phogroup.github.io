@@ -9,8 +9,14 @@ Model-constrained deep neural networks are capable of learning from both trainin
 
 ### Results
 
-We are testing the performance of MCBNN by solving three inverse problems governed by Poisson's equation, Burger's equation, and the Navier-Stokes equations', respectively. The below figure demonstrates basic qualitative results for one sample when solving the Poisson inversion, illustrating the predictive accuracy of MCBNN, as well as the uncertainty quantification capability of MCBNN.
+We are testing the performance of MCBNN by solving three inverse problems governed by Poisson's equation, Burger's equation, and the Navier-Stokes equations', respectively. The below figure demonstrates basic qualitative results for one case when solving the Poisson inversion with increasing numbers of observation points, illustrating the predictive accuracy of MCBNN, as well as the uncertainty quantification capability of MCBNN. Furthermore, the both the predictive error and uncertainty tend to concentrate in regions without observations as we add more observations into the domain.
 
-![PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. Observation locations indicated by dots.](/assets/figures/rusty/mcbnn_poisson_no_titles.png "fig:mcbnn_heateq")
+<!-- ![PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. Observation locations indicated by dots.](/assets/figures/rusty/mcbnn_poisson_no_titles.png "fig:mcbnn_heateq") -->
 
-Furthermore, tests have shown that training MCBNN with a "warm-start" --- a way to sample particles from the physical prior --- enables the network to learn faster than networks with initial parameters sampled from a simple, non-physical distribution like a Gaussian.
+![PDE parameters solved when inverting the Poisson equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; 5 observations, 10 observations, 50 observations. Observation locations indicated by dots.](/assets/figures/rusty/nsfoac_23-24/poisson/increasing_observation_count.png "fig:mcbnn_heateq")
+
+Additionally, we show qualitative results for an inversion of the Navier-Stokes equation here.
+
+![Initial conditions solved when inverting the Navier-Stokes equation. From left to right; true solution, predicted solution, absolute error of prediction, standard deviation of prediction. From top to bottom; initial condition, terminal condition. Observation locations indicated by dots.](/assets/figures/rusty/nsfoac_23-24/navierstokes/case_289.png "fig:mcbnn_navier")
+
+<!-- Furthermore, tests have shown that training MCBNN with a "warm-start" --- a way to sample particles from the physical prior --- enables the network to learn faster than networks with initial parameters sampled from a simple, non-physical distribution like a Gaussian. -->

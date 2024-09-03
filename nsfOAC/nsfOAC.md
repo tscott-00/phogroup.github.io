@@ -4,7 +4,8 @@ title: Toward a Rigorous and Reliable Scientific Deep Learning Framework for For
 permalink: /nsfOAC/
 ---
 
-![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png)
+<!-- ![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png) -->
+![](/assets/figures/rusty/nsfoac_23-24/mcbnn)
 ![](/assets/figures/Krish/topo_2.png)
 ![](/assets/figures/hainguyen/DGGNN_2D_Euler_Airfoil_Mach1p2_AoA5.gif)
 
@@ -32,7 +33,7 @@ Most, if not all, deep learning approaches  do not
   uncertainty in training, and neither do they provide uncertainty associated
   with deep learning predictions.
   Leveraging our expertise in Bayesian inversion
-and uncertainty quantification (UQ) we shall develop a model-constrained Bayesian approaches to quantity the uncertainty in deep learning solutions
+and uncertainty quantification (UQ), we shall develop a model-constrained Bayesian approach to quantify the uncertainty in deep learning solutions.
 
 #### Aim 4: Develop efficient model updating methods for deep learning
 Deep learning models, like other surrogate modeling techniques, may not suitably generalize depending on the training datasets used. As new information readily becomes available, it is desirable to incorporate this knowledge into a previously developed model. It is particularly desirable to do this in an efficient manner by utilizing prior information, such as the domain-specific physics or mathematical properties of the system being modeled. From our extensive experience in modeling and simulation, we develop new methods incorporating such information to update models efficiently.
