@@ -6,9 +6,13 @@ permalink: /nsfOAC/
 
 <!-- ![](/assets/figures/y1/img.png)    ![](/assets/figures/y1/poisson.png) -->
 ![](/assets/figures/rusty/nsfoac_23-24/mcbnn_poisson_training.gif)
-Evolution of solution (3D air current profile) upon adding new hidden layers in **architecture adaptation**.
+Figure 1: Predictions with error and uncertainty during the training process to solve a Poisson inverse problem.
+
 ![](/assets/figures/Krish/topo_2.png)
+Figure 2: Evolution of solution (3D air current profile) upon adding new hidden layers in **architecture adaptation**.
+
 ![](/assets/figures/hainguyen/DGGNN_2D_Euler_Airfoil_Mach1p2_AoA5.gif)
+Figure 3: Predictions made on an airfoil after solving the Euler equations.
 
 # Table of Contents
 1. [Aims](/nsfOAC/#aims)
