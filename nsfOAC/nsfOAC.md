@@ -14,6 +14,9 @@ Figure 2: Evolution of solution (3D air current profile) upon adding new hidden 
 ![](/assets/figures/hainguyen/DGGNN_2D_Euler_Airfoil_Mach1p2_AoA5.gif)
 Figure 3: Predictions made on an airfoil after solving the Euler equations.
 
+![](/assets/figures/arjit/weather_crop.png)
+Figure 4: Snapshots of weather forecasts via physics-constrained deep learning.
+
 # Table of Contents
 1. [Aims](/nsfOAC/#aims)
 2. [Projects](/nsfOAC/#proj)
