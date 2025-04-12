@@ -53,10 +53,10 @@ Develop scalable sampling methods for large-scale Bayesian inverse solutions.
 - [A new look at the Ensemble Kalman Filter for Inverse Problems](/nsfcareer/year4/EnKF)
 
 ### Year 5 Progress<a name="year5"></a>
-- [TNet: A Tikhonov neural network for inverse problems](/nsfcareer/year5/hai_year5)
-- [Model Constrained Bayesian Neural Networks for Uncertainty Quantification](/nsfcareer/year5/krish_year5)
-- [DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems](/nsfcareer/year5/year5/cole_year5)
-- [A new look at the Ensemble Kalman Filter for Inverse Problems](/nsfcareer/year5/year5/thomas_year5)
+- [Title](/nsfcareer/year5/hai_year5)
+- [Title](/nsfcareer/year5/krish_year5)
+- [Title](/nsfcareer/year5/year5/cole_year5)
+- [Title](/nsfcareer/year5/year5/thomas_year5)
 
 ### Undergraduate and high-school research work<a name="undergraduate"></a>
 - [Variance Reduction-Principal Component Analysis](/nsfcareer/year3/VRPCA)
