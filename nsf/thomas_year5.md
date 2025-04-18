@@ -13,8 +13,8 @@ We consider standard Gaussian Process Regression (GPR) on the HF QoI itself as a
 ### Significant Results
 Here the accented $\widetilde{LF1}$, $\widetilde{LF2}$ refer to the corrected models corresponding to LF1 and LF2 respectively. The 3D advection diffusion HF and QoI predictions from the baseline (GPR on HF) and our method is shown in the first figure. The corresponding errors across a range of advection direction $\theta$ and viscous strength $\nu$ are presented in the table showing the effectiveness of our proposed approach.
 
-![image](/assets/figures/tscott/ornl_fig_1.png)
+![image](/assets/figures/tscott/ornl_fig1.png)
 
-![image2](/assets/figures/tscott/ornl_fig_2.png)
+![image2](/assets/figures/tscott/ornl_fig2.png)
 
 ![image2](/assets/figures/tscott/ornl_table.png)
